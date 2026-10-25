@@ -1,0 +1,3 @@
+IMG_0206: HTTP 500 b'{"error":"prediction aborted, token repeat limit reached"}'
+IMG_0207: 242s, answer 0 chars, thinking 29107 chars, tokens out 10000
+IMG_0096: 259s, answer 0 chars, thinking 35127 chars, tokens out 10000

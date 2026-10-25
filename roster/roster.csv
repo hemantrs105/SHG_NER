@@ -1,0 +1,53 @@
+id,book,name,role,village,mis_id,has_loan,note
+V01,VIDYA_SHG,श्रीमती देवी,अध्यक्ष,हरवंशपुर,,,
+V02,VIDYA_SHG,रीमा कुमारी,सचिव,हरवंशपुर,,,
+V03,VIDYA_SHG,स्वीटी कुमारी,कोषाध्यक्ष,हरवंशपुर,,,
+V04,VIDYA_SHG,सुषमा कुमारी,सदस्य,हरवंशपुर,,yes,ASSUMPTION: the ledger does not say which Sushma holds the loan; LokOS would. We mark this one.
+V05,VIDYA_SHG,गीता देवी,सदस्य,हरवंशपुर,,,
+V06,VIDYA_SHG,सुषमा कुमारी,सदस्य,हरवंशपुर,,no,
+V07,VIDYA_SHG,बिन्दुल कुमारी,सदस्य,हरवंशपुर,,,
+V08,VIDYA_SHG,गुड़िया कुमारी,सदस्य,हरवंशपुर,,,
+V09,VIDYA_SHG,कंचन कुमारी,सदस्य,हरवंशपुर,,,
+V10,VIDYA_SHG,आरती कुमारी,सदस्य,हरवंशपुर,,,
+V11,VIDYA_SHG,पूजा कुमारी,सदस्य,हरवंशपुर,,,
+V12,VIDYA_SHG,अनीता कुमारी,सदस्य,हरवंशपुर,,,
+V13,VIDYA_SHG,गुड़िया कुमारी,सदस्य,हरवंशपुर,,,
+V14,VIDYA_SHG,फूला देवी,सदस्य,हरवंशपुर,,,
+V15,VIDYA_SHG,बबीता देवी,CM,,,,Community Mobiliser for the group; signature reading uncertain
+C01,EKTA_CLF,पीणा देवी,अध्यक्ष,काढ़ियावा,,,BOD
+C02,EKTA_CLF,बिमला देवी,सचिव,विष्णुपुर,,,BOD
+C03,EKTA_CLF,सोनी देवी,कोषाध्यक्ष,दमोदरपुर,,,BOD
+C04,EKTA_CLF,कंचन देवी,उपाध्यक्ष,खड़सरिया,,,BOD
+C05,EKTA_CLF,पिंकी देवी,उपसचिव,चौरासी,,,BOD
+C06,EKTA_CLF,सुनीता कुमारी,सदस्य,मोम्भी,,,BOD
+C07,EKTA_CLF,सुनैना देवी,सदस्य,मोम्भी,,,BOD
+C08,EKTA_CLF,शशिप्रभा देवी,सदस्य,बादलबिगहा,,,BOD
+C09,EKTA_CLF,सुनयना देवी,सदस्य,खजुरा,,,BOD
+C10,EKTA_CLF,मिनी देवी,सदस्य,बलधा,,,BOD
+C11,EKTA_CLF,बसंती देवी,सदस्य,काजितपुर,,,BOD
+C12,EKTA_CLF,पिंकी देवी,सदस्य,सकरपुरा,,,BOD
+K01,EKTA_CLF,सन्टु कुमार,MBK,,1009699462,,cadre
+K02,EKTA_CLF,शिवशंकर प्रसाद,CF,,1009699804,,cadre
+K03,EKTA_CLF,रश्मि कुमारी,BM,,1009699712,,cadre (BM = Bank Mitra)
+K04,EKTA_CLF,सीमा देवी,CNRP,,1010444859,,cadre (HNS CNRP)
+K05,EKTA_CLF,दीक्षा कुमारी,CNRP,,1013816858,,cadre (HNS CNRP)
+K06,EKTA_CLF,सुनीता कुमारी,BK,,1014704431,,cadre (bookkeeper)
+K07,EKTA_CLF,सविन्द्र कुमार,BK,,1009600003,,cadre
+K08,EKTA_CLF,सुशील रंजन,BK,,1009700202,,cadre
+K09,EKTA_CLF,विवेकानन्द,BK,,1009700570,,cadre
+K10,EKTA_CLF,नरेन्द्र प्रसाद,SJYMRP,,1015075544,,cadre; also written नरेन्द्र कुमार
+K11,EKTA_CLF,सुनील प्रसाद,SEW,,,,cadre
+K12,EKTA_CLF,सुशीला कुमारी,FICRP,फाजिलपुर,,,cadre
+K13,EKTA_CLF,प्रतिमा कुमारी,FICRP,फाजिलपुर,,,cadre
+K14,EKTA_CLF,संजोला कुमारी,FICRP,सैदनपुर,,,cadre; reading uncertain
+K15,EKTA_CLF,कपिल प्रसाद,VRP,मोम्भी,,,cadre
+K16,EKTA_CLF,रिता देवी,VRP,ऊँकड,,,cadre; village reading uncertain
+K17,EKTA_CLF,सुनैना देवी,VRP,सकरपुरा,,,cadre
+K18,EKTA_CLF,यशोदा देवी,VRP,विष्णुपुर,,,cadre
+K19,EKTA_CLF,लालती देवी,VRP,फाजिलपुर,,,cadre
+K20,EKTA_CLF,संगीता देवी,VRP,खीरवीघा,,,cadre
+K21,EKTA_CLF,दिनेश प्रसाद,VRP,सकरोढ़ा,,,cadre
+K22,EKTA_CLF,अशोक कुमार,VRP,दरियापुर,,,cadre
+K23,EKTA_CLF,विरेन्द्र कुमार,VRP,बलधा,,,cadre
+K26,EKTA_CLF,रिंकु कुमारी,JCRP,,,,cadre
+K27,EKTA_CLF,शोभा कुमारी,JCRP,,,,cadre

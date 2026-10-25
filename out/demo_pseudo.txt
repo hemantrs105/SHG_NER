@@ -1,0 +1,74 @@
+
+── 1. Two members called दुर्गा कुमारी. Only one repaid a loan this week, so the row with repayments is hers; the other row is the other Durga
+   IMG_0210 line 14:  12 | दुर्गा कुमारी | P | 900 | 20 | 920 | 7000 | 460 | दुर्गा कुमारी
+      दुर्गा कुमारी        → V04 = दुर्गा कुमारी, सदस्य, गाँव-1 anchors separate the candidates
+      दुर्गा कुमारी        → V04 = दुर्गा कुमारी, सदस्य, गाँव-1 anchors separate the candidates
+   IMG_0210 line 15:  13 | दुर्गा कुमारी | P | 900 | 20 | 920 |  |  |
+      दुर्गा कुमारी        → V06 = दुर्गा कुमारी, सदस्य, गाँव-1 the other same-name row is identified
+
+── 2. Two members called गौरी कुमारी and nothing on the page separates them. It asks instead of guessing.
+   IMG_0212 line 13:  11 | गौरी कुमारी | P | 920 | 10 | 930 |  |  | गौरी कुमारी
+      गौरी कुमारी          → ASK                                same name; nothing on the page separates them
+      गौरी कुमारी          → ASK                                same name; nothing on the page separates them
+   IMG_0212 line 15:  13 | गौरी कुमारी | P | 920 | 10 | 930 |  |  | गौरी कुमारी
+      गौरी कुमारी          → ASK                                same name; nothing on the page separates them
+      गौरी कुमारी          → ASK                                same name; nothing on the page separates them
+
+── 3. Two राधा देवी on the CLF board. The village column separates them.
+   IMG_0096 line 9:  5 | राधा देवी | गाँव-6 | उपसचिव | राधा देवी
+      राधा देवी            → C05 = राधा देवी, उपसचिव, गाँव-6    anchors separate the candidates
+      राधा देवी            → C05 = राधा देवी, उपसचिव, गाँव-6    anchors separate the candidates
+   IMG_0096 line 16:  12 | राधा देवी | गाँव-12 | सदस्य | राधा देवी
+      राधा देवी            → C12 = राधा देवी, सदस्य, गाँव-12    anchors separate the candidates
+      राधा देवी            → C12 = राधा देवी, सदस्य, गाँव-12    anchors separate the candidates
+
+── 4. सरला कुमारी the board member...
+   IMG_0096 line 10:  6 | सरला कुमारी | गाँव-7 | सदस्य | सरला कुमारी
+      सरला कुमारी          → C06 = सरला कुमारी, सदस्य, गाँव-7   anchors separate the candidates
+      सरला कुमारी          → C06 = सरला कुमारी, सदस्य, गाँव-7   anchors separate the candidates
+
+── 5. ...and सरला कुमारी the bookkeeper (BK). Same name, the role word decides.
+   IMG_0164 line 4:  4. BK सरला कुमारी को TLC आने-जाने का भाड़ा 300/- दिया गया / नकद
+      सरला कुमारी          → K06 = सरला कुमारी, BK              only plausible match
+
+── 6. The name matches a CNRP on the roster, but the page labels her C.M. Contradiction, so it asks.
+   IMG_0118 line 17:  C.M चमेली देवी
+      चमेली देवी           → ASK                                name matches but the written role contradicts the roster
+
+── 7. The cleaner is not on the roster. One letter from VRP जानकी देवी, too far to link: reported as not on roster.
+   IMG_0104 line 7:  सफाई कर्मी का मजदूरी - सफाई कर्मी रजनी देवी को माह अगस्त 2026 का मजदूरी चेक नं० 110497 से 1200/- दिया गया।
+      रजनी देवी            → NEW                                not on roster (nearest is too weak)
+
+── 8. Written हरिश कुमार here, हरिश प्रसाद in the MIS table. The surname disagrees; the role SJY-MRP confirms him.
+   IMG_0139 line 16:  SJY-MRP का मानदेय : SJY-MRP हरिश कुमार को माह अप्रैल 2026 का मानदेय चेक नं० 059251 से 12000/- दिया गया।
+      हरिश कुमार           → K10 = हरिश प्रसाद, SJYMRP          only plausible match
+
+── 9. Latin-script signatures: Devesh Singh = देवेश सिंह
+   IMG_0096 line 19:  हरिश कुमार SJY-MRP   V.R.P नवीन कुमार   Devesh Singh BK
+      हरिश कुमार           → K10 = हरिश प्रसाद, SJYMRP          only plausible match
+      नवीन कुमार           → K22 = नवीन कुमार, VRP, गाँव-18     only plausible match
+      Devesh Singh         → K08 = देवेश सिंह, BK               only plausible match
+
+── 10. Name column कमली, signature कमला in the same row: the signature confirms.
+   IMG_0210 line 12:  10 | कमली कुमारी | P | 900 | 20 | 920 |  |  | कमला कुमारी
+      कमली कुमारी          → V12 = कमला कुमारी, सदस्य, गाँव-1   confirmed by the other column in the same row
+      कमला कुमारी          → V12 = कमला कुमारी, सदस्य, गाँव-1   only plausible match
+
+── 11. A role between two names ('… चंदा कुमारी CM माधुरी देवी'): CM goes to the side that has a CM.
+   IMG_0207 line 10:  अंजलि देवी   बीना कुमारी   चंदा कुमारी   CM माधुरी देवी 18/8/2026
+      अंजलि देवी           → V01 = अंजलि देवी, अध्यक्ष, गाँव-1  only plausible match
+      बीना कुमारी          → V02 = बीना कुमारी, सचिव, गाँव-1    only plausible match
+      चंदा कुमारी          → V03 = चंदा कुमारी, कोषाध्यक्ष, गाँव-1 only plausible match
+      माधुरी देवी          → V15 = माधुरी देवी, CM              only plausible match
+
+── 12. No name at all: 'CM दीदी'. The group has one CM.
+   IMG_0215 line 2:  पिछले कार्यवाही को पढ़ कर सुनाया गया। CM दीदी के पति का तबियत खराब हो जाने के कारण पिछले सप्ताह की बैठक नहीं की गई थी इसलिए आज दो बैठक एक ही तारीख को किया गया है।
+      CM                   → V15 = माधुरी देवी, CM              referred to by role; one holder
+
+── 13. Check, not a name: the signature column is out of line with the name column.
+   IMG_0210 line 6:  4 | एकता देवी | P | 900 | 20 | 920 |  |  | दुर्गा कुमारी
+      एकता देवी            → V05 = एकता देवी, सदस्य, गाँव-1     only plausible match
+      दुर्गा कुमारी        → ASK                                same name; nothing on the page separates them
+      ! name column 'एकता देवी', signature column 'दुर्गा कुमारी': flag for review
+
+Scores: python score.py --split test    (frozen v1 result: out/score_test_v1_frozen.txt)

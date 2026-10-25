@@ -1,0 +1,11 @@
+split=dev text=clean: 132 name mentions, 1 role-only
+  correct link                          120  ( 90.9%)
+  correct no-link                        12  (  9.1%)
+  asked, link was possible                0  (  0.0%)
+  said not-on-roster, was on roster       0  (  0.0%)
+  missed                                  0  (  0.0%)
+  WRONG: linked to another person         0  (  0.0%)
+  WRONG: guessed                          0  (  0.0%)
+  spurious mentions (not in key)          0
+  role-only references correct         1/1
+  precision of links made: 100.0%   wrong links: 0
