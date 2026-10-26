@@ -1,0 +1,173 @@
+{
+ "text": "19/1/2026\n8/9/2026\nमगम 9/2\n99\n96 क संख्या 82\n\nप्र०/0 सदर-दोका\nनाम\nप्र०\nप्रपचला\nअवलंब\nकमी\nप्र०\nप्रपाटी\nव्यापाशी\nहस्ताक्षर\n\n<table>\n<thead>\n<tr>\n<th>क्र.</th>\n<th>सदस्यों का नाम</th>\n<th>को.</th>\n<th>तपशू या</th>\n<th>अंक</th>\n<th>एक साल</th>\n<th>मु.सा.पी.</th>\n<th>व्या.पे.</th>\n<th>घटावट</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>श्रीमतीदेवी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>श्रीमती देवी</td>\n</tr>\n<tr>\n<td>2</td>\n<td>रिमाकुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>रीमा कुमारी</td>\n</tr>\n<tr>\n<td>3</td>\n<td>स्वीटी कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>स्वीटी कुमारी</td>\n</tr>\n<tr>\n<td>4</td>\n<td>गोदा देवी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>5</td>\n<td>विन्दुल कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>विन्दुल कुमारी</td>\n</tr>\n<tr>\n<td>6</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>7</td>\n<td>कंचन कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>कंचन कुमारी</td>\n</tr>\n<tr>\n<td>8</td>\n<td>आरती कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>आरती कुमारी</td>\n</tr>\n<tr>\n<td>9</td>\n<td>पुजा कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>पुजा कुमारी</td>\n</tr>\n<tr>\n<td>10</td>\n<td>अनिता कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>अनिता कुमारी</td>\n</tr>\n<tr>\n<td>11</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>12</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td>7000</td>\n<td>460</td>\n<td>सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>13</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>14</td>\n<td>पुला देवी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>\n\n(Ans-28)",
+ "sec": 0.4,
+ "image": "IMG_0210.jpg",
+ "prep": {},
+ "compute_sec": 21.7,
+ "config": {
+  "harness": false,
+  "script": null,
+  "script_map_fixed": false,
+  "token_budget": false,
+  "guard": false,
+  "degeneracy_check": false,
+  "zoom": null,
+  "strip_max_aspect": null,
+  "header_band": false,
+  "split_verify": false,
+  "table_text": false,
+  "table_text_gated": false,
+  "table_dup_aksharas": false,
+  "latex_ban": false,
+  "script_ban": false,
+  "digit_ban": false,
+  "script_reread_gate": false,
+  "vote": null,
+  "dedupe": false,
+  "latex_plain": false,
+  "harvest_dates": false,
+  "harvest_year_window": false,
+  "flags": false,
+  "flags_cell_counts": false
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Header",
+   "type": "PageHeader",
+   "bbox_xyxy": [
+    403.9,
+    87.3,
+    2106.7,
+    420.3
+   ],
+   "conf": 0.627,
+   "text": ""
+  },
+  {
+   "order": 1,
+   "label": "Title",
+   "type": "Title",
+   "bbox_xyxy": [
+    430.4,
+    98.1,
+    1643.6,
+    321.6
+   ],
+   "conf": 0.554,
+   "text": "19/1/2026\n8/9/2026\nमगम 9/2\n99\n96 क संख्या 82",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 224,
+      "w": 1214,
+      "ntok": 37,
+      "lp": -0.2792,
+      "hit": false,
+      "sec": 1.14,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 2,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    437.6,
+    264.3,
+    2090.2,
+    432.0
+   ],
+   "conf": 0.543,
+   "text": "प्र०/0 सदर-दोका\nनाम\nप्र०\nप्रपचला\nअवलंब\nकमी\nप्र०\nप्रपाटी\nव्यापाशी\nहस्ताक्षर",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 168,
+      "w": 1652,
+      "ntok": 41,
+      "lp": -0.9388,
+      "hit": false,
+      "sec": 1.17,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    389.0,
+    285.9,
+    2154.8,
+    2559.9
+   ],
+   "conf": 0.918,
+   "text": "<table>\n<thead>\n<tr>\n<th>क्र.</th>\n<th>सदस्यों का नाम</th>\n<th>को.</th>\n<th>तपशू या</th>\n<th>अंक</th>\n<th>एक साल</th>\n<th>मु.सा.पी.</th>\n<th>व्या.पे.</th>\n<th>घटावट</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>श्रीमतीदेवी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>श्रीमती देवी</td>\n</tr>\n<tr>\n<td>2</td>\n<td>रिमाकुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>रीमा कुमारी</td>\n</tr>\n<tr>\n<td>3</td>\n<td>स्वीटी कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>स्वीटी कुमारी</td>\n</tr>\n<tr>\n<td>4</td>\n<td>गोदा देवी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>5</td>\n<td>विन्दुल कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>विन्दुल कुमारी</td>\n</tr>\n<tr>\n<td>6</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>7</td>\n<td>कंचन कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>कंचन कुमारी</td>\n</tr>\n<tr>\n<td>8</td>\n<td>आरती कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>आरती कुमारी</td>\n</tr>\n<tr>\n<td>9</td>\n<td>पुजा कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>पुजा कुमारी</td>\n</tr>\n<tr>\n<td>10</td>\n<td>अनिता कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>अनिता कुमारी</td>\n</tr>\n<tr>\n<td>11</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td>गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>12</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td>7000</td>\n<td>460</td>\n<td>सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>13</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>14</td>\n<td>पुला देवी</td>\n<td>P</td>\n<td>900</td>\n<td>20</td>\n<td>920</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 2274,
+      "w": 1766,
+      "ntok": 748,
+      "lp": -0.0642,
+      "hit": false,
+      "sec": 19.14,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 4,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    1153.6,
+    2611.5,
+    1636.9,
+    2722.5
+   ],
+   "conf": 0.585,
+   "text": "(Ans-28)",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 110,
+      "w": 483,
+      "ntok": 7,
+      "lp": -1.0052,
+      "hit": false,
+      "sec": 0.25,
+      "cached": false,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 5,
+   "label": "Footer",
+   "type": "PageFooter",
+   "bbox_xyxy": [
+    333.0,
+    2616.3,
+    2107.3,
+    2955.6
+   ],
+   "conf": 0.543,
+   "text": ""
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "text": "1. BK सर्वन्द्र कुमार को TCC अपने जाने का भाडा\n300/- दिख गया / नकद\n\n2. BK विवेका नन्द को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n3. BK सुरिल रंजन को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n4. BK सुनिता कुमारी को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n7 दिनांक - 4/8/2026, 5/8/2026 को सचिव-विमला देवी\nहितल दो दीन गई WFI रिचार्ज करने के\nलिए अपने-जाने का भाडा - 75/- दिख गया नकद\n\n8. दिनांक - 11/8/2026 को BFR नगरनोला OB सदस्य गए\nसुधा विक्री केन्द्र के लिए तीन दीदी के अपने-जाने\nका भाडा 210/- दिख गया नकद\n\n<table>\n<thead>\n<tr>\n<th>प्राप्ति</th>\n<th>राशि</th>\n<th>भूगतांश</th>\n<th>राशि</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>प्रारंभिक शेष<br/>नकद<br/>बैंक</td>\n<td>1140<br/>3967759.57</td>\n<td>1. MBK का मानद्देय</td>\n<td>13500</td>\n</tr>\n<tr>\n<td>vocif प्रथम किस्त (CSF)<br/>म्हण मू० बापली</td>\n<td>222400</td>\n<td>2. CF का मानद्देय</td>\n<td>13000</td>\n</tr>\n<tr>\n<td>vocif म्हण 9C बयान<br/>प्राप्ति</td>\n<td>138945</td>\n<td>3. बैंक मित्रा का मानद्देय</td>\n<td>6400</td>\n</tr>\n<tr>\n<td>vo सामान्य म्हण<br/>मू० बापली</td>\n<td>578100</td>\n<td>4. CNRP का मानद्देय</td>\n<td>14800</td>\n</tr>\n<tr>\n<td>vo सामान्य म्हण<br/>9C बयान प्राप्ति</td>\n<td>95393</td>\n<td>5. OB सदस्य का TTA</td>\n<td>11560</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>6. SSY-MRP का मानद्देय</td>\n<td>12000</td>\n</tr>\n</tbody>\n</table>",
+ "sec": 15.4,
+ "image": "IMG_0164.jpg",
+ "prep": {
+  "harvested_dates": {
+   "header": [],
+   "footer": []
+  }
+ },
+ "compute_sec": 15.2,
+ "config": {
+  "harness": true,
+  "script": "deva",
+  "script_map_fixed": true,
+  "token_budget": true,
+  "guard": true,
+  "degeneracy_check": true,
+  "zoom": {
+   "min_line": 32,
+   "max_zoom": 2.0,
+   "min_change": 1.2,
+   "floor": true,
+   "verify_margin": 0.1,
+   "verify_len": null,
+   "latex_ok": true
+  },
+  "strip_max_aspect": 8.0,
+  "header_band": true,
+  "split_verify": true,
+  "table_text": true,
+  "table_text_gated": true,
+  "table_dup_aksharas": true,
+  "latex_ban": true,
+  "script_ban": true,
+  "digit_ban": true,
+  "script_reread_gate": true,
+  "vote": {
+   "max_lp": -0.3,
+   "pad": 24,
+   "shift": 8,
+   "max_blocks": 4
+  },
+  "dedupe": true,
+  "latex_plain": true,
+  "harvest_dates": true,
+  "harvest_year_window": false,
+  "flags": true,
+  "flags_cell_counts": true
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "List",
+   "type": "Text",
+   "bbox_xyxy": [
+    623.9,
+    318.0,
+    2083.0,
+    1591.2
+   ],
+   "conf": 0.602,
+   "text": "1. BK सर्वन्द्र कुमार को TCC अपने जाने का भाडा\n300/- दिख गया / नकद\n\n2. BK विवेका नन्द को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n3. BK सुरिल रंजन को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n4. BK सुनिता कुमारी को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n7 दिनांक - 4/8/2026, 5/8/2026 को सचिव-विमला देवी\nहितल दो दीन गई WFI रिचार्ज करने के\nलिए अपने-जाने का भाडा - 75/- दिख गया नकद\n\n8. दिनांक - 11/8/2026 को BFR नगरनोला OB सदस्य गए\nसुधा विक्री केन्द्र के लिए तीन दीदी के अपने-जाने\nका भाडा 210/- दिख गया नकद",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 35.5,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 1273,
+        "w": 1459,
+        "ntok": 212,
+        "lp": -0.102,
+        "hit": false,
+        "sec": 6.42,
+        "cached": false,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 1,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    349.4,
+    1716.6,
+    2062.6,
+    2757.9
+   ],
+   "conf": 0.94,
+   "text": "<table>\n<thead>\n<tr>\n<th>प्राप्ति</th>\n<th>राशि</th>\n<th>भूगतांश</th>\n<th>राशि</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>प्रारंभिक शेष<br/>नकद<br/>बैंक</td>\n<td>1140<br/>3967759.57</td>\n<td>1. MBK का मानद्देय</td>\n<td>13500</td>\n</tr>\n<tr>\n<td>vocif प्रथम किस्त (CSF)<br/>म्हण मू० बापली</td>\n<td>222400</td>\n<td>2. CF का मानद्देय</td>\n<td>13000</td>\n</tr>\n<tr>\n<td>vocif म्हण 9C बयान<br/>प्राप्ति</td>\n<td>138945</td>\n<td>3. बैंक मित्रा का मानद्देय</td>\n<td>6400</td>\n</tr>\n<tr>\n<td>vo सामान्य म्हण<br/>मू० बापली</td>\n<td>578100</td>\n<td>4. CNRP का मानद्देय</td>\n<td>14800</td>\n</tr>\n<tr>\n<td>vo सामान्य म्हण<br/>9C बयान प्राप्ति</td>\n<td>95393</td>\n<td>5. OB सदस्य का TTA</td>\n<td>11560</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>6. SSY-MRP का मानद्देय</td>\n<td>12000</td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 78.5,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 1041,
+        "w": 1714,
+        "ntok": 318,
+        "lp": -0.0719,
+        "hit": false,
+        "sec": 8.78,
+        "cached": false,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  }
+ ]
+}

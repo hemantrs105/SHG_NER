@@ -1,0 +1,147 @@
+{
+ "text": "VRP का मानदेय पर चर्चा : अण्डा दिनांक 12/5/2026\nके एकता जीविका महिला संकुल संघ, मोमी के बैठक\nमें निर्णय लिया गया कि गाछ-अप्तेल 2006 का VRP\nका मानदेय दिया जाए ।\n\n<table>\n<thead>\n<tr>\n<th>SL<br/>No</th>\n<th>VRP का<br/>नाम</th>\n<th>गाव का<br/>नाम</th>\n<th>किसान<br/>कि<br/>संख्या</th>\n<th>मूर्खता<br/>शारी</th>\n<th>चेक<br/>न०</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>कपिल प्रसाद</td>\n<td>गोभी</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>2</td>\n<td>रिता देवी</td>\n<td>अकेड</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>3</td>\n<td>सुनेता देवी</td>\n<td>रत्नापुर</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>4</td>\n<td>परोहा देवी</td>\n<td>विष्णुपुर</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>5</td>\n<td>लालती देवी</td>\n<td>फजिनापुर</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>6</td>\n<td>संगीता देवी</td>\n<td>श्रीरुवीच्या</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>7</td>\n<td>दिवेस प्रसाद</td>\n<td>रत्नापुर</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>8</td>\n<td>अमोक कुमार</td>\n<td>दरियापुर</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>9</td>\n<td>विरेन्द्र कुमार</td>\n<td>बल्द्या</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>कुल =</td>\n<td>1350</td>\n<td>40500</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n\nSEW का मानदेय पर चर्चा :- आज दिनांक -\n12/5/2026 के एकता जीविका महिला संकुल\nसंघ, मोमी के बैठक में निर्णय लिया गया\nकि माह - अप्रैल 2026 का SEW सुनिल प्रसाद\nका मानदेय चेक नं-05255 से 6750/- दिया गया ।\n\n1. किरपत कि कुल संख्या = 1350 किसान\n2. $V_0$ कि कुल संख्या = 25\n3. $VRP$ कि कुल संख्या = 09\n4. मानदेय कि कुल राशि = 6750P",
+ "sec": 0.2,
+ "image": "IMG_0145.jpg",
+ "prep": {},
+ "compute_sec": 18.7,
+ "config": {
+  "harness": false,
+  "script": null,
+  "script_map_fixed": false,
+  "token_budget": false,
+  "guard": false,
+  "degeneracy_check": false,
+  "zoom": null,
+  "strip_max_aspect": null,
+  "header_band": false,
+  "split_verify": false,
+  "table_text": false,
+  "table_text_gated": false,
+  "table_dup_aksharas": false,
+  "latex_ban": false,
+  "script_ban": false,
+  "digit_ban": false,
+  "script_reread_gate": false,
+  "vote": null,
+  "dedupe": false,
+  "latex_plain": false,
+  "harvest_dates": false,
+  "harvest_year_window": false,
+  "flags": false,
+  "flags_cell_counts": false
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    265.5,
+    270.9,
+    1727.8,
+    534.3
+   ],
+   "conf": 0.867,
+   "text": "VRP का मानदेय पर चर्चा : अण्डा दिनांक 12/5/2026\nके एकता जीविका महिला संकुल संघ, मोमी के बैठक\nमें निर्णय लिया गया कि गाछ-अप्तेल 2006 का VRP\nका मानदेय दिया जाए ।",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 263,
+      "w": 1462,
+      "ntok": 67,
+      "lp": -0.2616,
+      "hit": false,
+      "sec": 1.85,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 1,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    306.7,
+    607.2,
+    1634.4,
+    1463.1
+   ],
+   "conf": 0.968,
+   "text": "<table>\n<thead>\n<tr>\n<th>SL<br/>No</th>\n<th>VRP का<br/>नाम</th>\n<th>गाव का<br/>नाम</th>\n<th>किसान<br/>कि<br/>संख्या</th>\n<th>मूर्खता<br/>शारी</th>\n<th>चेक<br/>न०</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>कपिल प्रसाद</td>\n<td>गोभी</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>2</td>\n<td>रिता देवी</td>\n<td>अकेड</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>3</td>\n<td>सुनेता देवी</td>\n<td>रत्नापुर</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>4</td>\n<td>परोहा देवी</td>\n<td>विष्णुपुर</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>5</td>\n<td>लालती देवी</td>\n<td>फजिनापुर</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>6</td>\n<td>संगीता देवी</td>\n<td>श्रीरुवीच्या</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>7</td>\n<td>दिवेस प्रसाद</td>\n<td>रत्नापुर</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>8</td>\n<td>अमोक कुमार</td>\n<td>दरियापुर</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td>9</td>\n<td>विरेन्द्र कुमार</td>\n<td>बल्द्या</td>\n<td>150</td>\n<td>4500</td>\n<td>059255</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>कुल =</td>\n<td>1350</td>\n<td>40500</td>\n<td></td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 856,
+      "w": 1327,
+      "ntok": 495,
+      "lp": -0.0577,
+      "hit": false,
+      "sec": 12.52,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 2,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    282.6,
+    1579.5,
+    1843.7,
+    1994.1
+   ],
+   "conf": 0.858,
+   "text": "SEW का मानदेय पर चर्चा :- आज दिनांक -\n12/5/2026 के एकता जीविका महिला संकुल\nसंघ, मोमी के बैठक में निर्णय लिया गया\nकि माह - अप्रैल 2026 का SEW सुनिल प्रसाद\nका मानदेय चेक नं-05255 से 6750/- दिया गया ।",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 414,
+      "w": 1561,
+      "ntok": 80,
+      "lp": -0.1192,
+      "hit": false,
+      "sec": 2.36,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "List",
+   "type": "Text",
+   "bbox_xyxy": [
+    353.0,
+    2033.4,
+    1693.4,
+    2588.7
+   ],
+   "conf": 0.947,
+   "text": "1. किरपत कि कुल संख्या = 1350 किसान\n2. $V_0$ कि कुल संख्या = 25\n3. $VRP$ कि कुल संख्या = 09\n4. मानदेय कि कुल राशि = 6750P",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 556,
+      "w": 1340,
+      "ntok": 61,
+      "lp": -0.1524,
+      "hit": false,
+      "sec": 1.98,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  }
+ ]
+}

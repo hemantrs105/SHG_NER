@@ -1,0 +1,228 @@
+{
+ "text": "15/9/2026\nमगलवार\n66क संख्या 83\n\nप्र०/ सदस्य दोला\nनाय\n३\nपधला\nबचत\nआऊळ\n१\n१\n\n<table>\n<thead>\n<tr>\n<th>क्रमा</th>\n<th>सप्तर्षीका<br/>नाम</th>\n<th>प</th>\n<th>वर्ष</th>\n<th>अवलंबून<br/>वक्त</th>\n<th>उ० वयाची<br/>वक्त</th>\n<th>उ० वयाची<br/>वक्त</th>\n<th>व्याख्या</th>\n<th>हस्तांतर</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>श्रीमती देवी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>श्रीमती देवी</td>\n</tr>\n<tr>\n<td>2</td>\n<td>रिमकुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>रीमा कुमारी</td>\n</tr>\n<tr>\n<td>3</td>\n<td>रवीटी कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>स्वीटी कुमारी</td>\n</tr>\n<tr>\n<td>4</td>\n<td>गीता देवी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>5</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>6</td>\n<td>विन्दुल कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>विन्दुल कुमारी</td>\n</tr>\n<tr>\n<td>7</td>\n<td>कंचन कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>कंचन कुमारी</td>\n</tr>\n<tr>\n<td>8</td>\n<td>आरती कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>आरती कुमारी</td>\n</tr>\n<tr>\n<td>9</td>\n<td>पुजा कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>पुजा कुमारी</td>\n</tr>\n<tr>\n<td>10</td>\n<td>अनीता कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>अनीता कुमारी</td>\n</tr>\n<tr>\n<td>11</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>12</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>13</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>14</td>\n<td>पुजा देवी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>",
+ "sec": 32.4,
+ "image": "IMG_0212.jpg",
+ "prep": {
+  "harvested_dates": {
+   "header": [],
+   "footer": []
+  }
+ },
+ "compute_sec": 32.0,
+ "config": {
+  "harness": true,
+  "script": "deva",
+  "script_map_fixed": true,
+  "token_budget": true,
+  "guard": true,
+  "degeneracy_check": true,
+  "zoom": {
+   "min_line": 32,
+   "max_zoom": 2.0,
+   "min_change": 1.2,
+   "floor": true,
+   "verify_margin": 0.1,
+   "verify_len": null,
+   "latex_ok": true
+  },
+  "strip_max_aspect": 8.0,
+  "header_band": true,
+  "split_verify": true,
+  "table_text": true,
+  "table_text_gated": true,
+  "table_dup_aksharas": true,
+  "latex_ban": true,
+  "script_ban": true,
+  "digit_ban": true,
+  "script_reread_gate": true,
+  "vote": {
+   "max_lp": -0.3,
+   "pad": 24,
+   "shift": 8,
+   "max_blocks": 4
+  },
+  "dedupe": true,
+  "latex_plain": true,
+  "harvest_dates": true,
+  "harvest_year_window": false,
+  "flags": true,
+  "flags_cell_counts": true
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Header",
+   "type": "PageHeader",
+   "bbox_xyxy": [
+    497.5,
+    108.3,
+    2237.2,
+    440.4
+   ],
+   "conf": 0.678,
+   "text": "",
+   "harness": {
+    "mode": "harvest_dates",
+    "read": "15/9/2026\nमगमवार\nका सदस्य दोका\nनाल\nबँद\nपछला\nबचत\nआजूत\nकुमी\nबचत\nसुवपाची\nव्याख्या\nबचाची\nहस्ताक्षर\n1",
+    "dates": [
+     "15/9/2026"
+    ],
+    "pieces": [
+     {
+      "h": 332,
+      "w": 1739,
+      "ntok": 63,
+      "lp": -0.6693,
+      "hit": false,
+      "sec": 1.93,
+      "cached": false,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 1,
+   "label": "Title",
+   "type": "Title",
+   "bbox_xyxy": [
+    553.3,
+    124.2,
+    1690.9,
+    338.4
+   ],
+   "conf": 0.639,
+   "text": "15/9/2026\nमगलवार\n66क संख्या 83",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 43.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 214,
+        "w": 1138,
+        "ntok": 22,
+        "lp": -0.2609,
+        "hit": false,
+        "sec": 0.75,
+        "cached": false,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 2,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    532.6,
+    276.0,
+    2239.2,
+    446.7
+   ],
+   "conf": 0.586,
+   "text": "प्र०/ सदस्य दोला\nनाय\n३\nपधला\nबचत\nआऊळ\n१\n१",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 39.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 171,
+        "w": 1706,
+        "ntok": 224,
+        "lp": -0.1732,
+        "hit": true,
+        "sec": 5.46,
+        "cached": false,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    457.2,
+    323.1,
+    2220.5,
+    2563.8
+   ],
+   "conf": 0.94,
+   "text": "<table>\n<thead>\n<tr>\n<th>क्रमा</th>\n<th>सप्तर्षीका<br/>नाम</th>\n<th>प</th>\n<th>वर्ष</th>\n<th>अवलंबून<br/>वक्त</th>\n<th>उ० वयाची<br/>वक्त</th>\n<th>उ० वयाची<br/>वक्त</th>\n<th>व्याख्या</th>\n<th>हस्तांतर</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>श्रीमती देवी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>श्रीमती देवी</td>\n</tr>\n<tr>\n<td>2</td>\n<td>रिमकुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>रीमा कुमारी</td>\n</tr>\n<tr>\n<td>3</td>\n<td>रवीटी कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>स्वीटी कुमारी</td>\n</tr>\n<tr>\n<td>4</td>\n<td>गीता देवी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>5</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>6</td>\n<td>विन्दुल कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>विन्दुल कुमारी</td>\n</tr>\n<tr>\n<td>7</td>\n<td>कंचन कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>कंचन कुमारी</td>\n</tr>\n<tr>\n<td>8</td>\n<td>आरती कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>आरती कुमारी</td>\n</tr>\n<tr>\n<td>9</td>\n<td>पुजा कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>पुजा कुमारी</td>\n</tr>\n<tr>\n<td>10</td>\n<td>अनीता कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>अनीता कुमारी</td>\n</tr>\n<tr>\n<td>11</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>12</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>13</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td>गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>14</td>\n<td>पुजा देवी</td>\n<td>P</td>\n<td>920</td>\n<td>10</td>\n<td>930</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 71.0,
+      "card_scale": 0.773,
+      "scale": 0.773,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 2241,
+        "w": 1763,
+        "ntok": 758,
+        "lp": -0.0674,
+        "hit": false,
+        "sec": 19.86,
+        "cached": false,
+        "seeded": false
+       }
+      ],
+      "role": "table"
+     },
+     {
+      "role": "above grid",
+      "h": 103,
+      "line_px": 71.0,
+      "kept": false,
+      "why": "region under 2 line heights"
+     },
+     {
+      "line_px": 71.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 868,
+        "w": 1763,
+        "ntok": 119,
+        "lp": -0.1487,
+        "hit": false,
+        "sec": 4.02,
+        "cached": false,
+        "seeded": false
+       }
+      ],
+      "role": "below grid",
+      "h": 868,
+      "kept": false,
+      "why": "already in the table read",
+      "dup_share": 0.85,
+      "akshara_contained": 0.65,
+      "numbers_contained": 1.0
+     }
+    ]
+   }
+  }
+ ]
+}

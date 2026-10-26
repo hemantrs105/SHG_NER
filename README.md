@@ -71,6 +71,37 @@ the row itself argued against.
 **The v2 test score is not an unbiased estimate**, because the fixes were made after
 seeing the test errors. Quote the v1 headline.
 
+One more rule was added after the BODHAN OCR run below (v3, marked in the code): a line identical
+to the line next to it is an OCR loop, so its names are ASK. The reference readings never repeat a
+line, so the scores above are unchanged.
+
+### On-device OCR: BODHAN IndicOCR, with and without Bhavish's harness
+
+Full write-up: **[OCR_BODHAN.md](OCR_BODHAN.md)**. Built with IndicOCR from Bodhan AI / AI4Bharat.
+
+The same 19 photos were read by `bodhan-ai/indic-ocr` (0.8B recognizer, not quantized, run in
+float32 on the Mac GPU), then passed through the resolver and scored against the same answer key.
+
+| | Claude's reading | BODHAN + harness | BODHAN alone |
+|---|---|---|---|
+| Character error rate (against Claude's reading) | 0% | 25.8% | 26.2% |
+| Numbers found | 558 / 558 | 513 / 558 | 513 / 558 |
+| Names linked to the right person | 300 | 184 | 184 |
+| Correctly not linked (ASK / NEW) | 40 | 35 | 35 |
+| Held back though a link was possible | 0 | 40 | 40 |
+| Name not read | 0 | 81 | 81 |
+| **Linked to the wrong person** | **0** | **0** (1 before v3) | **0** (1 before v3) |
+
+- **The harness does not change any name decision or number** on these pages. It cleans up LaTeX
+  formatting and changes a few words in non-name lines.
+- **Speed:** 96 minutes for one page on the CPU (float32); 68 seconds on the Mac GPU with identical
+  output; 23 seconds a page over the full run.
+- **Where it loses names:** cadre signature blocks and Latin-script signatures; garbled printed
+  column headers, which remove the repayment and role clues, so same-name members are held back
+  (safe, but not resolved).
+- **The serious risk:** BODHAN reads a crossed-out amount as a plain number. If the resolver were
+  told the column layout, a cancelled repayment on IMG_0208 would link both Sushmas the wrong way.
+
 ### Stress test: does it fail safe on noisy text? (`stress.py`, synthetic)
 
 The test corrupts the reference text with typical Devanagari OCR and handwriting
@@ -162,12 +193,16 @@ enough to rebuild the resolver without reading the code. The summary:
 - **The text was read by Claude, not by an on-device OCR model.** The reference
   readings in `text/clean/` are Claude's readings of the photos. Spot-check them
   against `pages/`. This demo tests the *decision* step only.
-- **On-device OCR failed on these pages.** The `qwen3-vl:8b` model installed in
-  Ollama is the "thinking" variant: it ignores `think: false`. On the three pages
-  tried, it spent its full 10,000-token budget reasoning and returned no transcript,
-  or aborted with "token repeat limit reached". Logs are in `text/ocr_qwen3vl/`.
-  This matches the earlier Patram finding that every local model tested fails on
-  handwritten Devanagari. **The OCR step, not name resolution, is the unsolved part.**
+- **On-device OCR is the weak step.** BODHAN IndicOCR reads these pages at about 26% character
+  error against Claude's reading. End to end, it gets 184 of 340 names to the right person and none to
+  the wrong one (after the v3 rule), against 300 and none from Claude's reading. See
+  [OCR_BODHAN.md](OCR_BODHAN.md).
+  The earlier attempt with `qwen3-vl:8b` in Ollama failed outright: it is the "thinking" variant,
+  ignores `think: false`, and returned no transcript on the three pages tried (logs in
+  `text/ocr_qwen3vl/`). **The OCR step, not name resolution, is the unsolved part.**
+- **Claude's readings are the OCR reference, not verified ground truth.** Disputed cells were
+  checked against the photos (for example the ₹800 in IMG_0206 row 4 and the crossed-out 800 in
+  IMG_0208 row 4).
 - **The roster was built from the same register pages**, because LokOS data was not
   available. In use, it would come from LokOS.
 - **Which Sushma holds the loan** is an assumption marked in the roster. The ledger does
@@ -227,7 +262,7 @@ Noise stress test (about 30 seconds):
 
 | Path | What |
 |---|---|
-| `resolve.py` | the resolver (v2) |
+| `resolve.py` | the resolver (v2, plus the v3 repeated-line rule for OCR text) |
 | `resolve_v1_frozen.py` | the rules exactly as frozen before the test run |
 | `score.py`, `stress.py`, `demo.py` | scoring, noise test, walkthrough |
 | `roster/roster.csv` | 15 SHG members and CM; 12 CLF board members; 25 CLF cadre. One spelling each, as LokOS would hold |
@@ -236,11 +271,16 @@ Noise stress test (about 30 seconds):
 | `text/clean/` | reference readings of each page (by Claude; spot-check) |
 | `text/ocr_qwen3vl/` | logs of the failed on-device OCR attempt |
 | `gold/gold_spec.txt`, `gold/gold.csv` | answer key with a reason for each hard case; `FROZEN.sha256` |
-| `out/` | decisions, scores, stress results, pseudonymised demo output |
+| `out/` | decisions, scores, stress results, pseudonymised demo output, OCR reports |
+| `OCR_BODHAN.md` | BODHAN IndicOCR results, with and without the harness |
+| `eval_ocr.py` | scores an OCR run: text, numbers, names end to end, link audit |
+| `pages_ocr/` | the 19 photos upright at 2250 × 3000 px, as read by BODHAN |
+| `ocr/` | BODHAN output per page (`.md` + `.json`) and its read cache |
+| `text/ocr_bodhan_*/` | BODHAN output converted to the resolver's line format |
 
 ## Possible next steps
 
 1. Spot-check `text/clean/` against the photos, especially names marked uncertain in the roster.
 2. Get a real LokOS member list for this SHG and CLF and re-run. Does LokOS separate the two Sushmas and the two Gudiyas?
-3. Put the same resolver behind the OCR step once an on-device model can read these pages, for example the instruct variant of `qwen3-vl` or a fine-tuned Devanagari handwriting model.
+3. Improve the OCR step: see the tested recommendations in [OCR_BODHAN.md](OCR_BODHAN.md).
 4. For the voice route: add the member code to the spoken read-back, so the resolver never has to guess between same-name members.

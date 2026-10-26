@@ -1,0 +1,285 @@
+{
+ "text": "$$48 \\text{ Ans of Ans}$$\n\n(1) आज दिनांक 28/8/2026 समय 11 बजे देवीस्थान\nदेव के पास विद्या SITN का बैठक किया गया\nइस बैठक में सभी दिपी उपस्थित हुई\nसभी ने प्रभावी परिचय किया और\nअपना अपना बचत जमा की।\n\n(२) आज को कार्य वादी अध्यक्ष दिया कुमटी\nको सर्व सहमति से बनाया गया।\nपूर्व कार्य वादी की चर्चा किया गया।\nलेन-देन की चर्चा किया गया।\nजोपिपी समूह से प्राण ली है। वह समय\nके अनुसार वापस जरूर करे।\n\n3. प्रसवोत्तर एवं रजोनिवृत्ति अवसाद पर यमी\nअवसाद केवल समन्य उदासी नहीं है बल्कि\nएक निरंतर बनी रहने वाली स्थिति है, जो\nव्यक्ति के सोचने महसूस करने और दैनिक\nजीवन के कार्य करने के तरीके को नाकारात्मक\nरूप से प्रभावित करता है। इसमें लंबे समय तक\nउदासी निश्शा और गतिविधियों में रखय या\nअनन्द का अभाव रहता है। जिससे जीवन को\nगुणवत्ता प्रभावित होती है। आमतौर पर महिलाओं\nमें अवसाद प्रसवोत्तर एवं रजोनिवृत्ति के समय देखने\nके मिलता है।\n\n<table>\n<tbody>\n<tr>\n<td>प्रारंभिक वियत - 900</td>\n<td>वोजया - 170</td>\n</tr>\n<tr>\n<td>आज का वियत - 140</td>\n<td></td>\n</tr>\n<tr>\n<td>मु० वपासी -<br/>व्याज वपासी -<br/>कुल वियत - 70</td>\n<td>अतिय वियत - 900</td>\n</tr>\n<tr>\n<td>कुल वियत - 1070</td>\n<td>कुल योग - 1070</td>\n</tr>\n</tbody>\n</table>\n\nनिवा जोयेका स्वयं सहायता सम्बुद्ध\nग्राम-हरबधपुर, इसलामपुर (नालन्दा)\n\n620 cm के पास सीमा कुमारी स्वीटी कुमारी\n\nC.M.\nबनेदादी\n28/8/226",
+ "sec": 1.8,
+ "image": "IMG_0209.jpg",
+ "prep": {},
+ "compute_sec": 13.1,
+ "config": {
+  "harness": false,
+  "script": null,
+  "script_map_fixed": false,
+  "token_budget": false,
+  "guard": false,
+  "degeneracy_check": false,
+  "zoom": null,
+  "strip_max_aspect": null,
+  "header_band": false,
+  "split_verify": false,
+  "table_text": false,
+  "table_text_gated": false,
+  "table_dup_aksharas": false,
+  "latex_ban": false,
+  "script_ban": false,
+  "digit_ban": false,
+  "script_reread_gate": false,
+  "vote": null,
+  "dedupe": false,
+  "latex_plain": false,
+  "harvest_dates": false,
+  "harvest_year_window": false,
+  "flags": false,
+  "flags_cell_counts": false
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Header",
+   "type": "PageHeader",
+   "bbox_xyxy": [
+    576.2,
+    43.5,
+    1618.6,
+    154.5
+   ],
+   "conf": 0.76,
+   "text": ""
+  },
+  {
+   "order": 1,
+   "label": "Title",
+   "type": "Title",
+   "bbox_xyxy": [
+    576.2,
+    42.0,
+    1006.9,
+    132.0
+   ],
+   "conf": 0.514,
+   "text": "$$48 \\text{ Ans of Ans}$$",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 90,
+      "w": 431,
+      "ntok": 11,
+      "lp": -1.0115,
+      "hit": false,
+      "sec": 0.34,
+      "cached": false,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 2,
+   "label": "List",
+   "type": "Text",
+   "bbox_xyxy": [
+    0.7,
+    236.1,
+    1718.5,
+    598.8
+   ],
+   "conf": 0.84,
+   "text": "(1) आज दिनांक 28/8/2026 समय 11 बजे देवीस्थान\nदेव के पास विद्या SITN का बैठक किया गया\nइस बैठक में सभी दिपी उपस्थित हुई\nसभी ने प्रभावी परिचय किया और\nअपना अपना बचत जमा की।",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 363,
+      "w": 1717,
+      "ntok": 57,
+      "lp": -0.1974,
+      "hit": false,
+      "sec": 1.76,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "List",
+   "type": "Text",
+   "bbox_xyxy": [
+    6.8,
+    632.7,
+    1698.1,
+    1086.0
+   ],
+   "conf": 0.844,
+   "text": "(२) आज को कार्य वादी अध्यक्ष दिया कुमटी\nको सर्व सहमति से बनाया गया।\nपूर्व कार्य वादी की चर्चा किया गया।\nलेन-देन की चर्चा किया गया।\nजोपिपी समूह से प्राण ली है। वह समय\nके अनुसार वापस जरूर करे।",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 453,
+      "w": 1691,
+      "ntok": 60,
+      "lp": -0.2552,
+      "hit": false,
+      "sec": 1.94,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 4,
+   "label": "List",
+   "type": "Text",
+   "bbox_xyxy": [
+    49.3,
+    1119.6,
+    1781.8,
+    1957.8
+   ],
+   "conf": 0.854,
+   "text": "3. प्रसवोत्तर एवं रजोनिवृत्ति अवसाद पर यमी\nअवसाद केवल समन्य उदासी नहीं है बल्कि\nएक निरंतर बनी रहने वाली स्थिति है, जो\nव्यक्ति के सोचने महसूस करने और दैनिक\nजीवन के कार्य करने के तरीके को नाकारात्मक\nरूप से प्रभावित करता है। इसमें लंबे समय तक\nउदासी निश्शा और गतिविधियों में रखय या\nअनन्द का अभाव रहता है। जिससे जीवन को\nगुणवत्ता प्रभावित होती है। आमतौर पर महिलाओं\nमें अवसाद प्रसवोत्तर एवं रजोनिवृत्ति के समय देखने\nके मिलता है।",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 838,
+      "w": 1733,
+      "ntok": 122,
+      "lp": -0.0938,
+      "hit": false,
+      "sec": 3.84,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 5,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    189.2,
+    1999.5,
+    1681.4,
+    2496.0
+   ],
+   "conf": 0.811,
+   "text": "<table>\n<tbody>\n<tr>\n<td>प्रारंभिक वियत - 900</td>\n<td>वोजया - 170</td>\n</tr>\n<tr>\n<td>आज का वियत - 140</td>\n<td></td>\n</tr>\n<tr>\n<td>मु० वपासी -<br/>व्याज वपासी -<br/>कुल वियत - 70</td>\n<td>अतिय वियत - 900</td>\n</tr>\n<tr>\n<td>कुल वियत - 1070</td>\n<td>कुल योग - 1070</td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 496,
+      "w": 1492,
+      "ntok": 128,
+      "lp": -0.1083,
+      "hit": false,
+      "sec": 3.44,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 6,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    575.3,
+    2482.2,
+    1058.9,
+    2593.2
+   ],
+   "conf": 0.747,
+   "text": "निवा जोयेका स्वयं सहायता सम्बुद्ध\nग्राम-हरबधपुर, इसलामपुर (नालन्दा)",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 111,
+      "w": 484,
+      "ntok": 27,
+      "lp": -0.5145,
+      "hit": false,
+      "sec": 0.72,
+      "cached": false,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 7,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    107.3,
+    2601.9,
+    1413.2,
+    2825.4
+   ],
+   "conf": 0.656,
+   "text": "620 cm के पास सीमा कुमारी स्वीटी कुमारी",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 223,
+      "w": 1306,
+      "ntok": 12,
+      "lp": -0.3356,
+      "hit": false,
+      "sec": 0.51,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 8,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    1560.2,
+    2468.7,
+    1823.4,
+    2754.6
+   ],
+   "conf": 0.821,
+   "text": "C.M.\nबनेदादी\n28/8/226",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 286,
+      "w": 263,
+      "ntok": 19,
+      "lp": -0.6079,
+      "hit": false,
+      "sec": 0.52,
+      "cached": false,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 9,
+   "label": "Footer",
+   "type": "PageFooter",
+   "bbox_xyxy": [
+    101.7,
+    2479.5,
+    1822.5,
+    2829.6
+   ],
+   "conf": 0.54,
+   "text": ""
+  }
+ ]
+}

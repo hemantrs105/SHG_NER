@@ -1,0 +1,208 @@
+{
+ "text": "कैंडर मानदेय पर चर्चा एंव OB सदस्य के TA पर चर्चा:-\nआज दिनांक - 12/5/2026 के BD के बैठक में\nनिर्णय लिख गया कि सभी कैडर का मानदेय\nतथा OB सदस्य का TA दिया जाए ।\n\n<table>\n<thead>\n<tr>\n<th>Sl<br/>No</th>\n<th>नाम</th>\n<th>पद</th>\n<th>Vol के<br/>संरेखण</th>\n<th>माह</th>\n<th>सारी</th>\n<th>चेकन</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>सन्दु कुमार</td>\n<td>MBK</td>\n<td>-</td>\n<td>अप्रैल २०२६</td>\n<td>13500</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>2</td>\n<td>शिव शंका प्रसाद</td>\n<td>CF</td>\n<td>-</td>\n<td>अप्रैल २०२६</td>\n<td>13000</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>3</td>\n<td>रश्मी कुमारी</td>\n<td>BM</td>\n<td>-</td>\n<td>अप्रैल २०२६</td>\n<td>6400</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>4</td>\n<td>रविन्द्र कुमार</td>\n<td>BK</td>\n<td>8</td>\n<td>अप्रैल २०२६</td>\n<td>14560</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>5</td>\n<td>विवेक नन्द</td>\n<td>BK</td>\n<td>7</td>\n<td>अप्रैल २०२६</td>\n<td>13440</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>6</td>\n<td>सुमित रंजन</td>\n<td>BR</td>\n<td>6</td>\n<td>अप्रैल २०२६</td>\n<td>12320</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>7</td>\n<td>सुनिता कुमारी</td>\n<td>BR</td>\n<td>5</td>\n<td>अप्रैल २०२६</td>\n<td>9600</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>8</td>\n<td>सीमा देवी</td>\n<td>CNRP</td>\n<td>-</td>\n<td>अप्रैल २०२६</td>\n<td>7400</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>9</td>\n<td>दीक्षा कुमारी</td>\n<td>CNRP</td>\n<td>-</td>\n<td>अप्रैल २०२६</td>\n<td>7400</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>10</td>\n<td>पीणा देवी</td>\n<td>अध्यक्ष</td>\n<td>23 दिन</td>\n<td>अप्रैल २०२६</td>\n<td>5520</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>11</td>\n<td>विमला देवी</td>\n<td>सचिव</td>\n<td>23 दिन</td>\n<td>अप्रैल २०२६</td>\n<td>4600</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>12</td>\n<td>सोने देवी</td>\n<td>कोषाद्यक्ष</td>\n<td>8 दिन</td>\n<td>अप्रैल २०२६</td>\n<td>2400</td>\n<td>059250</td>\n</tr>\n</tbody>\n</table>\n\n$$\\text{कुल} = 110140$$\n\n- SSY-MRP का मानदेय :- SSY-MRP नरेन्द्र कुमार को\nमाह-अप्रैल २०२६ का मानदेय चेक नं० ०५१२५१ से\n१२००० / दिख गया ।",
+ "sec": 20.7,
+ "image": "IMG_0139.jpg",
+ "prep": {
+  "harvested_dates": {
+   "header": [],
+   "footer": []
+  }
+ },
+ "compute_sec": 20.4,
+ "config": {
+  "harness": true,
+  "script": "deva",
+  "script_map_fixed": true,
+  "token_budget": true,
+  "guard": true,
+  "degeneracy_check": true,
+  "zoom": {
+   "min_line": 32,
+   "max_zoom": 2.0,
+   "min_change": 1.2,
+   "floor": true,
+   "verify_margin": 0.1,
+   "verify_len": null,
+   "latex_ok": true
+  },
+  "strip_max_aspect": 8.0,
+  "header_band": true,
+  "split_verify": true,
+  "table_text": true,
+  "table_text_gated": true,
+  "table_dup_aksharas": true,
+  "latex_ban": true,
+  "script_ban": true,
+  "digit_ban": true,
+  "script_reread_gate": true,
+  "vote": {
+   "max_lp": -0.3,
+   "pad": 24,
+   "shift": 8,
+   "max_blocks": 4
+  },
+  "dedupe": true,
+  "latex_plain": true,
+  "harvest_dates": true,
+  "harvest_year_window": false,
+  "flags": true,
+  "flags_cell_counts": true
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    595.6,
+    294.0,
+    1895.6,
+    576.3
+   ],
+   "conf": 0.818,
+   "text": "कैंडर मानदेय पर चर्चा एंव OB सदस्य के TA पर चर्चा:-\nआज दिनांक - 12/5/2026 के BD के बैठक में\nनिर्णय लिख गया कि सभी कैडर का मानदेय\nतथा OB सदस्य का TA दिया जाए ।",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 34.5,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 282,
+        "w": 1300,
+        "ntok": 61,
+        "lp": -0.1287,
+        "hit": false,
+        "sec": 1.79,
+        "cached": false,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 1,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    451.8,
+    612.3,
+    1829.0,
+    2118.3
+   ],
+   "conf": 0.96,
+   "text": "<table>\n<thead>\n<tr>\n<th>Sl<br/>No</th>\n<th>नाम</th>\n<th>पद</th>\n<th>Vol के<br/>संरेखण</th>\n<th>माह</th>\n<th>सारी</th>\n<th>चेकन</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>सन्दु कुमार</td>\n<td>MBK</td>\n<td>-</td>\n<td>अप्रैल २०२६</td>\n<td>13500</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>2</td>\n<td>शिव शंका प्रसाद</td>\n<td>CF</td>\n<td>-</td>\n<td>अप्रैल २०२६</td>\n<td>13000</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>3</td>\n<td>रश्मी कुमारी</td>\n<td>BM</td>\n<td>-</td>\n<td>अप्रैल २०२६</td>\n<td>6400</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>4</td>\n<td>रविन्द्र कुमार</td>\n<td>BK</td>\n<td>8</td>\n<td>अप्रैल २०२६</td>\n<td>14560</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>5</td>\n<td>विवेक नन्द</td>\n<td>BK</td>\n<td>7</td>\n<td>अप्रैल २०२६</td>\n<td>13440</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>6</td>\n<td>सुमित रंजन</td>\n<td>BR</td>\n<td>6</td>\n<td>अप्रैल २०२६</td>\n<td>12320</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>7</td>\n<td>सुनिता कुमारी</td>\n<td>BR</td>\n<td>5</td>\n<td>अप्रैल २०२६</td>\n<td>9600</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>8</td>\n<td>सीमा देवी</td>\n<td>CNRP</td>\n<td>-</td>\n<td>अप्रैल २०२६</td>\n<td>7400</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>9</td>\n<td>दीक्षा कुमारी</td>\n<td>CNRP</td>\n<td>-</td>\n<td>अप्रैल २०२६</td>\n<td>7400</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>10</td>\n<td>पीणा देवी</td>\n<td>अध्यक्ष</td>\n<td>23 दिन</td>\n<td>अप्रैल २०२६</td>\n<td>5520</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>11</td>\n<td>विमला देवी</td>\n<td>सचिव</td>\n<td>23 दिन</td>\n<td>अप्रैल २०२६</td>\n<td>4600</td>\n<td>059250</td>\n</tr>\n<tr>\n<td>12</td>\n<td>सोने देवी</td>\n<td>कोषाद्यक्ष</td>\n<td>8 दिन</td>\n<td>अप्रैल २०२६</td>\n<td>2400</td>\n<td>059250</td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 67.5,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 1506,
+        "w": 1377,
+        "ntok": 611,
+        "lp": -0.0371,
+        "hit": false,
+        "sec": 16.39,
+        "cached": false,
+        "seeded": false
+       }
+      ],
+      "role": "table"
+     },
+     {
+      "role": "below grid",
+      "h": 50,
+      "line_px": 67.5,
+      "kept": false,
+      "why": "region under 2 line heights"
+     }
+    ]
+   }
+  },
+  {
+   "order": 2,
+   "label": "Equation",
+   "type": "Equation",
+   "bbox_xyxy": [
+    1206.7,
+    2067.9,
+    1601.3,
+    2138.1
+   ],
+   "conf": 0.531,
+   "text": "कुल = 110140",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 33.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 70,
+        "w": 394,
+        "ntok": 10,
+        "lp": -0.0762,
+        "hit": false,
+        "sec": 0.43,
+        "cached": false,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    522.4,
+    2127.6,
+    1823.6,
+    2433.0
+   ],
+   "conf": 0.908,
+   "text": "- SSY-MRP का मानदेय :- SSY-MRP नरेन्द्र कुमार को\nमाह-अप्रैल २०२६ का मानदेय चेक नं० ०५१२५१ से\n१२००० / दिख गया ।",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 33.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 305,
+        "w": 1302,
+        "ntok": 48,
+        "lp": -0.2856,
+        "hit": false,
+        "sec": 1.75,
+        "cached": false,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  }
+ ]
+}

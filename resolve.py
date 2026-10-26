@@ -283,8 +283,19 @@ def header_repayment_cols(cells):
     return [i for i, c in enumerate(cells) if "वपासी" in c or "वापसी" in c]
 
 
+def repeated_lines(lines):
+    """v3, added after the BODHAN OCR run (so not part of any frozen result): a line that is
+    identical to the line before or after it is an OCR loop, not two entries. IMG_0153 came
+    back as "FICRP सुनीता कुमारी" three times where the page has two different FI CRPs. The
+    reference readings never repeat a line, so this cannot change the clean-text result."""
+    norm = [" ".join(l.split()) for l in lines]
+    return {i + 1 for i, l in enumerate(norm) if l and
+            ((i > 0 and norm[i - 1] == l) or (i + 1 < len(norm) and norm[i + 1] == l))}
+
+
 def resolve_page(lines, roster, villages):
     results, repay_cols = [], []
+    looped = repeated_lines(lines)
     for lno, line in enumerate(lines, 1):
         is_table = "|" in line
         cells = [c.strip() for c in line.split("|")] if is_table else [line]
@@ -318,10 +329,13 @@ def resolve_page(lines, roster, villages):
                     notes, why = ids, "referred to by role; one holder" if len(ids) == 1 else "role has several holders"
                 else:
                     dec, notes, why = decide(cands, anchors)
+                if lno in looped and dec not in ("ASK", "NEW"):
+                    dec, why = "ASK", "line repeats the one next to it (OCR loop); not evidence"
                 results.append({"line": lno, "cell": ci, "surface": " ".join(toks[s:e]),
                                 "decision": dec, "kind": kind, "why": why, "candidates": notes,
                                 "cand_ids": [p["id"] for p, _ in cands],
-                                "is_row": is_row, "name_cell": is_row and ci == 1})
+                                "is_row": is_row, "name_cell": is_row and ci == 1,
+                                "looped": lno in looped})
     confirm_by_signature(results)
     eliminate(results)
     return results
@@ -335,7 +349,7 @@ def confirm_by_signature(results):
     so nothing is adopted there."""
     rows = {}
     for r in results:
-        if r["is_row"] and r["kind"] == "name":
+        if r["is_row"] and r["kind"] == "name" and not r["looped"]:
             rows.setdefault(r["line"], []).append(r)
     for rs in rows.values():
         known = {r["decision"] for r in rs if r["decision"] not in ("ASK", "NEW")}
@@ -357,7 +371,7 @@ def eliminate(results):
             if len(ids) > 1:
                 groups.setdefault(ids, []).append(r)
     for ids, rows in groups.items():
-        if len(rows) != len(ids):
+        if len(rows) != len(ids) or any(r["looped"] for r in rows):      # v3: never fill a looped row
             continue
         done = {r["decision"] for r in rows if r["decision"] in ids}
         open_rows = [r for r in rows if r["decision"] == "ASK"]

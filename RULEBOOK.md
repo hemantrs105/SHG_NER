@@ -66,6 +66,9 @@ Two numbers matter throughout: **0.8 means "close"**, **0.6 means "weakly simila
 - A line with `|` that contains the word **नाम** is a **header row**. Note which columns
   say **वापसी / वपासी** (repayment). You need them in step 5.
 - Every other line is **free text**.
+- **A line that is exactly the same as the line before or after it** is an OCR loop, not two entries.
+  Every name on it is **ASK**, and it is not used in step 8. (Only matters for machine-read text;
+  people do not write the same line twice.)
 
 ## Step 4. Find the names
 
