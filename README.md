@@ -1,19 +1,11 @@
 # Name resolution on SHG and CLF registers: a rule-based demo
 
-**Question (Arjun, Indic LangTech group, 23 Oct 2026):** given a fixed list of people
-(the SHG or CLF roster), how small can the thing be that decides *who* a name on a
-register refers to, including two members with the same name, without training a
-model for every language?
+**Question (23 Oct 2026):** given a fixed list of people (the SHG or CLF roster), how small can the thing be that decides *who* a name on a register refers to, including two members with the same name, without training a model for every language?
 
-**Answer from this demo:** for written registers, the decision step needs no model.
-22 KB of standard-library Python handles it, plus a few short word lists. On real
-pages from Nalanda it made **no wrong links**. When the page cannot separate two
-people, it asks a person instead of guessing.
+**Answer from this demo:** For written registers and transcripts from the SHG meetings, the decision step needs no model. 22 KB of standard-library Python handles it, plus a few short word lists. On real pages from Nalanda it made **no wrong links**. When the page cannot separate two people, it asks a person instead of guessing (OR a small NER query can be done to the LokOS database and link can be made with relevant consent). 
 
-> **This folder contains real names from field photos** (Vidya Jeevika SHG,
-> Harvanshpur, and Ekta Jeevika CLF, Islampur block). Keep it on this laptop.
-> For screenshots or the WhatsApp group, use `python demo.py --pseudo`, which swaps
-> names, villages and MIS IDs for stand-ins.
+> **This folder contains real names from field photos** (Vidya Jeevika SHG, Harvanshpur, and Ekta Jeevika CLF, Islampur block).
+> For screenshots or the WhatsApp group, use `python demo.py --pseudo`, which swaps names, villages and MIS IDs for stand-ins (available in a public repo).
 
 ---
 
@@ -282,5 +274,6 @@ Noise stress test (about 30 seconds):
 
 1. Spot-check `text/clean/` against the photos, especially names marked uncertain in the roster.
 2. Get a real LokOS member list for this SHG and CLF and re-run. Does LokOS separate the two Sushmas and the two Gudiyas?
-3. Improve the OCR step: see the tested recommendations in [OCR_BODHAN.md](OCR_BODHAN.md).
-4. For the voice route: add the member code to the spoken read-back, so the resolver never has to guess between same-name members.
+3. Put the same resolver behind the SHG meeting transcription and track whether the same rules hold up there as well. Those transcripts may not always have the loan details, which was crucial here.
+4. For the voice route: add the member code to the spoken read-back, so the resolver never has to guess between same-name members. Also, before doing OCR on any register, we can include the LokOS details of each member on a page so that linkages can be made easily.
+5. Improve the OCR step: see the tested recommendations in [OCR_BODHAN.md](OCR_BODHAN.md).
