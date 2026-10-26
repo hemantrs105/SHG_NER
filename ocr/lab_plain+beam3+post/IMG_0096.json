@@ -1,0 +1,175 @@
+{
+ "text": "$$13a) \\text{बैठक संख्या} - 162$$\n\n<table>\n<tr>\n<td>दिनांक - 12/09/2026</td>\n<td>स्थान - एकता जीविका महिला</td>\n</tr>\n<tr>\n<td>प्रार्थना - इतनी शक्ति दे न दाता</td>\n<td>विकास - बावलम्बी सहकारी</td>\n</tr>\n<tr>\n<td>परिचय - सभी दीदी परिचय दी</td>\n<td>समिति लि०, मो० मी०\nके कार्यालय</td>\n</tr>\n</table>\n\n<table>\n<thead>\n<tr>\n<th>क्रमांक</th>\n<th>BAD सदस्य<br/>का नाम</th>\n<th>गाव<br/>का<br/>नाम</th>\n<th>पद</th>\n<th>हस्ताक्षर</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>पीणा देवी</td>\n<td>काहिपावा</td>\n<td>अष्टपक्ष</td>\n<td>पीणा देवी</td>\n</tr>\n<tr>\n<td>2</td>\n<td>विमला देवी</td>\n<td>विष्णुपुर</td>\n<td>सचिव</td>\n<td>विमला देवी</td>\n</tr>\n<tr>\n<td>3</td>\n<td>सोनी देवी</td>\n<td>दमोदरपुर</td>\n<td>कोषाष्टपक्ष</td>\n<td>सोनी देवी</td>\n</tr>\n<tr>\n<td>4</td>\n<td>कंचन देवी</td>\n<td>रवडसारिण</td>\n<td>उपष्टपक्ष</td>\n<td>कंचनदेवी</td>\n</tr>\n<tr>\n<td>5</td>\n<td>पिंकी देवी</td>\n<td>चौरासी</td>\n<td>उपसचिव</td>\n<td>पिंकीदेवी</td>\n</tr>\n<tr>\n<td>6</td>\n<td>सुनिताकुमारी</td>\n<td>गोमी</td>\n<td>सदस्य</td>\n<td>सुनिता कुमारी</td>\n</tr>\n<tr>\n<td>7</td>\n<td>सुनैना देवी</td>\n<td>गोमी</td>\n<td>सदस्य</td>\n<td>सुनैना देवी</td>\n</tr>\n<tr>\n<td>8</td>\n<td>शाशिप्रभा देवी</td>\n<td>बदलविगद्य</td>\n<td>सदस्य</td>\n<td></td>\n</tr>\n<tr>\n<td>9</td>\n<td>सुनपना देवी</td>\n<td>रवाजुरा</td>\n<td>सदस्य</td>\n<td>सुनपनादेवी</td>\n</tr>\n<tr>\n<td>10</td>\n<td>मिनी देवी</td>\n<td>बालधा</td>\n<td>सदस्य</td>\n<td>मिनी देवी</td>\n</tr>\n<tr>\n<td>11</td>\n<td>बंसती देवी</td>\n<td>बाजितपुर</td>\n<td>सदस्य</td>\n<td>बंसती देवी</td>\n</tr>\n<tr>\n<td>12</td>\n<td>पिंकी देवी</td>\n<td>रकरपुर</td>\n<td>सदस्य</td>\n<td>पिंकी देवी</td>\n</tr>\n</tbody>\n</table>\n\nए जे\n\n<table>\n  <tbody>\n    <tr>\n      <td>सीमा देवी<br/>CNRP</td>\n      <td>रिंक कुमारी<br/>JCRP</td>\n      <td colspan=\"2\">मिश्र केन्द्र 5 KMC<br/>CF</td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">सुनील प्रलाप<br/>SEW<br/>7 रे. 5 कुमार<br/>SY-MRP</td>\n      <td>Dikshakumari<br/>CNRP</td>\n      <td>Shobhakumari<br/>J.C.R.P</td>\n      <td>सुनील कुमारी<br/>B.K</td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">V.R.P. 37 श्लोक 5 भाग<br/>सन्तु कुमार<br/>MBK</td>\n      <td colspan=\"2\">V.Naga man<br/>BK<br/>Sushil Rajan<br/>B.K</td>\n    </tr>\n    <tr>\n      <td colspan=\"2\"></td>\n      <td colspan=\"2\">Sunit prasaq<br/>SEW</td>\n    </tr>\n  </tbody>\n</table>",
+ "sec": 33.6,
+ "image": "page",
+ "prep": {},
+ "compute_sec": 33.5,
+ "config": {
+  "harness": false,
+  "script": null,
+  "script_map_fixed": false,
+  "token_budget": false,
+  "guard": false,
+  "degeneracy_check": false,
+  "zoom": null,
+  "strip_max_aspect": null,
+  "header_band": false,
+  "split_verify": false,
+  "table_text": false,
+  "table_text_gated": false,
+  "table_dup_aksharas": false,
+  "latex_ban": false,
+  "script_ban": false,
+  "digit_ban": false,
+  "script_reread_gate": false,
+  "vote": null,
+  "dedupe": false,
+  "latex_plain": false,
+  "harvest_dates": false,
+  "harvest_year_window": false,
+  "flags": false,
+  "flags_cell_counts": false
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Title",
+   "type": "Title",
+   "bbox_xyxy": [
+    746.5,
+    306.3,
+    1288.1,
+    381.6
+   ],
+   "conf": 0.81,
+   "text": "$$13a) \\text{बैठक संख्या} - 162$$",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 76,
+      "w": 542,
+      "ntok": 20,
+      "lp": -0.2823,
+      "hit": false,
+      "sec": 0.86,
+      "cached": false,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 1,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    520.2,
+    347.7,
+    1829.2,
+    598.2
+   ],
+   "conf": 0.782,
+   "text": "<table>\n<tr>\n<td>दिनांक - 12/09/2026</td>\n<td>स्थान - एकता जीविका महिला</td>\n</tr>\n<tr>\n<td>प्रार्थना - इतनी शक्ति दे न दाता</td>\n<td>विकास - बावलम्बी सहकारी</td>\n</tr>\n<tr>\n<td>परिचय - सभी दीदी परिचय दी</td>\n<td>समिति लि०, मो० मी०\nके कार्यालय</td>\n</tr>\n</table>",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 250,
+      "w": 1309,
+      "ntok": 90,
+      "lp": -0.1789,
+      "hit": false,
+      "sec": 3.51,
+      "cached": false,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 2,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    454.9,
+    755.4,
+    1701.5,
+    1974.6
+   ],
+   "conf": 0.955,
+   "text": "<table>\n<thead>\n<tr>\n<th>क्रमांक</th>\n<th>BAD सदस्य<br/>का नाम</th>\n<th>गाव<br/>का<br/>नाम</th>\n<th>पद</th>\n<th>हस्ताक्षर</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>पीणा देवी</td>\n<td>काहिपावा</td>\n<td>अष्टपक्ष</td>\n<td>पीणा देवी</td>\n</tr>\n<tr>\n<td>2</td>\n<td>विमला देवी</td>\n<td>विष्णुपुर</td>\n<td>सचिव</td>\n<td>विमला देवी</td>\n</tr>\n<tr>\n<td>3</td>\n<td>सोनी देवी</td>\n<td>दमोदरपुर</td>\n<td>कोषाष्टपक्ष</td>\n<td>सोनी देवी</td>\n</tr>\n<tr>\n<td>4</td>\n<td>कंचन देवी</td>\n<td>रवडसारिण</td>\n<td>उपष्टपक्ष</td>\n<td>कंचनदेवी</td>\n</tr>\n<tr>\n<td>5</td>\n<td>पिंकी देवी</td>\n<td>चौरासी</td>\n<td>उपसचिव</td>\n<td>पिंकीदेवी</td>\n</tr>\n<tr>\n<td>6</td>\n<td>सुनिताकुमारी</td>\n<td>गोमी</td>\n<td>सदस्य</td>\n<td>सुनिता कुमारी</td>\n</tr>\n<tr>\n<td>7</td>\n<td>सुनैना देवी</td>\n<td>गोमी</td>\n<td>सदस्य</td>\n<td>सुनैना देवी</td>\n</tr>\n<tr>\n<td>8</td>\n<td>शाशिप्रभा देवी</td>\n<td>बदलविगद्य</td>\n<td>सदस्य</td>\n<td></td>\n</tr>\n<tr>\n<td>9</td>\n<td>सुनपना देवी</td>\n<td>रवाजुरा</td>\n<td>सदस्य</td>\n<td>सुनपनादेवी</td>\n</tr>\n<tr>\n<td>10</td>\n<td>मिनी देवी</td>\n<td>बालधा</td>\n<td>सदस्य</td>\n<td>मिनी देवी</td>\n</tr>\n<tr>\n<td>11</td>\n<td>बंसती देवी</td>\n<td>बाजितपुर</td>\n<td>सदस्य</td>\n<td>बंसती देवी</td>\n</tr>\n<tr>\n<td>12</td>\n<td>पिंकी देवी</td>\n<td>रकरपुर</td>\n<td>सदस्य</td>\n<td>पिंकी देवी</td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 1220,
+      "w": 1247,
+      "ntok": 440,
+      "lp": -0.0754,
+      "hit": false,
+      "sec": 18.06,
+      "cached": false,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    2134.3,
+    184.5,
+    2249.8,
+    281.7
+   ],
+   "conf": 0.581,
+   "text": "ए जे",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 98,
+      "w": 116,
+      "ntok": 3,
+      "lp": -0.4676,
+      "hit": false,
+      "sec": 0.39,
+      "cached": false,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 4,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    448.0,
+    2007.9,
+    1999.4,
+    2723.1
+   ],
+   "conf": 0.603,
+   "text": "<table>\n  <tbody>\n    <tr>\n      <td>सीमा देवी<br/>CNRP</td>\n      <td>रिंक कुमारी<br/>JCRP</td>\n      <td colspan=\"2\">मिश्र केन्द्र 5 KMC<br/>CF</td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">सुनील प्रलाप<br/>SEW<br/>7 रे. 5 कुमार<br/>SY-MRP</td>\n      <td>Dikshakumari<br/>CNRP</td>\n      <td>Shobhakumari<br/>J.C.R.P</td>\n      <td>सुनील कुमारी<br/>B.K</td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">V.R.P. 37 श्लोक 5 भाग<br/>सन्तु कुमार<br/>MBK</td>\n      <td colspan=\"2\">V.Naga man<br/>BK<br/>Sushil Rajan<br/>B.K</td>\n    </tr>\n    <tr>\n      <td colspan=\"2\"></td>\n      <td colspan=\"2\">Sunit prasaq<br/>SEW</td>\n    </tr>\n  </tbody>\n</table>",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 715,
+      "w": 1551,
+      "ntok": 254,
+      "lp": -0.2412,
+      "hit": false,
+      "sec": 10.68,
+      "cached": false,
+      "seeded": false
+     }
+    ]
+   }
+  }
+ ]
+}

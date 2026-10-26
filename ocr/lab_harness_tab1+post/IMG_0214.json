@@ -1,0 +1,314 @@
+{
+ "text": "दिन\nमेगलवार\n29/9/2026\nबदक संख्या-84+85\n\n<table>\n<thead>\n<tr>\n<th>क्र०सः</th>\n<th>सदस्यों का<br/>नाम</th>\n<th>उपस्थित</th>\n<th>पिछला<br/>वचन</th>\n<th>आजका<br/>वचन</th>\n<th>कुल<br/>वचन</th>\n<th>भु०<br/>वापसी</th>\n<th>व्याप्ति<br/>वापसी</th>\n<th>H.R.P<br/>वचन</th>\n<th>हस्ताक्षर</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.</td>\n<td>श्रीमती देवी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>श्री मती देवी</td>\n</tr>\n<tr>\n<td>2</td>\n<td>रीमा कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>रीमा कुमारी</td>\n</tr>\n<tr>\n<td>3</td>\n<td>स्वोटी कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>स्वीटी कुमारी</td>\n</tr>\n<tr>\n<td>4</td>\n<td>गीता देवी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>गीता देवी<br/>सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>5</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>सुषमा कुमारी</td>\n</tr>\n</tbody>\n</table>\n<table>\n<tbody>\n\n<tr>\n<td>6</td>\n<td>बिन्दुल कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>बिन्दुल कुमारी</td>\n</tr>\n<tr>\n<td>7</td>\n<td>कंचन कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>कंचन कुमारी</td>\n</tr>\n<tr>\n<td>8</td>\n<td>आरती कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>आरती कुमारी</td>\n</tr>\n<tr>\n<td>9</td>\n<td>पुजा कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>पुजा कुमारी</td>\n</tr>\n<tr>\n<td>10</td>\n<td>अनीता कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>अनीता कुमारी</td>\n</tr>\n</tbody>\n</table>\n<table>\n<tbody>\n\n<tr>\n<td>11</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>12</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>3</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>4</td>\n<td>फुला देवी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>3M</td>\n<td>वचन</td>\n<td>280</td>\n<td></td>\n<td></td>\n<td></td>\n<td>70</td>\n<td>फुला देवी</td>\n</tr>\n</tbody>\n</table>\n\n70 फूला दी",
+ "sec": 31.9,
+ "image": "page",
+ "prep": {
+  "harvested_dates": {
+   "header": [],
+   "footer": []
+  },
+  "flags": {
+   "serial_breaks": [
+    [
+     2,
+     [
+      [
+       12,
+       3
+      ],
+      [
+       4,
+       3
+      ]
+     ]
+    ]
+   ]
+  }
+ },
+ "compute_sec": 33.3,
+ "config": {
+  "harness": true,
+  "script": "deva",
+  "script_map_fixed": true,
+  "token_budget": true,
+  "guard": true,
+  "degeneracy_check": true,
+  "zoom": {
+   "min_line": 32,
+   "max_zoom": 2.0,
+   "min_change": 1.2,
+   "floor": true,
+   "verify_margin": 0.1,
+   "verify_len": null,
+   "latex_ok": true
+  },
+  "strip_max_aspect": 8.0,
+  "header_band": true,
+  "split_verify": true,
+  "table_text": true,
+  "table_text_gated": true,
+  "table_dup_aksharas": true,
+  "latex_ban": true,
+  "script_ban": true,
+  "digit_ban": true,
+  "script_reread_gate": true,
+  "vote": {
+   "max_lp": -0.3,
+   "pad": 24,
+   "shift": 8,
+   "max_blocks": 4
+  },
+  "dedupe": true,
+  "latex_plain": true,
+  "harvest_dates": true,
+  "harvest_year_window": false,
+  "flags": true,
+  "flags_cell_counts": true
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Header",
+   "type": "PageHeader",
+   "bbox_xyxy": [
+    481.5,
+    52.8,
+    1875.6,
+    291.0
+   ],
+   "conf": 0.885,
+   "text": ""
+  },
+  {
+   "order": 1,
+   "label": "Title",
+   "type": "Title",
+   "bbox_xyxy": [
+    481.9,
+    53.4,
+    1877.0,
+    290.7
+   ],
+   "conf": 0.524,
+   "text": "दिन\nमेगलवार\n29/9/2026\nबदक संख्या-84+85",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 49.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 238,
+        "w": 1395,
+        "ntok": 27,
+        "lp": -0.1956,
+        "hit": false,
+        "sec": 0.9,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 2,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    425.9,
+    280.8,
+    2225.5,
+    2631.0
+   ],
+   "conf": 0.956,
+   "text": "<table>\n<thead>\n<tr>\n<th>क्र०सः</th>\n<th>सदस्यों का<br/>नाम</th>\n<th>उपस्थित</th>\n<th>पिछला<br/>वचन</th>\n<th>आजका<br/>वचन</th>\n<th>कुल<br/>वचन</th>\n<th>भु०<br/>वापसी</th>\n<th>व्याप्ति<br/>वापसी</th>\n<th>H.R.P<br/>वचन</th>\n<th>हस्ताक्षर</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.</td>\n<td>श्रीमती देवी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>श्री मती देवी</td>\n</tr>\n<tr>\n<td>2</td>\n<td>रीमा कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>रीमा कुमारी</td>\n</tr>\n<tr>\n<td>3</td>\n<td>स्वोटी कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>स्वीटी कुमारी</td>\n</tr>\n<tr>\n<td>4</td>\n<td>गीता देवी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>गीता देवी<br/>सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>5</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>सुषमा कुमारी</td>\n</tr>\n</tbody>\n</table>\n<table>\n<tbody>\n\n<tr>\n<td>6</td>\n<td>बिन्दुल कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>बिन्दुल कुमारी</td>\n</tr>\n<tr>\n<td>7</td>\n<td>कंचन कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>कंचन कुमारी</td>\n</tr>\n<tr>\n<td>8</td>\n<td>आरती कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>आरती कुमारी</td>\n</tr>\n<tr>\n<td>9</td>\n<td>पुजा कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>पुजा कुमारी</td>\n</tr>\n<tr>\n<td>10</td>\n<td>अनीता कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>अनीता कुमारी</td>\n</tr>\n</tbody>\n</table>\n<table>\n<tbody>\n\n<tr>\n<td>11</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>12</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>3</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>4</td>\n<td>फुला देवी</td>\n<td>P</td>\n<td>930</td>\n<td>20</td>\n<td>950</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>3M</td>\n<td>वचन</td>\n<td>280</td>\n<td></td>\n<td></td>\n<td></td>\n<td>70</td>\n<td>फुला देवी</td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": null,
+      "card_scale": 0.747,
+      "scale": 1.0,
+      "mode": "lab: forced strips",
+      "strips": 3,
+      "strip_rows": [
+       [
+        0,
+        839
+       ],
+       [
+        805,
+        1573
+       ],
+       [
+        1536,
+        2350
+       ]
+      ],
+      "header_band_px": 248,
+      "header_band_read": {
+       "h": 248,
+       "w": 1800,
+       "ntok": 164,
+       "lp": -0.0813,
+       "hit": false,
+       "sec": 4.26,
+       "cached": false,
+       "seeded": false
+      },
+      "pieces": [
+       {
+        "h": 839,
+        "w": 1800,
+        "ntok": 374,
+        "lp": -0.0365,
+        "hit": false,
+        "sec": 7.92,
+        "cached": false,
+        "seeded": false
+       },
+       {
+        "h": 1040,
+        "w": 1800,
+        "ntok": 422,
+        "lp": -0.027,
+        "hit": false,
+        "sec": 7.92,
+        "cached": false,
+        "seeded": false
+       },
+       {
+        "h": 1086,
+        "w": 1800,
+        "ntok": 414,
+        "lp": -0.0344,
+        "hit": false,
+        "sec": 11.48,
+        "cached": false,
+        "seeded": false
+       }
+      ],
+      "band_rereads": [],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    1805.4,
+    2561.4,
+    2158.7,
+    2647.2
+   ],
+   "conf": 0.581,
+   "text": "70 फूला दी",
+   "harness": {
+    "mode": "vote",
+    "lp": -0.5773,
+    "original": {
+     "mode": "segments",
+     "parts": [
+      {
+       "line_px": 40.5,
+       "card_scale": 1.0,
+       "scale": 1.0,
+       "mode": "as model card",
+       "pieces": [
+        {
+         "h": 86,
+         "w": 354,
+         "ntok": 6,
+         "lp": -0.5773,
+         "hit": false,
+         "sec": 0.3,
+         "cached": true,
+         "seeded": false
+        }
+       ],
+       "role": "block"
+      }
+     ]
+    },
+    "views": [
+     {
+      "view": "pad",
+      "box": [
+       1781,
+       2537,
+       2183,
+       2671
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 36.0,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "h": 134,
+           "w": 402,
+           "ntok": 6,
+           "lp": -0.2979,
+           "hit": false,
+           "sec": 0.24,
+           "cached": true,
+           "seeded": false
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     },
+     {
+      "view": "shift",
+      "box": [
+       1801,
+       2557,
+       2179,
+       2667
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 38.5,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "h": 110,
+           "w": 378,
+           "ntok": 6,
+           "lp": -0.2955,
+           "hit": false,
+           "sec": 0.25,
+           "cached": true,
+           "seeded": false
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     }
+    ],
+    "applied": 1
+   }
+  }
+ ]
+}

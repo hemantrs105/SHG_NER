@@ -67,32 +67,36 @@ One more rule was added after the BODHAN OCR run below (v3, marked in the code):
 to the line next to it is an OCR loop, so its names are ASK. The reference readings never repeat a
 line, so the scores above are unchanged.
 
-### On-device OCR: BODHAN IndicOCR, with and without Bhavish's harness
+### On-device OCR: BODHAN IndicOCR, and what improves it
 
 Full write-up: **[OCR_BODHAN.md](OCR_BODHAN.md)**. Built with IndicOCR from Bodhan AI / AI4Bharat.
 
 The same 19 photos were read by `bodhan-ai/indic-ocr` (0.8B recognizer, not quantized, run in
 float32 on the Mac GPU), then passed through the resolver and scored against the same answer key.
 
-| | Claude's reading | BODHAN + harness | BODHAN alone |
-|---|---|---|---|
-| Character error rate (against Claude's reading) | 0% | 25.8% | 26.2% |
-| Numbers found | 558 / 558 | 513 / 558 | 513 / 558 |
-| Names linked to the right person | 300 | 184 | 184 |
-| Correctly not linked (ASK / NEW) | 40 | 35 | 35 |
-| Held back though a link was possible | 0 | 40 | 40 |
-| Name not read | 0 | 81 | 81 |
-| **Linked to the wrong person** | **0** | **0** (1 before v3) | **0** (1 before v3) |
+| | Claude's reading | BODHAN alone | BODHAN + harness | BODHAN + text clean-up |
+|---|---|---|---|---|
+| Character error rate (against Claude's reading) | 0% | 25.9% | 25.5% | 25.1% |
+| Numbers found | 558 / 558 | 515 / 558 | 515 / 558 | 530 / 558 |
+| Names linked to the right person | 300 | 185 | 185 | **197** |
+| Correctly not linked (ASK / NEW) | 40 | 36 | 36 | 36 |
+| Held back though a link was possible | 0 | 46 | 46 | 47 |
+| Name not read | 0 | 73 | 73 | 60 |
+| **Linked to the wrong person** | **0** | **0** | **0** | **0** |
 
 - **The harness does not change any name decision or number** on these pages. It cleans up LaTeX
   formatting and changes a few words in non-name lines.
-- **Speed:** 96 minutes for one page on the CPU (float32); 68 seconds on the Mac GPU with identical
-  output; 23 seconds a page over the full run.
-- **Where it loses names:** cadre signature blocks and Latin-script signatures; garbled printed
-  column headers, which remove the repayment and role clues, so same-name members are held back
-  (safe, but not resolved).
+- **What helps:** a model-free text clean-up after BODHAN (`ocr_post.py`): +12 names, +15 numbers, no
+  wrong link. It held on the held-out test pages (predictions written down before the run).
+- **What does not:** beam search, contrast enhancement, a bigger pixel budget, reading tables in strips
+  (better on dev, worse on test), upscaling (worse, with wrong links).
+- **Where fine-tuning would pay** (diagnostic): the clue cells of the register (role, village,
+  amounts, crossed-out marks) are worth up to +24 names with no wrong link; names and signatures up
+  to +34 more.
 - **The serious risk:** BODHAN reads a crossed-out amount as a plain number. If the resolver were
   told the column layout, a cancelled repayment on IMG_0208 would link both Sushmas the wrong way.
+- **Speed:** 96 minutes for one page on the CPU (float32); 68 seconds on the Mac GPU with identical
+  output; 23 seconds a page over the full run.
 
 ### Stress test: does it fail safe on noisy text? (`stress.py`, synthetic)
 
@@ -186,9 +190,9 @@ enough to rebuild the resolver without reading the code. The summary:
   readings in `text/clean/` are Claude's readings of the photos. Spot-check them
   against `pages/`. This demo tests the *decision* step only.
 - **On-device OCR is the weak step.** BODHAN IndicOCR reads these pages at about 26% character
-  error against Claude's reading. End to end, it gets 184 of 340 names to the right person and none to
-  the wrong one (after the v3 rule), against 300 and none from Claude's reading. See
-  [OCR_BODHAN.md](OCR_BODHAN.md).
+  error against Claude's reading. End to end, it gets 185 of 340 names to the right person (197 with
+  the text clean-up) and none to the wrong one (after the v3 rule), against 300 and none from Claude's
+  reading. See [OCR_BODHAN.md](OCR_BODHAN.md).
   The earlier attempt with `qwen3-vl:8b` in Ollama failed outright: it is the "thinking" variant,
   ignores `think: false`, and returned no transcript on the three pages tried (logs in
   `text/ocr_qwen3vl/`). **The OCR step, not name resolution, is the unsolved part.**
@@ -266,6 +270,8 @@ Noise stress test (about 30 seconds):
 | `out/` | decisions, scores, stress results, pseudonymised demo output, OCR reports |
 | `OCR_BODHAN.md` | BODHAN IndicOCR results, with and without the harness |
 | `eval_ocr.py` | scores an OCR run: text, numbers, names end to end, link audit |
+| `ocr_post.py` | text clean-up after BODHAN (the one change that helped) |
+| `ocr_lab.py`, `crosscheck.py`, `oracle_ablation.py` | OCR experiments, two-read comparison, fine-tuning diagnostic |
 | `pages_ocr/` | the 19 photos upright at 2250 × 3000 px, as read by BODHAN |
 | `ocr/` | BODHAN output per page (`.md` + `.json`) and its read cache |
 | `text/ocr_bodhan_*/` | BODHAN output converted to the resolver's line format |

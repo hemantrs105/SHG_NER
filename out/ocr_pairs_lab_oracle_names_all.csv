@@ -1,0 +1,341 @@
+page,key_line,key_surface,expected,ocr_line,ocr_surface,decision,outcome
+IMG_0206,3,श्रीमती देवी,V01,10,श्रीमती देवी,V01,correct link
+IMG_0206,3,श्रीमती देवी,V01,10,श्रीमती देवी,V01,correct link
+IMG_0206,4,रिमा कुमारी,V02,11,रिमा कुमारी,V02,correct link
+IMG_0206,4,रीमा कुमारी,V02,11,रीमा कुमारी,V02,correct link
+IMG_0206,5,स्वीटी कुमारी,V03,12,स्वीटी कुमारी,V03,correct link
+IMG_0206,5,स्वीटी कुमारी,V03,12,स्वीटी कुमारी,V03,correct link
+IMG_0206,6,सुषमा कुमारी,V04,13,सुषमा कुमारी,ASK,held back (asked / not on roster)
+IMG_0206,6,सुषमा कुमारी,V04,13,सुषमा कुमारी,ASK,held back (asked / not on roster)
+IMG_0206,7,गीता देवी,V05,14,गीता देवी,V05,correct link
+IMG_0206,7,गीता देवी,V05,14,गीता देवी,V05,correct link
+IMG_0206,8,सुषमा कुमारी,V06,15,सुषमा कुमारी,ASK,held back (asked / not on roster)
+IMG_0206,8,सुषमा कुमारी,V06,15,सुषमा कुमारी,ASK,held back (asked / not on roster)
+IMG_0206,9,बिन्दुल कुमारी,V07,16,बिन्दुल कुमारी,V07,correct link
+IMG_0206,9,बिन्दुल कुमारी,V07,16,बिन्दुल कुमारी,V07,correct link
+IMG_0206,10,गुड़िया कुमारी,ASK,17,गुड़िया कुमारी,ASK,correct no-link
+IMG_0206,10,गुड़िया कुमारी,ASK,17,गुड़िया कुमारी,ASK,correct no-link
+IMG_0206,11,कंचन कुमारी,V09,18,कंचन कुमारी,V09,correct link
+IMG_0206,11,कंचन कुमारी,V09,18,कंचन कुमारी,V09,correct link
+IMG_0206,12,आरती कुमारी,V10,19,आरती कुमारी,V10,correct link
+IMG_0206,12,आरती कुमारी,V10,19,आरती कुमारी,V10,correct link
+IMG_0206,13,पुजा कुमारी,V11,20,पुजा कुमारी,V11,correct link
+IMG_0206,13,पुजा कुमारी,V11,20,पुजा कुमारी,V11,correct link
+IMG_0206,14,अनीता कुमारी,V12,21,अनीता कुमारी,V12,correct link
+IMG_0206,14,अनीता कुमारी,V12,21,अनीता कुमारी,V12,correct link
+IMG_0206,15,गुड़िया कुमारी,ASK,22,गुड़िया कुमारी,ASK,correct no-link
+IMG_0206,15,गुड़िया कुमारी,ASK,22,गुड़िया कुमारी,ASK,correct no-link
+IMG_0206,16,फुला देवी,V14,23,फुला देवी,V14,correct link
+IMG_0206,16,फुला देवी,V14,23,फुला देवी,V14,correct link
+IMG_0207,2,श्रीमती देवी,V01,28,भीमती देवी,NEW,held back (asked / not on roster)
+IMG_0207,10,श्रीमती देवी,V01,5,श्रीमती देवी,V01,correct link
+IMG_0207,10,रीमा कुमारी,V02,29,रीमा कुमारी,V02,correct link
+IMG_0207,10,स्वीटी कुमारी,V03,29,स्वीटी कुमारी,V03,correct link
+IMG_0207,10,बबीता देवी,V15,31,वैता देवी,V15,correct link
+IMG_0208,3,श्रीमती देवी,V01,6,श्रीमती देवी,V01,correct link
+IMG_0208,3,श्रीमती देवी,V01,6,श्रीमती देवी,V01,correct link
+IMG_0208,4,रिमा कुमारी,V02,7,रिमा कुमारी,V02,correct link
+IMG_0208,4,रीमा कुमारी,V02,7,रीमा कुमारी,V02,correct link
+IMG_0208,5,स्वीटी कुमारी,V03,8,स्वीटी कुमारी,V03,correct link
+IMG_0208,5,स्वीटी कुमारी,V03,8,स्वीटी कुमारी,V03,correct link
+IMG_0208,6,सुषमा कुमारी,ASK,9,सुषमा कुमारी,ASK,correct no-link
+IMG_0208,6,सुषमा कुमारी,ASK,9,सुषमा कुमारी,ASK,correct no-link
+IMG_0208,7,गीता देवी,V05,10,गीता देवी,V05,correct link
+IMG_0208,7,गीता देवी,V05,10,गीता देवी,V05,correct link
+IMG_0208,8,बिन्दुल कुमारी,V07,11,बिन्दुल कुमारी,V07,correct link
+IMG_0208,8,बिन्दुल कुमारी,V07,11,बिन्दुल कुमारी,V07,correct link
+IMG_0208,9,गुड़िया कुमारी,ASK,12,गुड़िया कुमारी,ASK,correct no-link
+IMG_0208,9,गुड़िया कुमारी,ASK,12,गुड़िया कुमारी,ASK,correct no-link
+IMG_0208,10,कंचन कुमारी,V09,13,कंचन कुमारी,V09,correct link
+IMG_0208,10,कंचन कुमारी,V09,13,कंचन कुमारी,V09,correct link
+IMG_0208,11,आरती कुमारी,V10,14,आरती कुमारी,V10,correct link
+IMG_0208,11,आरती कुमारी,V10,14,आरती कुमारी,V10,correct link
+IMG_0208,12,पुजा कुमारी,V11,15,पुजा कुमारी,V11,correct link
+IMG_0208,12,पुजा कुमारी,V11,15,पुजा कुमारी,V11,correct link
+IMG_0208,13,अमिता कुमारी,V12,16,अमिता कुमारी,V12,correct link
+IMG_0208,13,अनीता कुमारी,V12,16,अनीता कुमारी,V12,correct link
+IMG_0208,14,गुड़िया कुमारी,ASK,17,गुड़िया कुमारी,ASK,correct no-link
+IMG_0208,14,गुड़िया कुमारी,ASK,17,गुड़िया कुमारी,ASK,correct no-link
+IMG_0208,15,सुषमा कुमारी,ASK,18,सुषमा कुमारी,ASK,correct no-link
+IMG_0208,15,सुषमा कुमारी,ASK,18,सुषमा कुमारी,ASK,correct no-link
+IMG_0208,16,फुला देवी,V14,19,फुला देवी,V14,correct link
+IMG_0208,16,फुला देवी,V14,19,फुला देवी,V14,correct link
+IMG_0209,2,रिमा कुमारी,V02,,,,missed (name not read)
+IMG_0209,11,श्रीमती देवी,V01,,,,missed (name not read)
+IMG_0209,11,रीमा कुमारी,V02,,,,missed (name not read)
+IMG_0209,11,स्वीटी कुमारी,V03,30,स्वीटी कुमारी,V03,correct link
+IMG_0209,11,बबीता देवी,V15,,,,missed (name not read)
+IMG_0096,5,पीणा देवी,C01,10,पीणा देवी,C01,correct link
+IMG_0096,5,पीणा देवी,C01,10,पीणा देवी,C01,correct link
+IMG_0096,6,बिमला देवी,C02,11,बिमला देवी,C02,correct link
+IMG_0096,6,बिमला देवी,C02,11,बिमला देवी,C02,correct link
+IMG_0096,7,सोनि देवी,C03,12,सोनि देवी,C03,correct link
+IMG_0096,7,सोनी देवी,C03,12,सोनी देवी,C03,correct link
+IMG_0096,8,कंचन देवी,C04,13,कंचन देवी,C04,correct link
+IMG_0096,8,कंचन देवी,C04,13,कंचन देवी,C04,correct link
+IMG_0096,9,पिंकी देवी,C05,14,पिंकी देवी,C05,correct link
+IMG_0096,9,पिंकी देवी,C05,14,पिंकी देवी,C05,correct link
+IMG_0096,10,सुनिता कुमारी,C06,15,सुनिता कुमारी,C06,correct link
+IMG_0096,10,सुनीता कुमारी,C06,15,सुनीता कुमारी,C06,correct link
+IMG_0096,11,सुनैना देवी,C07,16,सुनैना देवी,ASK,held back (asked / not on roster)
+IMG_0096,11,सुनैना देवी,C07,16,सुनैना देवी,ASK,held back (asked / not on roster)
+IMG_0096,12,शशिप्रभा देवी,C08,17,शशिप्रभा देवी,C08,correct link
+IMG_0096,13,सुनपना देवी,C09,18,सुनपना देवी,ASK,held back (asked / not on roster)
+IMG_0096,13,सुनयना देवी,C09,18,सुनयना देवी,ASK,held back (asked / not on roster)
+IMG_0096,14,मिनी देवी,C10,19,मिनी देवी,C10,correct link
+IMG_0096,14,मिनी देवी,C10,19,मिनी देवी,C10,correct link
+IMG_0096,15,बंसती देवी,C11,20,बंसती देवी,C11,correct link
+IMG_0096,15,बसंती देवी,C11,20,बसंती देवी,C11,correct link
+IMG_0096,16,पिंकी देवी,C12,21,पिंकी देवी,C12,correct link
+IMG_0096,16,पिंकी देवी,C12,21,पिंकी देवी,C12,correct link
+IMG_0096,17,सीमा देवी,K04,23,सीमा देवी,K04,correct link
+IMG_0096,17,रिंकु कुमारी,K26,23,रिंक कुमारी,K26,correct link
+IMG_0096,17,शिवशंकर प्रसाद,K02,,,,missed (name not read)
+IMG_0096,18,सुशील प्रसाद,K11,24,सुनील प्रलाप,K11,correct link
+IMG_0096,18,Diksha kumari,K05,24,Diksha kumari,K05,correct link
+IMG_0096,18,Shobha kumari,K27,24,Shobha kumari,K27,correct link
+IMG_0096,18,सुनीता कुमारी,K06,24,सुनील कुमारी,K06,correct link
+IMG_0096,19,नरेन्द्र कुमार,K10,,,,missed (name not read)
+IMG_0096,19,अशोक कुमार,K22,,,,missed (name not read)
+IMG_0096,19,Sushil Rajan,K08,25,Subhit Rajan,K08,correct link
+IMG_0096,20,सन्टु कुमार,K01,,,,missed (name not read)
+IMG_0096,20,Sunil Prasad,K11,26,Sunil prasaq,K11,correct link
+IMG_0100,3,सन्टु कुमार,K01,5,सन्टु कुमार,K01,correct link
+IMG_0100,4,शिवशंकर प्रसाद,K02,6,शिवशंकर प्रसाद,K02,correct link
+IMG_0100,5,रश्मि कुमारी,K03,7,रश्मि कुमारी,K03,correct link
+IMG_0100,6,सीमा देवी,K04,8,सीमा देवी,K04,correct link
+IMG_0100,7,दीक्षा कुमारी,K05,9,दीक्षा कुमारी,K05,correct link
+IMG_0100,8,सुनिता कुमारी,K06,10,सुनिता कुमारी,ASK,held back (asked / not on roster)
+IMG_0100,9,सविन्द्र कुमार,K07,11,सविन्द्र कुमार,K07,correct link
+IMG_0100,10,सुशील रंजन,K08,12,सुशील रंजन,K08,correct link
+IMG_0100,11,विवेकानन्द,K09,13,विवेकानन्द,K09,correct link
+IMG_0100,12,पिना देवी,C01,14,पिना देवी,C01,correct link
+IMG_0100,13,बिमला देवी,C02,15,बिमला देवी,C02,correct link
+IMG_0100,14,सोनि देवी,C03,16,सोनि देवी,C03,correct link
+IMG_0100,17,नरेन्द्र प्रसाद,K10,,,,missed (name not read)
+IMG_0139,3,सन्टु कुमार,K01,6,सन्टु कुमार,K01,correct link
+IMG_0139,4,शिव शंकर प्रसाद,K02,7,शिव शंकर प्रसाद,K02,correct link
+IMG_0139,5,रश्मि कुमारी,K03,8,रश्मि कुमारी,K03,correct link
+IMG_0139,6,सविन्द्र कुमार,K07,9,सविन्द्र कुमार,K07,correct link
+IMG_0139,7,विवेकानन्द,K09,10,विवेकानन्द,K09,correct link
+IMG_0139,8,सुशील रंजन,K08,11,सुशील रंजन,K08,correct link
+IMG_0139,9,सुनिता कुमारी,K06,12,सुनिता कुमारी,ASK,held back (asked / not on roster)
+IMG_0139,10,सीमा देवी,K04,13,सीमा देवी,K04,correct link
+IMG_0139,11,दीक्षा कुमारी,K05,14,दीक्षा कुमारी,K05,correct link
+IMG_0139,12,पीणा देवी,C01,15,पीणा देवी,C01,correct link
+IMG_0139,13,बिमला देवी,C02,16,बिमला देवी,C02,correct link
+IMG_0139,14,सोनि देवी,C03,17,सोनि देवी,C03,correct link
+IMG_0139,16,नरेन्द्र कुमार,K10,19,नरेन्द्र कुमार,NEW,held back (asked / not on roster)
+IMG_0164,1,सविन्द्र कुमार,K07,1,सर्वन्द्र कुमार,K07,correct link
+IMG_0164,2,विवेकानन्द,K09,,,,missed (name not read)
+IMG_0164,3,सुशील रंजन,K08,5,सुरिल रंजन,K08,correct link
+IMG_0164,4,सुनिता कुमारी,K06,7,सुनिता कुमारी,K06,correct link
+IMG_0164,5,बिमला देवी,C02,9,विमला देवी,C02,correct link
+IMG_0210,3,श्रीमती देवी,V01,17,श्रीमती देवी,V01,correct link
+IMG_0210,3,श्रीमती देवी,V01,17,श्रीमती देवी,V01,correct link
+IMG_0210,4,रिमा कुमारी,V02,18,रिमा कुमारी,V02,correct link
+IMG_0210,4,रीमा कुमारी,V02,18,रीमा कुमारी,V02,correct link
+IMG_0210,5,स्वीटी कुमारी,V03,19,स्वीटी कुमारी,V03,correct link
+IMG_0210,5,स्वीटी कुमारी,V03,19,स्वीटी कुमारी,V03,correct link
+IMG_0210,6,गीता देवी,V05,20,गीता देवी,V05,correct link
+IMG_0210,6,सुषमा कुमारी,ASK,20,सुषमा कुमारी,ASK,correct no-link
+IMG_0210,7,बिन्दुल कुमारी,V07,21,बिन्दुल कुमारी,V07,correct link
+IMG_0210,7,बिन्दुल कुमारी,V07,21,बिन्दुल कुमारी,V07,correct link
+IMG_0210,8,गुड़िया कुमारी,ASK,22,गुड़िया कुमारी,ASK,correct no-link
+IMG_0210,8,गुड़िया कुमारी,ASK,22,गुड़िया कुमारी,ASK,correct no-link
+IMG_0210,9,कंचन कुमारी,V09,23,कंचन कुमारी,V09,correct link
+IMG_0210,9,कंचन कुमारी,V09,23,कंचन कुमारी,V09,correct link
+IMG_0210,10,आरती कुमारी,V10,24,आरती कुमारी,V10,correct link
+IMG_0210,10,आरती कुमारी,V10,24,आरती कुमारी,V10,correct link
+IMG_0210,11,पुजा कुमारी,V11,25,पुजा कुमारी,V11,correct link
+IMG_0210,11,पुजा कुमारी,V11,25,पुजा कुमारी,V11,correct link
+IMG_0210,12,अमिता कुमारी,V12,26,अमिता कुमारी,V12,correct link
+IMG_0210,12,अनीता कुमारी,V12,26,अनीता कुमारी,V12,correct link
+IMG_0210,13,गुड़िया कुमारी,ASK,27,गुड़िया कुमारी,ASK,correct no-link
+IMG_0210,13,गुड़िया कुमारी,ASK,27,गुड़िया कुमारी,ASK,correct no-link
+IMG_0210,14,सुषमा कुमारी,V04,28,सुषमा कुमारी,ASK,held back (asked / not on roster)
+IMG_0210,14,सुषमा कुमारी,V04,28,सुषमा कुमारी,ASK,held back (asked / not on roster)
+IMG_0210,15,सुषमा कुमारी,V06,29,सुषमा कुमारी,ASK,held back (asked / not on roster)
+IMG_0210,16,फुला देवी,V14,30,फुला देवी,V14,correct link
+IMG_0210,16,फूला देवी,V14,30,फूला देवी,V14,correct link
+IMG_0211,2,स्वीटी कुमारी,V03,,,,missed (name not read)
+IMG_0211,11,श्रीमती देवी,V01,29,श्रीमती देवी,V01,correct link
+IMG_0211,11,रीमा कुमारी,V02,,,,missed (name not read)
+IMG_0211,11,स्वीटी कुमारी,V03,,,,missed (name not read)
+IMG_0211,11,बबीता देवी,V15,,,,missed (name not read)
+IMG_0212,3,श्रीमती देवी,V01,13,श्रीमती देवी,V01,correct link
+IMG_0212,3,श्रीमती देवी,V01,13,श्रीमती देवी,V01,correct link
+IMG_0212,4,रिमा कुमारी,V02,14,रिमा कुमारी,V02,correct link
+IMG_0212,4,रीमा कुमारी,V02,14,रीमा कुमारी,V02,correct link
+IMG_0212,5,स्वीटी कुमारी,V03,15,स्वीटी कुमारी,V03,correct link
+IMG_0212,5,स्वीटी कुमारी,V03,15,स्वीटी कुमारी,V03,correct link
+IMG_0212,6,गीता देवी,V05,16,गीता देवी,V05,correct link
+IMG_0212,6,सुषमा कुमारी,ASK,16,सुषमा कुमारी,ASK,correct no-link
+IMG_0212,7,सुषमा कुमारी,ASK,17,सुषमा कुमारी,ASK,correct no-link
+IMG_0212,8,बिन्दुल कुमारी,V07,18,बिन्दुल कुमारी,V07,correct link
+IMG_0212,8,बिन्दुला कुमारी,V07,18,बिन्दुला कुमारी,V07,correct link
+IMG_0212,9,कंचन कुमारी,V09,19,कंचन कुमारी,V09,correct link
+IMG_0212,9,कंचन कुमारी,V09,19,कंचन कुमारी,V09,correct link
+IMG_0212,10,आरती कुमारी,V10,20,आरती कुमारी,V10,correct link
+IMG_0212,10,आरती कुमारी,V10,20,आरती कुमारी,V10,correct link
+IMG_0212,11,पुजा कुमारी,V11,21,पुजा कुमारी,V11,correct link
+IMG_0212,11,पुजा कुमारी,V11,21,पुजा कुमारी,V11,correct link
+IMG_0212,12,अनीता कुमारी,V12,22,अनीता कुमारी,V12,correct link
+IMG_0212,12,अनीता कुमारी,V12,22,अनीता कुमारी,V12,correct link
+IMG_0212,13,गुड़िया कुमारी,ASK,23,गुड़िया कुमारी,ASK,correct no-link
+IMG_0212,13,गुड़िया कुमारी,ASK,23,गुड़िया कुमारी,ASK,correct no-link
+IMG_0212,14,सुषमा कुमारी,ASK,24,सुषमा कुमारी,ASK,correct no-link
+IMG_0212,14,सुषमा कुमारी,ASK,24,सुषमा कुमारी,ASK,correct no-link
+IMG_0212,15,गुड़िया कुमारी,ASK,25,गुड़िया कुमारी,ASK,correct no-link
+IMG_0212,15,गुड़िया कुमारी,ASK,25,गुड़िया कुमारी,ASK,correct no-link
+IMG_0212,16,फुला देवी,V14,26,फुला देवी,V14,correct link
+IMG_0212,16,फूल देवी,V14,26,फूल देवी,V14,correct link
+IMG_0213,2,सुषमा कु०,ASK,,,,missed (name not read)
+IMG_0213,9,श्रीमती देवी,V01,29,श्रीमती देवी,V01,correct link
+IMG_0213,9,रीमा कुमारी,V02,29,रीमा कुमारी,V02,correct link
+IMG_0213,9,स्वीटी कुमारी,V03,29,स्वीटी कुमारी,V03,correct link
+IMG_0213,9,बबीता देवी,V15,,,,missed (name not read)
+IMG_0213,10,स्वीटी,V03,33,स्वीटी,V03,correct link
+IMG_0214,3,श्रीमती देवी,V01,6,श्रीमती देवी,V01,correct link
+IMG_0214,3,श्रीमती देवी,V01,6,श्रीमती देवी,V01,correct link
+IMG_0214,4,रीमा कुमारी,V02,7,रीमा कुमारी,V02,correct link
+IMG_0214,4,रीमा कुमारी,V02,7,रीमा कुमारी,V02,correct link
+IMG_0214,5,स्वीटी कुमारी,V03,8,स्वीटी कुमारी,V03,correct link
+IMG_0214,5,स्वीटी कुमारी,V03,8,स्वीटी कुमारी,V03,correct link
+IMG_0214,6,गीता देवी,V05,9,गीता देवी,V05,correct link
+IMG_0214,6,गीता देवी,V05,9,गीता देवी,V05,correct link
+IMG_0214,6,सुषमा कुमारी,ASK,9,सुषमा कुमारी,ASK,correct no-link
+IMG_0214,7,सुषमा कुमारी,ASK,10,सुषमा कुमारी,ASK,correct no-link
+IMG_0214,7,सुषमा कुमारी,ASK,10,सुषमा कुमारी,ASK,correct no-link
+IMG_0214,8,बिन्दुल कुमारी,V07,11,बिन्दुल कुमारी,V07,correct link
+IMG_0214,8,बिन्दुल कुमारी,V07,11,बिन्दुल कुमारी,V07,correct link
+IMG_0214,9,कंचन कुमारी,V09,12,कंचन कुमारी,V09,correct link
+IMG_0214,9,कंचन कुमारी,V09,12,कंचन कुमारी,V09,correct link
+IMG_0214,10,आरती कुमारी,V10,13,आरती कुमारी,V10,correct link
+IMG_0214,10,आरती कुमारी,V10,13,आरती कुमारी,V10,correct link
+IMG_0214,11,पुजा कुमारी,V11,14,पुजा कुमारी,V11,correct link
+IMG_0214,11,पुजा कुमारी,V11,14,पुजा कुमारी,V11,correct link
+IMG_0214,12,अनीता कुमारी,V12,15,अनीता कुमारी,V12,correct link
+IMG_0214,12,अनीता कुमारी,V12,15,अनीता कुमारी,V12,correct link
+IMG_0214,13,गुड़िया कुमारी,ASK,16,गुड़िया कुमारी,ASK,correct no-link
+IMG_0214,13,गुड़िया कुमारी,ASK,16,गुड़िया कुमारी,ASK,correct no-link
+IMG_0214,14,सुषमा कुमारी,ASK,17,सुषमा कुमारी,ASK,correct no-link
+IMG_0214,14,सुषमा कुमारी,ASK,17,सुषमा कुमारी,ASK,correct no-link
+IMG_0214,15,गुड़िया कुमारी,ASK,18,गुड़िया कुमारी,ASK,correct no-link
+IMG_0214,15,गुड़िया कुमारी,ASK,18,गुड़िया कुमारी,ASK,correct no-link
+IMG_0214,16,फुला देवी,V14,19,फुला देवी,V14,correct link
+IMG_0214,16,फूला देवी,V14,19,फूला देवी,V14,correct link
+IMG_0215,1,कंचन कुमारी,V09,,,,missed (name not read)
+IMG_0215,12,श्रीमती देवी,V01,31,भ्रीमती देवी,V01,correct link
+IMG_0215,12,रीमा कुमारी,V02,,,,missed (name not read)
+IMG_0215,12,स्वीटी कुमारी,V03,31,स्वीटी कुमारी,V03,correct link
+IMG_0215,12,बबीता देवी,V15,,,,missed (name not read)
+IMG_0104,3,सुशिला कुमारी,K12,8,सुशिला कुमारी,K12,correct link
+IMG_0104,4,प्रतिमा कुमारी,K13,9,प्रतिमा कुमारी,K13,correct link
+IMG_0104,5,संजोला कुमारी,K14,10,संजोला कुमारी,K14,correct link
+IMG_0104,7,रीना देवी,NEW,12,रीना देवी,NEW,correct no-link
+IMG_0104,8,बबिता कुमारी,NEW,,,,missed (name not read)
+IMG_0110,5,पीणा देवी,C01,7,पीणा देवी,C01,correct link
+IMG_0110,5,पीणा देवी,C01,7,पीणा देवी,C01,correct link
+IMG_0110,6,बिमला देवी,C02,8,बिमला देवी,C02,correct link
+IMG_0110,6,बिमला देवी,C02,8,विमला देवी,C02,correct link
+IMG_0110,7,सोनि देवी,C03,9,सोनि देवी,C03,correct link
+IMG_0110,8,कंचन देवी,C04,10,कंचन देवी,C04,correct link
+IMG_0110,8,कंचन देवी,C04,10,कंचन देवी,C04,correct link
+IMG_0110,9,पिंकी देवी,C05,11,पिंकी देवी,C05,correct link
+IMG_0110,9,पिंकी देवी,C05,11,पिंकी देवी,C05,correct link
+IMG_0110,10,सुनिता कुमारी,C06,12,सुनिता कुमारी,C06,correct link
+IMG_0110,10,सुनीता कुमारी,C06,12,सुनीता कुमारी,C06,correct link
+IMG_0110,11,सुनैना देवी,C07,13,सुनैना देवी,ASK,held back (asked / not on roster)
+IMG_0110,11,सुनैना देवी,C07,13,सुनैना देवी,ASK,held back (asked / not on roster)
+IMG_0110,12,शशिप्रभा देवी,C08,14,शशिप्रभा देवी,C08,correct link
+IMG_0110,13,सुनपना देवी,C09,15,सुनपना देवी,C09,correct link
+IMG_0110,13,सुनयना देवी,C09,15,सुनयना देवी,C09,correct link
+IMG_0110,14,मिनी देवी,C10,16,मिनी देवी,C10,correct link
+IMG_0110,14,मिनी देवी,C10,16,मिनी देवी,C10,correct link
+IMG_0110,15,बसंती देवी,C11,17,बसंती देवी,C11,correct link
+IMG_0110,15,बसंती देवी,C11,17,बसंती देवी,C11,correct link
+IMG_0110,16,पिंकी देवी,C12,18,पिंकी देवी,C12,correct link
+IMG_0110,16,पिंकी देवी,C12,18,पिंकी देवी,C12,correct link
+IMG_0110,17,विरेन्द्र कुमार,K23,,,,missed (name not read)
+IMG_0110,18,सुनैना देवी,K17,,,,missed (name not read)
+IMG_0110,19,कपिल प्र०,K15,,,,missed (name not read)
+IMG_0110,20,दिनेश प्रसाद,K21,,,,missed (name not read)
+IMG_0110,21,लालती देवी,K19,,,,missed (name not read)
+IMG_0110,22,अशोक कु०,K22,,,,missed (name not read)
+IMG_0110,23,Diksha Kumari,K05,,,,missed (name not read)
+IMG_0110,24,सीमा देवी,K04,,,,missed (name not read)
+IMG_0110,25,रेखा देवी,NEW,,,,missed (name not read)
+IMG_0110,26,सन्टु कुमार,K01,,,,missed (name not read)
+IMG_0118,5,पीणा देवी,C01,6,पीणा देवी,C01,correct link
+IMG_0118,5,पीणा देवी,C01,6,पीणा देवी,C01,correct link
+IMG_0118,6,बिमला देवी,C02,7,बिमला देवी,C02,correct link
+IMG_0118,6,बिमला देवी,C02,7,बिमला देवी,C02,correct link
+IMG_0118,7,सोनि देवी,C03,8,सोनि देवी,C03,correct link
+IMG_0118,7,सोनी देवी,C03,8,सोनी देवी,C03,correct link
+IMG_0118,8,कंचन देवी,C04,9,कंचन देवी,C04,correct link
+IMG_0118,9,पिंकी देवी,C05,10,पिंकी देवी,ASK,held back (asked / not on roster)
+IMG_0118,9,पिंकी देवी,C05,10,पिंकी देवी,ASK,held back (asked / not on roster)
+IMG_0118,10,सुनिता कुमारी,C06,11,सुनिता कुमारी,ASK,held back (asked / not on roster)
+IMG_0118,10,सुनीता कुमारी,C06,11,सुनीता कुमारी,ASK,held back (asked / not on roster)
+IMG_0118,11,सुनैना देवी,C07,12,सुनैना देवी,ASK,held back (asked / not on roster)
+IMG_0118,11,सुनैना देवी,C07,12,सुनैना देवी,ASK,held back (asked / not on roster)
+IMG_0118,12,शशिप्रभा देवी,C08,13,शशिप्रभा देवी,C08,correct link
+IMG_0118,13,सुनपना देवी,C09,14,सुनपना देवी,C09,correct link
+IMG_0118,13,सुनयना देवी,C09,14,सुनयना देवी,C09,correct link
+IMG_0118,14,मिनी देवी,C10,15,मिनी देवी,C10,correct link
+IMG_0118,14,मिनी देवी,C10,15,मिनी देवी,C10,correct link
+IMG_0118,15,बंसती देवी,C11,16,बंसती देवी,C11,correct link
+IMG_0118,15,बसंती देवी,C11,16,बसंती देवी,C11,correct link
+IMG_0118,16,पिंकी देवी,C12,17,पिंकी देवी,ASK,held back (asked / not on roster)
+IMG_0118,16,पिंकी देवी,C12,17,पिंकी देवी,ASK,held back (asked / not on roster)
+IMG_0118,17,सीमा देवी,ASK,20,सीमा देवी,K04,WRONG: guessed
+IMG_0118,18,Diksha Kumari,K05,,,,missed (name not read)
+IMG_0118,18,सीमा देवी,K04,,,,missed (name not read)
+IMG_0118,18,शिवशंकर प्र०,K02,,,,missed (name not read)
+IMG_0118,18,सन्टु कुमार,K01,,,,missed (name not read)
+IMG_0118,19,यशोदा देवी,K18,26,यौशोद देवी,K18,correct link
+IMG_0118,19,Narendra Kumar,K10,24,Narendra Kumar,NEW,held back (asked / not on roster)
+IMG_0145,3,कपिल प्रसाद,K15,6,कपिल प्रसाद,K15,correct link
+IMG_0145,4,रिता देवी,K16,7,रिता देवी,K16,correct link
+IMG_0145,5,सुनैना देवी,K17,8,सुनैना देवी,ASK,held back (asked / not on roster)
+IMG_0145,6,यशोदा देवी,K18,9,यशोदा देवी,K18,correct link
+IMG_0145,7,लालती देवी,K19,10,लालती देवी,K19,correct link
+IMG_0145,8,संगीता देवी,K20,11,संगीता देवी,K20,correct link
+IMG_0145,9,दिनेश प्रसाद,K21,12,दिनेश प्रसाद,K21,correct link
+IMG_0145,10,अशोक कुमार,K22,13,अशोक कुमार,K22,correct link
+IMG_0145,11,विरेन्द्र कुमार,K23,14,विरेन्द्र कुमार,K23,correct link
+IMG_0145,13,सुनिल प्रसाद,K11,19,सुनिल प्रसाद,K11,correct link
+IMG_0153,5,पीणा देवी,C01,7,पीणा देवी,C01,correct link
+IMG_0153,5,पीणा देवी,C01,7,पीणा देवी,C01,correct link
+IMG_0153,6,बिमला देवी,C02,8,बिमला देवी,C02,correct link
+IMG_0153,6,बिमला देवी,C02,8,बिमला देवी,C02,correct link
+IMG_0153,7,सोनि देवी,C03,9,सोनि देवी,C03,correct link
+IMG_0153,7,सोनी देवी,C03,9,सोनी देवी,C03,correct link
+IMG_0153,8,कंचन देवी,C04,10,कंचन देवी,C04,correct link
+IMG_0153,8,कंचन देवी,C04,10,कंचन देवी,C04,correct link
+IMG_0153,9,पिंकी देवी,C05,11,पिंकी देवी,C05,correct link
+IMG_0153,9,पिंकी देवी,C05,11,पिंकी देवी,C05,correct link
+IMG_0153,10,सुनिता कुमारी,C06,12,सुनिता कुमारी,C06,correct link
+IMG_0153,10,सुनीता कुमारी,C06,12,सुनीता कुमारी,C06,correct link
+IMG_0153,11,सुनैना देवी,C07,13,सुनैना देवी,ASK,held back (asked / not on roster)
+IMG_0153,11,सुनैना देवी,C07,13,सुनैना देवी,ASK,held back (asked / not on roster)
+IMG_0153,12,शशिप्रभा देवी,C08,14,शशिप्रभा देवी,C08,correct link
+IMG_0153,13,सुनपना देवी,C09,15,सुनपना देवी,C09,correct link
+IMG_0153,13,सुनयना देवी,C09,15,सुनयना देवी,C09,correct link
+IMG_0153,14,मिनी देवी,C10,16,मिनी देवी,C10,correct link
+IMG_0153,14,मिनी देवी,C10,16,मिनी देवी,C10,correct link
+IMG_0153,15,बंसती देवी,C11,17,बंसती देवी,C11,correct link
+IMG_0153,15,बसंती देवी,C11,17,बसंती देवी,C11,correct link
+IMG_0153,16,पिंकी देवी,C12,18,पिंकी देवी,C12,correct link
+IMG_0153,16,पिंकी देवी,C12,18,पिंकी देवी,C12,correct link
+IMG_0153,17,शिवशंकर प्रसाद,K02,,,,missed (name not read)
+IMG_0153,18,Sandhya Rani,NEW,,,,missed (name not read)
+IMG_0153,19,सुशीला कुमारी,K12,,,,missed (name not read)
+IMG_0153,19,सुशीला कुमारी,K12,,,,missed (name not read)
+IMG_0153,20,प्रतिमा कुमारी,K13,,,,missed (name not read)
+IMG_0153,20,प्रतिमा कुमारी,K13,,,,missed (name not read)
+IMG_0153,21,सविन्द्र कुमार,K07,,,,missed (name not read)
+IMG_0153,21,सीमा देवी,K04,,,,missed (name not read)
+IMG_0153,21,Dikshha Kumari,K05,,,,missed (name not read)
+IMG_0153,21,सुनीता कुमारी,K06,22,सुनीता कुमारी,ASK,held back (asked / not on roster)

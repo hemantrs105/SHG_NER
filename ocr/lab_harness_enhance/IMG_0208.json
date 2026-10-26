@@ -1,0 +1,508 @@
+{
+ "text": "पद\nमगलवार\nवैठक संख्या 8190\nता: 25/8/2026\n\n<table>\n<thead>\n<tr>\n<th>क्र०</th>\n<th>मदस्यांका<br/>नाल</th>\n<th>चौथाई<br/>वपक्षी<br/>वखत</th>\n<th>आजूक<br/>वखत</th>\n<th>रु.</th>\n<th>रु.</th>\n<th>रु.</th>\n<th>प.</th>\n<th>हस्ताक्षर</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>श्रीमती देवी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 श्रीमती देवी</td>\n</tr>\n<tr>\n<td>2</td>\n<td>रिमाकुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>रीमा कुमारी</td>\n</tr>\n<tr>\n<td>3</td>\n<td>स्वीटी कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 स्वीटी कुमारी</td>\n</tr>\n<tr>\n<td>4</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td>8</td>\n<td>5 सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>5</td>\n<td>गीता देवी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 गीता देवी</td>\n</tr>\n<tr>\n<td>6</td>\n<td>बिन्दुल कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 बिन्दुल कुमारी</td>\n</tr>\n<tr>\n<td>7</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>8</td>\n<td>कंचन कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 कंचन कुमारी</td>\n</tr>\n<tr>\n<td>9</td>\n<td>आरती कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 आरती कुमारी</td>\n</tr>\n<tr>\n<td>10</td>\n<td>पुजा कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 पुजा कुमारी</td>\n</tr>\n<tr>\n<td>11</td>\n<td>अनिता कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 अनीता कुमारी</td>\n</tr>\n<tr>\n<td>12</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>13</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>14</td>\n<td>पुजा देवी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 पुजा देवी</td>\n</tr>\n</tbody>\n</table>\n\n6a",
+ "sec": 48.2,
+ "image": "page",
+ "prep": {
+  "harvested_dates": {
+   "header": [],
+   "footer": []
+  }
+ },
+ "compute_sec": 47.6,
+ "config": {
+  "harness": true,
+  "script": "deva",
+  "script_map_fixed": true,
+  "token_budget": true,
+  "guard": true,
+  "degeneracy_check": true,
+  "zoom": {
+   "min_line": 32,
+   "max_zoom": 2.0,
+   "min_change": 1.2,
+   "floor": true,
+   "verify_margin": 0.1,
+   "verify_len": null,
+   "latex_ok": true
+  },
+  "strip_max_aspect": 8.0,
+  "header_band": true,
+  "split_verify": true,
+  "table_text": true,
+  "table_text_gated": true,
+  "table_dup_aksharas": true,
+  "latex_ban": true,
+  "script_ban": true,
+  "digit_ban": true,
+  "script_reread_gate": true,
+  "vote": {
+   "max_lp": -0.3,
+   "pad": 24,
+   "shift": 8,
+   "max_blocks": 4
+  },
+  "dedupe": true,
+  "latex_plain": true,
+  "harvest_dates": true,
+  "harvest_year_window": false,
+  "flags": true,
+  "flags_cell_counts": true
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Header",
+   "type": "PageHeader",
+   "bbox_xyxy": [
+    521.3,
+    157.5,
+    2109.4,
+    381.0
+   ],
+   "conf": 0.881,
+   "text": ""
+  },
+  {
+   "order": 1,
+   "label": "Title",
+   "type": "Title",
+   "bbox_xyxy": [
+    523.8,
+    156.9,
+    2110.0,
+    379.5
+   ],
+   "conf": 0.637,
+   "text": "पद\nमगलवार\nवैठक संख्या 8190\nता: 25/8/2026",
+   "harness": {
+    "mode": "vote",
+    "lp": -0.3242,
+    "original": {
+     "mode": "segments",
+     "parts": [
+      {
+       "line_px": 39.0,
+       "card_scale": 1.0,
+       "scale": 1.0,
+       "mode": "as model card",
+       "pieces": [
+        {
+         "h": 223,
+         "w": 1586,
+         "ntok": 29,
+         "lp": -0.3242,
+         "hit": false,
+         "sec": 0.95,
+         "cached": false,
+         "seeded": false
+        }
+       ],
+       "role": "block"
+      }
+     ]
+    },
+    "views": [
+     {
+      "view": "pad",
+      "box": [
+       500,
+       133,
+       2134,
+       404
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 61.5,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "h": 271,
+           "w": 1634,
+           "ntok": 31,
+           "lp": -0.3227,
+           "hit": false,
+           "sec": 1.01,
+           "cached": false,
+           "seeded": false
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     },
+     {
+      "view": "shift",
+      "box": [
+       520,
+       153,
+       2130,
+       400
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 51.5,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "h": 247,
+           "w": 1610,
+           "ntok": 32,
+           "lp": -0.3134,
+           "hit": false,
+           "sec": 1.0,
+           "cached": false,
+           "seeded": false
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     }
+    ],
+    "applied": 0,
+    "why": "a view hit the cap, diverged (> 0.4) or has another line count"
+   }
+  },
+  {
+   "order": 2,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    450.7,
+    358.8,
+    2228.8,
+    2561.4
+   ],
+   "conf": 0.924,
+   "text": "<table>\n<thead>\n<tr>\n<th>क्र०</th>\n<th>मदस्यांका<br/>नाल</th>\n<th>चौथाई<br/>वपक्षी<br/>वखत</th>\n<th>आजूक<br/>वखत</th>\n<th>रु.</th>\n<th>रु.</th>\n<th>रु.</th>\n<th>प.</th>\n<th>हस्ताक्षर</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>श्रीमती देवी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 श्रीमती देवी</td>\n</tr>\n<tr>\n<td>2</td>\n<td>रिमाकुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>रीमा कुमारी</td>\n</tr>\n<tr>\n<td>3</td>\n<td>स्वीटी कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 स्वीटी कुमारी</td>\n</tr>\n<tr>\n<td>4</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td>8</td>\n<td>5 सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>5</td>\n<td>गीता देवी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 गीता देवी</td>\n</tr>\n<tr>\n<td>6</td>\n<td>बिन्दुल कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 बिन्दुल कुमारी</td>\n</tr>\n<tr>\n<td>7</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>8</td>\n<td>कंचन कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 कंचन कुमारी</td>\n</tr>\n<tr>\n<td>9</td>\n<td>आरती कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 आरती कुमारी</td>\n</tr>\n<tr>\n<td>10</td>\n<td>पुजा कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 पुजा कुमारी</td>\n</tr>\n<tr>\n<td>11</td>\n<td>अनिता कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 अनीता कुमारी</td>\n</tr>\n<tr>\n<td>12</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 गुड़िया कुमारी</td>\n</tr>\n<tr>\n<td>13</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 सुषमा कुमारी</td>\n</tr>\n<tr>\n<td>14</td>\n<td>पुजा देवी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5 पुजा देवी</td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 70.5,
+      "card_scale": 0.776,
+      "scale": 0.776,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 2202,
+        "w": 1778,
+        "ntok": 767,
+        "lp": -0.0705,
+        "hit": false,
+        "sec": 19.52,
+        "cached": false,
+        "seeded": false
+       }
+      ],
+      "role": "table"
+     },
+     {
+      "line_px": 70.5,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "split_after_hit": [
+         {
+          "repair": "digits:deva",
+          "reread": {
+           "h": 354,
+           "w": 1778,
+           "ntok": 190,
+           "lp": -0.2589,
+           "hit": false,
+           "sec": 4.77,
+           "cached": false,
+           "seeded": false,
+           "ban": "digits:deva"
+          },
+          "first_read": {
+           "h": 354,
+           "w": 1778,
+           "ntok": 203,
+           "lp": -0.2571,
+           "hit": false,
+           "sec": 3.45,
+           "cached": false,
+           "seeded": false
+          },
+          "accepted": true
+         },
+         {
+          "repair": "latex",
+          "reread": {
+           "h": 230,
+           "w": 1778,
+           "ntok": 22,
+           "lp": -0.3369,
+           "hit": false,
+           "sec": 0.82,
+           "cached": false,
+           "seeded": false,
+           "ban": "latex"
+          },
+          "first_read": {
+           "h": 230,
+           "w": 1778,
+           "ntok": 44,
+           "lp": -0.1716,
+           "hit": false,
+           "sec": 3.45,
+           "cached": false,
+           "seeded": false
+          },
+          "accepted": false,
+          "why": "re-read hit the cap or diverged"
+         }
+        ],
+        "first_read": {
+         "h": 536,
+         "w": 1778,
+         "ntok": 144,
+         "lp": -0.1931,
+         "hit": true,
+         "sec": 3.92,
+         "cached": false,
+         "seeded": false,
+         "degenerate": false
+        }
+       }
+      ],
+      "role": "above grid",
+      "h": 536,
+      "kept": false,
+      "why": "LaTeX",
+      "dup_share": 0.1,
+      "akshara_contained": 0.29,
+      "numbers_contained": 1.0
+     },
+     {
+      "line_px": 70.5,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 1087,
+        "w": 1778,
+        "ntok": 226,
+        "lp": -0.0825,
+        "hit": false,
+        "sec": 6.62,
+        "cached": false,
+        "seeded": false
+       }
+      ],
+      "role": "below grid",
+      "h": 1087,
+      "kept": false,
+      "why": "not mostly letters/digits",
+      "dup_share": 0.4,
+      "akshara_contained": 0.27,
+      "numbers_contained": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    2164.1,
+    2886.9,
+    2249.3,
+    2988.6
+   ],
+   "conf": 0.575,
+   "text": "6a",
+   "harness": {
+    "mode": "vote",
+    "lp": -0.5614,
+    "original": {
+     "mode": "segments",
+     "parts": [
+      {
+       "line_px": 45.0,
+       "card_scale": 1.0,
+       "scale": 1.0,
+       "mode": "as model card",
+       "pieces": [
+        {
+         "repair": "latex",
+         "reread": {
+          "h": 102,
+          "w": 85,
+          "ntok": 4,
+          "lp": -1.0211,
+          "hit": false,
+          "sec": 0.19,
+          "cached": false,
+          "seeded": false,
+          "ban": "latex"
+         },
+         "first_read": {
+          "h": 102,
+          "w": 85,
+          "ntok": 5,
+          "lp": -0.5614,
+          "hit": false,
+          "sec": 0.24,
+          "cached": false,
+          "seeded": false
+         },
+         "accepted": false,
+         "why": "re-read hit the cap or diverged"
+        }
+       ],
+       "role": "block"
+      }
+     ]
+    },
+    "views": [
+     {
+      "view": "pad",
+      "box": [
+       2140,
+       2863,
+       2250,
+       3000
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 45.0,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "repair": "latex",
+           "reread": {
+            "h": 137,
+            "w": 110,
+            "ntok": 4,
+            "lp": -1.3145,
+            "hit": false,
+            "sec": 0.19,
+            "cached": false,
+            "seeded": false,
+            "ban": "latex"
+           },
+           "first_read": {
+            "h": 137,
+            "w": 110,
+            "ntok": 5,
+            "lp": -0.3847,
+            "hit": false,
+            "sec": 0.21,
+            "cached": false,
+            "seeded": false
+           },
+           "accepted": false,
+           "why": "re-read hit the cap or diverged"
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     },
+     {
+      "view": "shift",
+      "box": [
+       2160,
+       2883,
+       2250,
+       3000
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 45.0,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "repair": "latex",
+           "reread": {
+            "h": 117,
+            "w": 90,
+            "ntok": 4,
+            "lp": -1.0568,
+            "hit": false,
+            "sec": 0.19,
+            "cached": false,
+            "seeded": false,
+            "ban": "latex"
+           },
+           "first_read": {
+            "h": 117,
+            "w": 90,
+            "ntok": 5,
+            "lp": -0.5255,
+            "hit": false,
+            "sec": 0.22,
+            "cached": false,
+            "seeded": false
+           },
+           "accepted": false,
+           "why": "re-read hit the cap or diverged"
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     }
+    ],
+    "applied": 0
+   }
+  },
+  {
+   "order": 4,
+   "label": "Footer",
+   "type": "PageFooter",
+   "bbox_xyxy": [
+    376.2,
+    2562.9,
+    2250.0,
+    2994.0
+   ],
+   "conf": 0.529,
+   "text": "",
+   "harness": {
+    "mode": "harvest_dates",
+    "read": "$$1801 = 1000$$",
+    "dates": [],
+    "pieces": [
+     {
+      "h": 431,
+      "w": 1874,
+      "ntok": 13,
+      "lp": -0.9072,
+      "hit": false,
+      "sec": 0.83,
+      "cached": false,
+      "seeded": false
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,238 @@
+{
+ "text": "* FCRP का मानदेय पर चर्चा :- FCRP का\nमानदेय कार्यालय आदेश संख्या - BRCP - P 405 -\nFI/2112/22/784 दिनांक - 14/06/2025 के अनुसार\nFCRP का मानदेय B&D के बैठक दिनांक -\n12/9/2026 के बैठक में FCRP का मानदेय देने का निर्णय\nलिए गए / माह - अगस्त 2026\n\n<table>\n<thead>\n<tr>\n<th>क्रमांक</th>\n<th>FC CRP का<br/>नाम</th>\n<th>गाव<br/>का<br/>नाम</th>\n<th>फॉर्म<br/>कि<br/>संख्या</th>\n<th>कुल<br/>राशि</th>\n<th>चेक<br/>संख्या</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>सुशिला कुमारी</td>\n<td>फाजिलापुर</td>\n<td>5</td>\n<td>1300</td>\n<td>110496</td>\n</tr>\n<tr>\n<td>2</td>\n<td>प्रतिमा कुमारी</td>\n<td>फाजिलापुर</td>\n<td>5</td>\n<td>1300</td>\n<td>110496</td>\n</tr>\n<tr>\n<td>3</td>\n<td>संजोला कुमारी</td>\n<td>सैदनपुर</td>\n<td>5</td>\n<td>1300</td>\n<td>110496</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>कुल</td>\n<td>15</td>\n<td>3900</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n\n* सफाई कर्मी का मजदूरी - सफाई कर्मी रीना देवी\nको माह - अगस्त 2026 का मजदूरी चेक नं० 110497\nसे 1200/- दिख गया ।\n\nकोयलद किरण पर चर्चा - दिनांक - 12/9/2026 के\nBOJ के बैठक में निर्णय लिए गए कि कोयलद किरण\nमाह-अगस्त 2026 का किरण मकान मालकिन बाबिना\nकुमारी दिए गए किरण - 5900/-\nबिजली बिल = 11/8/2026 से 12/9/2026 तक\nप्रारंभिक पुनिक = 1862 यूनिट\nबीतमान यूनिट = 154 यूनिट\nकुल = 2016 यूनिट\nबिजली बिल = 154 यूनिट x 74 = 1078/-\nसब कुल = 6978/-\nचेक न० - 110498 से दिए गए ।\n\nचेक न० - 110498 से दिया गया ।",
+ "sec": 0.1,
+ "image": "page",
+ "prep": {
+  "harvested_dates": {
+   "header": [],
+   "footer": []
+  }
+ },
+ "compute_sec": 16.7,
+ "config": {
+  "harness": true,
+  "script": "deva",
+  "script_map_fixed": true,
+  "token_budget": true,
+  "guard": true,
+  "degeneracy_check": true,
+  "zoom": {
+   "min_line": 32,
+   "max_zoom": 2.0,
+   "min_change": 1.2,
+   "floor": true,
+   "verify_margin": 0.1,
+   "verify_len": null,
+   "latex_ok": true
+  },
+  "strip_max_aspect": 8.0,
+  "header_band": true,
+  "split_verify": true,
+  "table_text": true,
+  "table_text_gated": true,
+  "table_dup_aksharas": true,
+  "latex_ban": true,
+  "script_ban": true,
+  "digit_ban": true,
+  "script_reread_gate": true,
+  "vote": {
+   "max_lp": -0.3,
+   "pad": 24,
+   "shift": 8,
+   "max_blocks": 4
+  },
+  "dedupe": true,
+  "latex_plain": true,
+  "harvest_dates": true,
+  "harvest_year_window": false,
+  "flags": true,
+  "flags_cell_counts": true
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    410.2,
+    294.9,
+    1897.6,
+    743.7
+   ],
+   "conf": 0.91,
+   "text": "* FCRP का मानदेय पर चर्चा :- FCRP का\nमानदेय कार्यालय आदेश संख्या - BRCP - P 405 -\nFI/2112/22/784 दिनांक - 14/06/2025 के अनुसार\nFCRP का मानदेय B&D के बैठक दिनांक -\n12/9/2026 के बैठक में FCRP का मानदेय देने का निर्णय\nलिए गए / माह - अगस्त 2026",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 35.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 449,
+        "w": 1488,
+        "ntok": 109,
+        "lp": -0.1506,
+        "hit": false,
+        "sec": 3.05,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 1,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    336.6,
+    790.2,
+    1744.4,
+    1390.8
+   ],
+   "conf": 0.96,
+   "text": "<table>\n<thead>\n<tr>\n<th>क्रमांक</th>\n<th>FC CRP का<br/>नाम</th>\n<th>गाव<br/>का<br/>नाम</th>\n<th>फॉर्म<br/>कि<br/>संख्या</th>\n<th>कुल<br/>राशि</th>\n<th>चेक<br/>संख्या</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>सुशिला कुमारी</td>\n<td>फाजिलापुर</td>\n<td>5</td>\n<td>1300</td>\n<td>110496</td>\n</tr>\n<tr>\n<td>2</td>\n<td>प्रतिमा कुमारी</td>\n<td>फाजिलापुर</td>\n<td>5</td>\n<td>1300</td>\n<td>110496</td>\n</tr>\n<tr>\n<td>3</td>\n<td>संजोला कुमारी</td>\n<td>सैदनपुर</td>\n<td>5</td>\n<td>1300</td>\n<td>110496</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>कुल</td>\n<td>15</td>\n<td>3900</td>\n<td></td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 73.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 601,
+        "w": 1407,
+        "ntok": 222,
+        "lp": -0.0224,
+        "hit": false,
+        "sec": 5.98,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 2,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    308.7,
+    1423.8,
+    1837.3,
+    1651.2
+   ],
+   "conf": 0.889,
+   "text": "* सफाई कर्मी का मजदूरी - सफाई कर्मी रीना देवी\nको माह - अगस्त 2026 का मजदूरी चेक नं० 110497\nसे 1200/- दिख गया ।",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 37.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 227,
+        "w": 1528,
+        "ntok": 49,
+        "lp": -0.1438,
+        "hit": false,
+        "sec": 1.63,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    312.8,
+    1725.6,
+    1844.1,
+    2784.6
+   ],
+   "conf": 0.642,
+   "text": "कोयलद किरण पर चर्चा - दिनांक - 12/9/2026 के\nBOJ के बैठक में निर्णय लिए गए कि कोयलद किरण\nमाह-अगस्त 2026 का किरण मकान मालकिन बाबिना\nकुमारी दिए गए किरण - 5900/-\nबिजली बिल = 11/8/2026 से 12/9/2026 तक\nप्रारंभिक पुनिक = 1862 यूनिट\nबीतमान यूनिट = 154 यूनिट\nकुल = 2016 यूनिट\nबिजली बिल = 154 यूनिट x 74 = 1078/-\nसब कुल = 6978/-\nचेक न० - 110498 से दिए गए ।",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 40.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 1059,
+        "w": 1531,
+        "ntok": 175,
+        "lp": -0.1048,
+        "hit": false,
+        "sec": 5.43,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 4,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    486.0,
+    2703.3,
+    1519.4,
+    2802.6
+   ],
+   "conf": 0.678,
+   "text": "चेक न० - 110498 से दिया गया ।",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 40.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 100,
+        "w": 1033,
+        "ntok": 17,
+        "lp": -0.2648,
+        "hit": false,
+        "sec": 0.6,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  }
+ ]
+}

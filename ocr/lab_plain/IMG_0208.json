@@ -1,0 +1,145 @@
+{
+ "text": "पद\nमगलवार\nबैठक संख्या 8190\nता: 25/8/2026\n\n<table>\n<thead>\n<tr>\n<th>क्र०</th>\n<th>मदस्यांका<br/>नाम</th>\n<th>चोर</th>\n<th>पदव्युत्तर<br/>कुल</th>\n<th>आर्द्रता<br/>कुल</th>\n<th>रूट</th>\n<th>दशवासी</th>\n<th>लम्बी</th>\n<th>रूट</th>\n<th>दस्ता नंबर</th>\n<th>(1)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>श्रीमती देवी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>श्रीमती देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>2</td>\n<td>रिमाकुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td></td>\n<td>रीमा कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>3</td>\n<td>स्वीटी कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>स्वीटी कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>4</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td>8</td>\n<td>5</td>\n<td>सुषमा कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>5</td>\n<td>गीता देवी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>गीता देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>6</td>\n<td>बिन्दुल कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>बिन्दुल कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>7</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>गुड़िया कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>8</td>\n<td>कंचन कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>कंचन कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>9</td>\n<td>आरती कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>आरती कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>10</td>\n<td>पुजा कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>पुजा कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>11</td>\n<td>अनिता कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>अनिता कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>12</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>गुड़िया कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>13</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>सुषमा कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>14</td>\n<td>पुजा देवी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>पुजा देवी</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n\n$$6a^2$$",
+ "sec": 0.0,
+ "image": "page",
+ "prep": {},
+ "compute_sec": 24.2,
+ "config": {
+  "harness": false,
+  "script": null,
+  "script_map_fixed": false,
+  "token_budget": false,
+  "guard": false,
+  "degeneracy_check": false,
+  "zoom": null,
+  "strip_max_aspect": null,
+  "header_band": false,
+  "split_verify": false,
+  "table_text": false,
+  "table_text_gated": false,
+  "table_dup_aksharas": false,
+  "latex_ban": false,
+  "script_ban": false,
+  "digit_ban": false,
+  "script_reread_gate": false,
+  "vote": null,
+  "dedupe": false,
+  "latex_plain": false,
+  "harvest_dates": false,
+  "harvest_year_window": false,
+  "flags": false,
+  "flags_cell_counts": false
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Header",
+   "type": "PageHeader",
+   "bbox_xyxy": [
+    521.3,
+    157.5,
+    2109.4,
+    381.0
+   ],
+   "conf": 0.881,
+   "text": ""
+  },
+  {
+   "order": 1,
+   "label": "Title",
+   "type": "Title",
+   "bbox_xyxy": [
+    523.8,
+    156.9,
+    2110.0,
+    379.5
+   ],
+   "conf": 0.637,
+   "text": "पद\nमगलवार\nबैठक संख्या 8190\nता: 25/8/2026",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 223,
+      "w": 1586,
+      "ntok": 29,
+      "lp": -0.303,
+      "hit": false,
+      "sec": 1.04,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 2,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    450.7,
+    358.8,
+    2228.8,
+    2561.4
+   ],
+   "conf": 0.924,
+   "text": "<table>\n<thead>\n<tr>\n<th>क्र०</th>\n<th>मदस्यांका<br/>नाम</th>\n<th>चोर</th>\n<th>पदव्युत्तर<br/>कुल</th>\n<th>आर्द्रता<br/>कुल</th>\n<th>रूट</th>\n<th>दशवासी</th>\n<th>लम्बी</th>\n<th>रूट</th>\n<th>दस्ता नंबर</th>\n<th>(1)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>श्रीमती देवी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>श्रीमती देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>2</td>\n<td>रिमाकुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td></td>\n<td>रीमा कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>3</td>\n<td>स्वीटी कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>स्वीटी कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>4</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td>8</td>\n<td>5</td>\n<td>सुषमा कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>5</td>\n<td>गीता देवी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>गीता देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>6</td>\n<td>बिन्दुल कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>बिन्दुल कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>7</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>गुड़िया कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>8</td>\n<td>कंचन कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>कंचन कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>9</td>\n<td>आरती कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>आरती कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>10</td>\n<td>पुजा कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>पुजा कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>11</td>\n<td>अनिता कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>अनिता कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>12</td>\n<td>गुड़िया कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>गुड़िया कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>13</td>\n<td>सुषमा कुमारी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>सुषमा कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>14</td>\n<td>पुजा देवी</td>\n<td>P</td>\n<td>890</td>\n<td>10</td>\n<td>900</td>\n<td></td>\n<td></td>\n<td>5</td>\n<td>पुजा देवी</td>\n<td></td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 2202,
+      "w": 1778,
+      "ntok": 861,
+      "lp": -0.0623,
+      "hit": false,
+      "sec": 22.95,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    2164.1,
+    2886.9,
+    2249.3,
+    2988.6
+   ],
+   "conf": 0.575,
+   "text": "$$6a^2$$",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 102,
+      "w": 85,
+      "ntok": 7,
+      "lp": -0.6158,
+      "hit": false,
+      "sec": 0.26,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 4,
+   "label": "Footer",
+   "type": "PageFooter",
+   "bbox_xyxy": [
+    376.2,
+    2562.9,
+    2250.0,
+    2994.0
+   ],
+   "conf": 0.529,
+   "text": ""
+  }
+ ]
+}

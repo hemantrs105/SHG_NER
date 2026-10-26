@@ -1,0 +1,147 @@
+{
+ "text": "\"बैठक संख्या - 161\n\nदिनांक - 10/08/2026 स्थान - एकता जीविका महिला\n- प्रार्थना - इतनी शक्ति देन दाता, विकास स्वावलम्बी\nपरिचय - सभी दीदी परिचय दी सहकारी समिति, मोमी\nका कार्यालय\n\n<table>\n<thead>\n<tr>\n<th>क्रमांक</th>\n<th>BAD सदस्य<br/>का नाम</th>\n<th>गाव<br/>का<br/>नाम</th>\n<th>पद</th>\n<th>हस्ताक्षर</th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>पीणा देवी</td>\n<td>काझियावा</td>\n<td>अष्टपक्ष</td>\n<td>पीणा देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>2.</td>\n<td>विमला देवी</td>\n<td>विष्णुश्ट</td>\n<td>सचिव</td>\n<td>विमला देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>3.</td>\n<td>सोनी देवी</td>\n<td>दमोहपुर</td>\n<td>कोषाष्टपक्ष</td>\n<td>सोनी देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>4</td>\n<td>कंचन देवी</td>\n<td>खडसाखि</td>\n<td>उष्टपक्ष</td>\n<td>कंचन देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>5</td>\n<td>पिंकी देवी</td>\n<td>चौराखी</td>\n<td>उष्ट सचिव</td>\n<td>पिंकी देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>6</td>\n<td>सुनिता कुमारी</td>\n<td>मोभी</td>\n<td>सदल्प</td>\n<td>सुनीता कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>7.</td>\n<td>सुनैना देवी</td>\n<td>मोभी</td>\n<td>सदल्प</td>\n<td>सुनैना देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>8</td>\n<td>सारिप्रमा देवी</td>\n<td>बद्दल विगध</td>\n<td>सदल्प</td>\n<td></td>\n<td>शिवप्रकाशप्रमाण</td>\n</tr>\n<tr>\n<td>9</td>\n<td>सुनयना देवी</td>\n<td>रघुनाथ</td>\n<td>सदल्प</td>\n<td>सुनयना देवी</td>\n<td>CF</td>\n</tr>\n<tr>\n<td>10</td>\n<td>मिनी देवी</td>\n<td>बलधा</td>\n<td>सदल्प</td>\n<td>मिनी देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>11</td>\n<td>बांरस्ती देवी</td>\n<td>बाजितपुर</td>\n<td>सदल्प</td>\n<td>बंयती देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>12</td>\n<td>पिंकी देवी</td>\n<td>सकलपुर</td>\n<td>सदल्प</td>\n<td>पिंकी देवी</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n\nसुनीता कुमारी\nFICRP सुनीता कुमारी\nFICRP सुनीता कुमारी\nFICRP सुनीता कुमारी\nCNRP CNRP BR",
+ "sec": 0.0,
+ "image": "page",
+ "prep": {},
+ "compute_sec": 16.5,
+ "config": {
+  "harness": false,
+  "script": null,
+  "script_map_fixed": false,
+  "token_budget": false,
+  "guard": false,
+  "degeneracy_check": false,
+  "zoom": null,
+  "strip_max_aspect": null,
+  "header_band": false,
+  "split_verify": false,
+  "table_text": false,
+  "table_text_gated": false,
+  "table_dup_aksharas": false,
+  "latex_ban": false,
+  "script_ban": false,
+  "digit_ban": false,
+  "script_reread_gate": false,
+  "vote": null,
+  "dedupe": false,
+  "latex_plain": false,
+  "harvest_dates": false,
+  "harvest_year_window": false,
+  "flags": false,
+  "flags_cell_counts": false
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Title",
+   "type": "Title",
+   "bbox_xyxy": [
+    909.5,
+    364.2,
+    1346.6,
+    438.9
+   ],
+   "conf": 0.852,
+   "text": "\"बैठक संख्या - 161",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 75,
+      "w": 437,
+      "ntok": 11,
+      "lp": -0.209,
+      "hit": false,
+      "sec": 0.4,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 1,
+   "label": "List",
+   "type": "Text",
+   "bbox_xyxy": [
+    488.5,
+    480.9,
+    1884.1,
+    737.7
+   ],
+   "conf": 0.847,
+   "text": "दिनांक - 10/08/2026 स्थान - एकता जीविका महिला\n- प्रार्थना - इतनी शक्ति देन दाता, विकास स्वावलम्बी\nपरिचय - सभी दीदी परिचय दी सहकारी समिति, मोमी\nका कार्यालय",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 257,
+      "w": 1396,
+      "ntok": 53,
+      "lp": -0.1561,
+      "hit": false,
+      "sec": 1.51,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 2,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    388.6,
+    899.7,
+    1969.9,
+    2364.3
+   ],
+   "conf": 0.893,
+   "text": "<table>\n<thead>\n<tr>\n<th>क्रमांक</th>\n<th>BAD सदस्य<br/>का नाम</th>\n<th>गाव<br/>का<br/>नाम</th>\n<th>पद</th>\n<th>हस्ताक्षर</th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>पीणा देवी</td>\n<td>काझियावा</td>\n<td>अष्टपक्ष</td>\n<td>पीणा देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>2.</td>\n<td>विमला देवी</td>\n<td>विष्णुश्ट</td>\n<td>सचिव</td>\n<td>विमला देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>3.</td>\n<td>सोनी देवी</td>\n<td>दमोहपुर</td>\n<td>कोषाष्टपक्ष</td>\n<td>सोनी देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>4</td>\n<td>कंचन देवी</td>\n<td>खडसाखि</td>\n<td>उष्टपक्ष</td>\n<td>कंचन देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>5</td>\n<td>पिंकी देवी</td>\n<td>चौराखी</td>\n<td>उष्ट सचिव</td>\n<td>पिंकी देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>6</td>\n<td>सुनिता कुमारी</td>\n<td>मोभी</td>\n<td>सदल्प</td>\n<td>सुनीता कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>7.</td>\n<td>सुनैना देवी</td>\n<td>मोभी</td>\n<td>सदल्प</td>\n<td>सुनैना देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>8</td>\n<td>सारिप्रमा देवी</td>\n<td>बद्दल विगध</td>\n<td>सदल्प</td>\n<td></td>\n<td>शिवप्रकाशप्रमाण</td>\n</tr>\n<tr>\n<td>9</td>\n<td>सुनयना देवी</td>\n<td>रघुनाथ</td>\n<td>सदल्प</td>\n<td>सुनयना देवी</td>\n<td>CF</td>\n</tr>\n<tr>\n<td>10</td>\n<td>मिनी देवी</td>\n<td>बलधा</td>\n<td>सदल्प</td>\n<td>मिनी देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>11</td>\n<td>बांरस्ती देवी</td>\n<td>बाजितपुर</td>\n<td>सदल्प</td>\n<td>बंयती देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>12</td>\n<td>पिंकी देवी</td>\n<td>सकलपुर</td>\n<td>सदल्प</td>\n<td>पिंकी देवी</td>\n<td></td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 1464,
+      "w": 1581,
+      "ntok": 490,
+      "lp": -0.0883,
+      "hit": false,
+      "sec": 13.33,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    418.7,
+    2380.8,
+    1834.2,
+    2733.6
+   ],
+   "conf": 0.818,
+   "text": "सुनीता कुमारी\nFICRP सुनीता कुमारी\nFICRP सुनीता कुमारी\nFICRP सुनीता कुमारी\nCNRP CNRP BR",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 353,
+      "w": 1415,
+      "ntok": 35,
+      "lp": -0.2994,
+      "hit": false,
+      "sec": 1.29,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  }
+ ]
+}

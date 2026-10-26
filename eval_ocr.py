@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Score an OCR run on the register pages, end to end.
 
-Usage: python eval_ocr.py <ocr_out_dir> <label>
+Usage: python eval_ocr.py <ocr_out_dir> <label> [dev|test|all]
   <ocr_out_dir>  folder with <page>.md files written by `indic-ocr-harness read --out-dir`
   <label>        name for this run, e.g. bodhan_harness, bodhan_plain
 
@@ -43,7 +43,7 @@ def md_to_lines(md):
     def table(m):
         rows = []
         for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", m.group(0), flags=re.S | re.I):
-            cells = [re.sub(r"<[^>]+>", "", c).strip() for c in
+            cells = [re.sub(r"<[^>]+>", "", re.sub(r"<br\s*/?>", " ", c, flags=re.I)).strip() for c in
                      re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, flags=re.S | re.I)]
             rows.append(" | ".join(html.unescape(c) for c in cells))
         return "\n" + "\n".join(rows) + "\n"
@@ -87,10 +87,11 @@ def given_part(surface):
 
 def main():
     src, label = Path(sys.argv[1]), sys.argv[2]
+    split = sys.argv[3] if len(sys.argv) > 3 else "all"              # optional: dev | test | all
     textdir = ROOT / "text" / f"ocr_{label}"
     textdir.mkdir(parents=True, exist_ok=True)
     pages = [r for r in csv.DictReader(open(ROOT / "pages.csv", encoding="utf-8"))]
-    have = [p for p in pages if (src / f"{p['page']}.md").exists()]
+    have = [p for p in pages if (src / f"{p['page']}.md").exists() and split in ("all", p["split"])]
     print(f"{label}: {len(have)} of {len(pages)} pages read")
 
     # 1-3: conversion, CER, numbers
@@ -117,34 +118,50 @@ def main():
     pred = list(csv.DictReader(open(ROOT / "out" / f"decisions_ocr_{label}_all.csv", encoding="utf-8")))
     gold = [g for g in csv.DictReader(open(ROOT / "gold/gold.csv", encoding="utf-8"))
             if g["category"] == "name" and any(g["page"] == p["page"] for p in have)]
-    # Row numbers: a key mention on reference row N may only pair with an OCR mention on row N
-    # (or with one that is not on a numbered row), so two same-name rows are never cross-paired.
-    ROWNO = re.compile(r"\s*(\d{1,2})\s*\.?\s*\|")
+    # Pairing each key mention with an OCR mention on the same page: the first names (given_part) must
+    # be close; candidates are ranked by first name and full name together, best matches first (not in key order, so one early mismatch cannot cascade). A key mention on reference
+    # row N pairs with an OCR mention on row N; with an OCR mention that is not on a numbered row (or the
+    # other way round: OCR merges margin text into rows) only if the names are near-identical (first name >= 0.9, full name >= 0.7).
+    # Ties go to the OCR line that holds more of the reference line's words (context), then to position.
+    ROWNO = re.compile(r"\s*(\d{1,3})\s*\.?\s*\|")
+    DEVDIG = str.maketrans("०१२३४५६७८९", "0123456789")
     text_of = {}
-    def serial(kind, page, line):
+    def place(kind, page, line):
         if (kind, page) not in text_of:
             d = ROOT / "text/clean" if kind == "ref" else textdir
             text_of[(kind, page)] = (d / f"{page}.txt").read_text(encoding="utf-8").splitlines()
-        m = ROWNO.match(text_of[(kind, page)][int(line) - 1])
-        return m.group(1) if m else None
-    used, out, wrong, pairs = set(), Counter(), [], []
-    for g in gold:
-        best, br = None, 0.0
-        gs = serial("ref", g["page"], g["line"])
+        lines = text_of[(kind, page)]
+        text = lines[int(line) - 1].translate(DEVDIG)
+        m = ROWNO.match(text)
+        return (m.group(1) if m else None), int(line) / max(len(lines), 1), set(WORD.findall(text))
+    WORD = re.compile(r"[^\s|,।()\[\]:;/=\-–]+")
+    cands = []
+    for gi, g in enumerate(gold):
+        gs, gpos, gw = place("ref", g["page"], g["line"])
         for i, q in enumerate(pred):
-            if i in used or q["page"] != g["page"] or q["kind"] != "name":
+            if q["page"] != g["page"] or q["kind"] != "name":
                 continue
-            qs = serial("ocr", q["page"], q["line"])
+            qs, qpos, qw = place("ocr", q["page"], q["line"])
             if gs and qs and gs != qs:
                 continue
             r = ratio(given_part(q["surface"]), given_part(g["surface"]))
-            if r > br:
-                best, br = i, r
-        if best is None or br < 0.7:
+            full = ratio(key(SCRIPT_SEAM.sub(" ", q["surface"])), key(SCRIPT_SEAM.sub(" ", g["surface"])))
+            same_kind = (gs is None) == (qs is None)
+            if r >= 0.7 if same_kind else (r >= 0.9 and full >= 0.7):
+                ctx = len(gw & qw) / max(len(gw), 1)
+                cands.append((-(r + full) / 2, -ctx, not same_kind, abs(gpos - qpos), gi, i))
+    match, used = {}, set()
+    for *_, gi, i in sorted(cands):
+        if gi not in match and i not in used:
+            match[gi] = i
+            used.add(i)
+    out, wrong, pairs = Counter(), [], []
+    for gi, g in enumerate(gold):
+        best = match.get(gi)
+        if best is None:
             out["missed (name not read)"] += 1
             pairs.append((g["page"], g["line"], g["surface"], g["expected"], "", "", "", "missed (name not read)"))
             continue
-        used.add(best)
         got, exp = pred[best]["decision"], g["expected"]
         if exp in ("ASK", "NEW"):
             res = "correct no-link" if got in ("ASK", "NEW") else "WRONG: guessed"
@@ -177,7 +194,7 @@ def main():
         if q["decision"] in ("ASK", "NEW"):
             continue
         ocr_line = (textdir / f"{q['page']}.txt").read_text(encoding="utf-8").splitlines()[int(q["line"]) - 1]
-        m = re.match(r"\s*(\d{1,2})\s*\.?\s*\|", ocr_line)
+        m = re.match(r"\s*(\d{1,3})\s*\.?\s*\|", ocr_line.translate(str.maketrans("०१२३४५६७८९", "0123456789")))
         if not m:
             continue
         ref = (ROOT / "text/clean" / f"{q['page']}.txt").read_text(encoding="utf-8").splitlines()

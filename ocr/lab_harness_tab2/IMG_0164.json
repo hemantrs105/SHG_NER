@@ -1,0 +1,199 @@
+{
+ "text": "1. BK सर्वन्द्र कुमार को TCC अपने जाने का भाडा\n300/- दिख गया / नकद\n\n2. BK विवेका नन्द को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n3. BK सुरिल रंजन को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n4. BK सुनिता कुमारी को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n7 दिनांक - 4/8/2026, 5/8/2026 को सचिव-विमला देवी\nहितल दो दीन गई WFI रिचार्ज करने के\nलिए अपने-जाने का भाडा - 75/- दिख गया नकद\n\n8. दिनांक - 11/8/2026 को BFR नगरनोला OB सदस्य गए\nसुधा विक्री केन्द्र के लिए तीन दीदी के अपने-जाने\nका भाडा 210/- दिख गया नकद\n\n<table>\n<thead>\n<tr>\n<th>प्राप्ति</th>\n<th>राशि</th>\n<th>भूगतांश</th>\n<th>राशि</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>प्रारंभिक राष्ट्र<br/>नकद</td>\n<td>1140</td>\n<td>1 MBK का मानदेय</td>\n<td>13500</td>\n</tr>\n<tr>\n<td>बैंक</td>\n<td>3967759.57</td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<table>\n<thead>\n<tr>\n<th>प्राप्ति<br/>प्रारंभिक लेख</th>\n<th>शाखे</th>\n<th>भूगतांश</th>\n<th>शाखे</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>vocif प्रथम किस्त (CIF)<br/>ऋण मूल्यवापसी</td>\n<td>222400</td>\n<td>2. CF का मानदेह</td>\n<td>13000</td>\n</tr>\n<tr>\n<td>vocif ऋण पर बचत<br/>प्राप्ति</td>\n<td>138945</td>\n<td>3. बैंक मित्रा का मानदेह</td>\n<td>6400</td>\n</tr>\n</tbody>\n</table>\n<table>\n<thead>\n<tr>\n<th>प्राप्ति<br/>प्रारंभिक शेष</th>\n<th>राशि</th>\n<th>भूगतांश</th>\n<th>राशि</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"2\">v० सामान्य ऋण<br/>मू० वापसी</td>\n<td rowspan=\"2\">578100</td>\n<td>4. CRP का मानदेय</td>\n<td>14800</td>\n</tr>\n<tr>\n<td>5. OB सदस्य का T&T</td>\n<td>11560</td>\n</tr>\n</tbody>\n</table>\n<table>\n<thead>\n<tr>\n<th>प्राप्ति<br/>प्रारंभिक शेष</th>\n<th>राशि</th>\n<th>भूगतांश</th>\n<th>राशि</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>V० सामान्य ऋण</td>\n<td>95393</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>पर ब्याज प्राप्ति</td>\n<td></td>\n<td>6.55% MRP का मानदेय</td>\n<td>12000</td>\n</tr>\n</tbody>\n</table>",
+ "sec": 17.5,
+ "image": "page",
+ "prep": {
+  "harvested_dates": {
+   "header": [],
+   "footer": []
+  },
+  "flags": {
+   "cell_count_outliers": [
+    [
+     1,
+     4,
+     [
+      8
+     ]
+    ]
+   ]
+  }
+ },
+ "compute_sec": 23.4,
+ "config": {
+  "harness": true,
+  "script": "deva",
+  "script_map_fixed": true,
+  "token_budget": true,
+  "guard": true,
+  "degeneracy_check": true,
+  "zoom": {
+   "min_line": 32,
+   "max_zoom": 2.0,
+   "min_change": 1.2,
+   "floor": true,
+   "verify_margin": 0.1,
+   "verify_len": null,
+   "latex_ok": true
+  },
+  "strip_max_aspect": 8.0,
+  "header_band": true,
+  "split_verify": true,
+  "table_text": true,
+  "table_text_gated": true,
+  "table_dup_aksharas": true,
+  "latex_ban": true,
+  "script_ban": true,
+  "digit_ban": true,
+  "script_reread_gate": true,
+  "vote": {
+   "max_lp": -0.3,
+   "pad": 24,
+   "shift": 8,
+   "max_blocks": 4
+  },
+  "dedupe": true,
+  "latex_plain": true,
+  "harvest_dates": true,
+  "harvest_year_window": false,
+  "flags": true,
+  "flags_cell_counts": true
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "List",
+   "type": "Text",
+   "bbox_xyxy": [
+    623.9,
+    318.0,
+    2083.0,
+    1591.2
+   ],
+   "conf": 0.602,
+   "text": "1. BK सर्वन्द्र कुमार को TCC अपने जाने का भाडा\n300/- दिख गया / नकद\n\n2. BK विवेका नन्द को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n3. BK सुरिल रंजन को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n4. BK सुनिता कुमारी को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n7 दिनांक - 4/8/2026, 5/8/2026 को सचिव-विमला देवी\nहितल दो दीन गई WFI रिचार्ज करने के\nलिए अपने-जाने का भाडा - 75/- दिख गया नकद\n\n8. दिनांक - 11/8/2026 को BFR नगरनोला OB सदस्य गए\nसुधा विक्री केन्द्र के लिए तीन दीदी के अपने-जाने\nका भाडा 210/- दिख गया नकद",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 35.5,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 1273,
+        "w": 1459,
+        "ntok": 212,
+        "lp": -0.102,
+        "hit": false,
+        "sec": 6.42,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 1,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    349.4,
+    1716.6,
+    2062.6,
+    2757.9
+   ],
+   "conf": 0.94,
+   "text": "<table>\n<thead>\n<tr>\n<th>प्राप्ति</th>\n<th>राशि</th>\n<th>भूगतांश</th>\n<th>राशि</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>प्रारंभिक राष्ट्र<br/>नकद</td>\n<td>1140</td>\n<td>1 MBK का मानदेय</td>\n<td>13500</td>\n</tr>\n<tr>\n<td>बैंक</td>\n<td>3967759.57</td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<table>\n<thead>\n<tr>\n<th>प्राप्ति<br/>प्रारंभिक लेख</th>\n<th>शाखे</th>\n<th>भूगतांश</th>\n<th>शाखे</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>vocif प्रथम किस्त (CIF)<br/>ऋण मूल्यवापसी</td>\n<td>222400</td>\n<td>2. CF का मानदेह</td>\n<td>13000</td>\n</tr>\n<tr>\n<td>vocif ऋण पर बचत<br/>प्राप्ति</td>\n<td>138945</td>\n<td>3. बैंक मित्रा का मानदेह</td>\n<td>6400</td>\n</tr>\n</tbody>\n</table>\n<table>\n<thead>\n<tr>\n<th>प्राप्ति<br/>प्रारंभिक शेष</th>\n<th>राशि</th>\n<th>भूगतांश</th>\n<th>राशि</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"2\">v० सामान्य ऋण<br/>मू० वापसी</td>\n<td rowspan=\"2\">578100</td>\n<td>4. CRP का मानदेय</td>\n<td>14800</td>\n</tr>\n<tr>\n<td>5. OB सदस्य का T&T</td>\n<td>11560</td>\n</tr>\n</tbody>\n</table>\n<table>\n<thead>\n<tr>\n<th>प्राप्ति<br/>प्रारंभिक शेष</th>\n<th>राशि</th>\n<th>भूगतांश</th>\n<th>राशि</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>V० सामान्य ऋण</td>\n<td>95393</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>पर ब्याज प्राप्ति</td>\n<td></td>\n<td>6.55% MRP का मानदेय</td>\n<td>12000</td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": null,
+      "card_scale": 1.0,
+      "scale": 2.0,
+      "mode": "lab: forced strips",
+      "strips": 4,
+      "strip_rows": [
+       [
+        0,
+        518
+       ],
+       [
+        500,
+        1145
+       ],
+       [
+        1126,
+        1696
+       ],
+       [
+        1601,
+        2082
+       ]
+      ],
+      "header_band_px": 262,
+      "header_band_read": {
+       "h": 262,
+       "w": 3428,
+       "ntok": 59,
+       "lp": -0.14,
+       "hit": false,
+       "sec": 2.01,
+       "cached": false,
+       "seeded": false
+      },
+      "pieces": [
+       {
+        "h": 518,
+        "w": 3428,
+        "ntok": 105,
+        "lp": -0.089,
+        "hit": false,
+        "sec": 3.78,
+        "cached": false,
+        "seeded": false
+       },
+       {
+        "h": 931,
+        "w": 3428,
+        "ntok": 137,
+        "lp": -0.1245,
+        "hit": false,
+        "sec": 3.78,
+        "cached": false,
+        "seeded": false
+       },
+       {
+        "h": 856,
+        "w": 3428,
+        "ntok": 121,
+        "lp": -0.1015,
+        "hit": false,
+        "sec": 3.7,
+        "cached": false,
+        "seeded": false
+       },
+       {
+        "h": 767,
+        "w": 3428,
+        "ntok": 103,
+        "lp": -0.1148,
+        "hit": false,
+        "sec": 3.7,
+        "cached": false,
+        "seeded": false
+       }
+      ],
+      "band_rereads": [],
+      "role": "block"
+     }
+    ]
+   }
+  }
+ ]
+}

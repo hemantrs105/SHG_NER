@@ -1,0 +1,91 @@
+{
+ "text": "1. BK सर्वन्द्र कुमार को TCC अपने जाने का भाडा\n300/- दिख गया / नकद\n\n2. BK विवेका नन्द को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n3. BK सुरिल रंजन को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n4. BK सुनिता कुमारी को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n7 दिनांक - 4/8/2026, 5/8/2026 को सचिव-विमला देवी\nहितल दो दीन गई WFI रिचार्ज करने के\nलिए अपने-जाने का भाडा - 75/- दिख गया नकद\n\n8. दिनांक - 11/8/2026 को BFR नगरनोला OB सदस्य गए\nसुधा विक्री केन्द्र के लिए तीन दीदी के अपने-जाने\nका भाडा 210/- दिख गया नकद\n\n<table>\n<thead>\n<tr>\n<th>प्राप्ति</th>\n<th>राशि</th>\n<th>भूगतांश</th>\n<th>राशि</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>प्रारंभिक शेष<br/>नकद<br/>बैंक</td>\n<td>1140<br/>3967759.57</td>\n<td>1. MBK का मानद्देय</td>\n<td>13500</td>\n</tr>\n<tr>\n<td>vocsf प्रथम किस्त (SSF)<br/>म्हण मू० बापली</td>\n<td>222400</td>\n<td>2. CF का मानद्देय</td>\n<td>13000</td>\n</tr>\n<tr>\n<td>vocsf म्हण 9C क्याल<br/>प्राप्ति</td>\n<td>138945</td>\n<td>3. बैंक मित्रा का मानद्देय</td>\n<td>6400</td>\n</tr>\n<tr>\n<td>vo सामान्य म्हण<br/>मू० बापली</td>\n<td>578100</td>\n<td>4. CNRP का मानद्देय</td>\n<td>14800</td>\n</tr>\n<tr>\n<td>vo सामान्य म्हण<br/>9C क्याल प्राप्ति</td>\n<td>95393</td>\n<td>5. OB सदस्य का TTA</td>\n<td>11560</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>6. SSY-MRP का मानद्देय</td>\n<td>12000</td>\n</tr>\n</tbody>\n</table>",
+ "sec": 0.0,
+ "image": "page",
+ "prep": {},
+ "compute_sec": 14.9,
+ "config": {
+  "harness": false,
+  "script": null,
+  "script_map_fixed": false,
+  "token_budget": false,
+  "guard": false,
+  "degeneracy_check": false,
+  "zoom": null,
+  "strip_max_aspect": null,
+  "header_band": false,
+  "split_verify": false,
+  "table_text": false,
+  "table_text_gated": false,
+  "table_dup_aksharas": false,
+  "latex_ban": false,
+  "script_ban": false,
+  "digit_ban": false,
+  "script_reread_gate": false,
+  "vote": null,
+  "dedupe": false,
+  "latex_plain": false,
+  "harvest_dates": false,
+  "harvest_year_window": false,
+  "flags": false,
+  "flags_cell_counts": false
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "List",
+   "type": "Text",
+   "bbox_xyxy": [
+    623.9,
+    318.0,
+    2083.0,
+    1591.2
+   ],
+   "conf": 0.602,
+   "text": "1. BK सर्वन्द्र कुमार को TCC अपने जाने का भाडा\n300/- दिख गया / नकद\n\n2. BK विवेका नन्द को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n3. BK सुरिल रंजन को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n4. BK सुनिता कुमारी को TCC अपने-जाने का भाडा\n300/- दिख गया / नकद\n\n7 दिनांक - 4/8/2026, 5/8/2026 को सचिव-विमला देवी\nहितल दो दीन गई WFI रिचार्ज करने के\nलिए अपने-जाने का भाडा - 75/- दिख गया नकद\n\n8. दिनांक - 11/8/2026 को BFR नगरनोला OB सदस्य गए\nसुधा विक्री केन्द्र के लिए तीन दीदी के अपने-जाने\nका भाडा 210/- दिख गया नकद",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 1273,
+      "w": 1459,
+      "ntok": 212,
+      "lp": -0.1006,
+      "hit": false,
+      "sec": 6.24,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 1,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    349.4,
+    1716.6,
+    2062.6,
+    2757.9
+   ],
+   "conf": 0.94,
+   "text": "<table>\n<thead>\n<tr>\n<th>प्राप्ति</th>\n<th>राशि</th>\n<th>भूगतांश</th>\n<th>राशि</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>प्रारंभिक शेष<br/>नकद<br/>बैंक</td>\n<td>1140<br/>3967759.57</td>\n<td>1. MBK का मानद्देय</td>\n<td>13500</td>\n</tr>\n<tr>\n<td>vocsf प्रथम किस्त (SSF)<br/>म्हण मू० बापली</td>\n<td>222400</td>\n<td>2. CF का मानद्देय</td>\n<td>13000</td>\n</tr>\n<tr>\n<td>vocsf म्हण 9C क्याल<br/>प्राप्ति</td>\n<td>138945</td>\n<td>3. बैंक मित्रा का मानद्देय</td>\n<td>6400</td>\n</tr>\n<tr>\n<td>vo सामान्य म्हण<br/>मू० बापली</td>\n<td>578100</td>\n<td>4. CNRP का मानद्देय</td>\n<td>14800</td>\n</tr>\n<tr>\n<td>vo सामान्य म्हण<br/>9C क्याल प्राप्ति</td>\n<td>95393</td>\n<td>5. OB सदस्य का TTA</td>\n<td>11560</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>6. SSY-MRP का मानद्देय</td>\n<td>12000</td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 1041,
+      "w": 1714,
+      "ntok": 320,
+      "lp": -0.0775,
+      "hit": false,
+      "sec": 8.62,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  }
+ ]
+}

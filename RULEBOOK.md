@@ -8,6 +8,9 @@ or code it in any language. It needs no AI model and no training data.
 ## What you need
 
 1. **The text of the page**, line by line. Tables keep their columns, separated by `|`.
+   If the text comes from an OCR model, clean it first: split words the OCR glued together
+   ("सुनिताकुमारी" → "सुनिता कुमारी", "देवीCNRP" → "देवी CNRP"), and turn line breaks inside a
+   table cell into spaces. `ocr_post.py` does this for BODHAN.
 2. **The roster** of the group the register belongs to. One row per person:
    ID, name, role, village, MIS ID (if any), and whether she has a loan.
    Use only the roster of that register's own group. An SHG register is checked

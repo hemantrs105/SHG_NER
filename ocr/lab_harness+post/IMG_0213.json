@@ -1,0 +1,417 @@
+{
+ "text": "① आज दिनांक 15/9/2026 समय 11 बजे देवीस्थान\nके पास विद्या उपज का बैठक किया\nगया, इस बैठक में सभी दिदी उपोरच्यत\nहुई, सभी ने प्राथनी परिचय किया और\nअपना-अपना बचत जमा की।\n\n2. अनाज की कार्यवाही अध्यक्ष सुषमाउ०\nको सर्व सहमति से बनाया गया ।\nपूर्व कार्यवादी की समीक्षा की गई,\nलेन-देन की यर्थी किया गया, जिसमे आणि\nवर्षासी और ब्याज वर्षासी घट चर्या की गई\nआज की बैठक में बैठक में 7500 सौ रुपये\nदीदी ने जमा की है।\n\n(उ) खून की कमी के लक्षण के बारे में बताया गया\nपीपी खून की कमी होने पर हमेशा थकान या\nकमजोरी महसूस होती है। थोड़ा सा भी काम करने\nपर सांस फूलने लगता है, कोई बार चक्कर भी\nआ जाती है। सिर दर्द और सिर मारी लगने लगता\nहै, मुख भी कम लगता है, और दिल की धड़कन\nतेज महसूस होता है। और बार-बार बीमार भी\nहो जाता है। पीपी अगर यह सभी लक्षण\nदिखाई दे तो निजी डार्कटर से संपर्क करे,\nऔर अपने खान-पान एवं साफ-सफाई\nका ध्यान दे। ( ध्यान्यवाद )\n\n<table>\n<tbody>\n<tr>\n<td>प्रारंभिक वयस्क - 8540</td>\n<td>बैंक जमा - 7500</td>\n</tr>\n<tr>\n<td>आज का वयस्क - 140</td>\n<td>यात्री खर्च - 20 7520</td>\n</tr>\n<tr>\n<td>कुल वयस्क - 8680</td>\n<td>कुल भुगतान - 1160 1160</td>\n</tr>\n<tr>\n<td></td>\n<td>अधिक वयस्क - 1160</td>\n</tr>\n<tr>\n<td></td>\n<td>कुल योग 8680</td>\n</tr>\n</tbody>\n</table>\n\nश्रीमती देवी रीमाकुमारी स्वीटी कुमारी\n\nCM\nनवीदादी\n15/9/2026\n\n५०० स्वीटी",
+ "sec": 0.1,
+ "image": "page",
+ "prep": {
+  "harvested_dates": {
+   "header": [],
+   "footer": []
+  }
+ },
+ "compute_sec": 16.1,
+ "config": {
+  "harness": true,
+  "script": "deva",
+  "script_map_fixed": true,
+  "token_budget": true,
+  "guard": true,
+  "degeneracy_check": true,
+  "zoom": {
+   "min_line": 32,
+   "max_zoom": 2.0,
+   "min_change": 1.2,
+   "floor": true,
+   "verify_margin": 0.1,
+   "verify_len": null,
+   "latex_ok": true
+  },
+  "strip_max_aspect": 8.0,
+  "header_band": true,
+  "split_verify": true,
+  "table_text": true,
+  "table_text_gated": true,
+  "table_dup_aksharas": true,
+  "latex_ban": true,
+  "script_ban": true,
+  "digit_ban": true,
+  "script_reread_gate": true,
+  "vote": {
+   "max_lp": -0.3,
+   "pad": 24,
+   "shift": 8,
+   "max_blocks": 4
+  },
+  "dedupe": true,
+  "latex_plain": true,
+  "harvest_dates": true,
+  "harvest_year_window": false,
+  "flags": true,
+  "flags_cell_counts": true
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    165.4,
+    264.0,
+    1872.9,
+    633.0
+   ],
+   "conf": 0.811,
+   "text": "① आज दिनांक 15/9/2026 समय 11 बजे देवीस्थान\nके पास विद्या उपज का बैठक किया\nगया, इस बैठक में सभी दिदी उपोरच्यत\nहुई, सभी ने प्राथनी परिचय किया और\nअपना-अपना बचत जमा की।",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 36.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 369,
+        "w": 1708,
+        "ntok": 64,
+        "lp": -0.1196,
+        "hit": false,
+        "sec": 1.96,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 1,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    167.6,
+    675.0,
+    1900.8,
+    1201.8
+   ],
+   "conf": 0.823,
+   "text": "2. अनाज की कार्यवाही अध्यक्ष सुषमाउ०\nको सर्व सहमति से बनाया गया ।\nपूर्व कार्यवादी की समीक्षा की गई,\nलेन-देन की यर्थी किया गया, जिसमे आणि\nवर्षासी और ब्याज वर्षासी घट चर्या की गई\nआज की बैठक में बैठक में 7500 सौ रुपये\nदीदी ने जमा की है।",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 37.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 527,
+        "w": 1733,
+        "ntok": 78,
+        "lp": -0.2538,
+        "hit": false,
+        "sec": 2.53,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 2,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    122.2,
+    1257.3,
+    1927.8,
+    2131.8
+   ],
+   "conf": 0.858,
+   "text": "(उ) खून की कमी के लक्षण के बारे में बताया गया\nपीपी खून की कमी होने पर हमेशा थकान या\nकमजोरी महसूस होती है। थोड़ा सा भी काम करने\nपर सांस फूलने लगता है, कोई बार चक्कर भी\nआ जाती है। सिर दर्द और सिर मारी लगने लगता\nहै, मुख भी कम लगता है, और दिल की धड़कन\nतेज महसूस होता है। और बार-बार बीमार भी\nहो जाता है। पीपी अगर यह सभी लक्षण\nदिखाई दे तो निजी डार्कटर से संपर्क करे,\nऔर अपने खान-पान एवं साफ-सफाई\nका ध्यान दे। ( ध्यान्यवाद )",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 37.5,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 875,
+        "w": 1806,
+        "ntok": 134,
+        "lp": -0.0931,
+        "hit": false,
+        "sec": 4.29,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    201.8,
+    2162.1,
+    1915.0,
+    2628.9
+   ],
+   "conf": 0.883,
+   "text": "<table>\n<tbody>\n<tr>\n<td>प्रारंभिक वयस्क - 8540</td>\n<td>बैंक जमा - 7500</td>\n</tr>\n<tr>\n<td>आज का वयस्क - 140</td>\n<td>यात्री खर्च - 20 7520</td>\n</tr>\n<tr>\n<td>कुल वयस्क - 8680</td>\n<td>कुल भुगतान - 1160 1160</td>\n</tr>\n<tr>\n<td></td>\n<td>अधिक वयस्क - 1160</td>\n</tr>\n<tr>\n<td></td>\n<td>कुल योग 8680</td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 45.5,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 467,
+        "w": 1713,
+        "ntok": 133,
+        "lp": -0.0714,
+        "hit": false,
+        "sec": 3.7,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 4,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    118.4,
+    2655.0,
+    1365.8,
+    2776.8
+   ],
+   "conf": 0.797,
+   "text": "श्रीमती देवी रीमाकुमारी स्वीटी कुमारी",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 36.5,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 122,
+        "w": 1248,
+        "ntok": 11,
+        "lp": -0.2654,
+        "hit": false,
+        "sec": 0.46,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 5,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    1577.7,
+    2641.8,
+    1908.9,
+    2890.8
+   ],
+   "conf": 0.725,
+   "text": "CM\nनवीदादी\n15/9/2026",
+   "harness": {
+    "mode": "vote",
+    "lp": -0.3286,
+    "original": {
+     "mode": "segments",
+     "parts": [
+      {
+       "line_px": 55.0,
+       "card_scale": 1.0,
+       "scale": 1.0,
+       "mode": "as model card",
+       "pieces": [
+        {
+         "h": 249,
+         "w": 331,
+         "ntok": 16,
+         "lp": -0.3286,
+         "hit": false,
+         "sec": 0.47,
+         "cached": true,
+         "seeded": false
+        }
+       ],
+       "role": "block"
+      }
+     ]
+    },
+    "views": [
+     {
+      "view": "pad",
+      "box": [
+       1554,
+       2618,
+       1933,
+       2915
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 55.0,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "h": 297,
+           "w": 379,
+           "ntok": 17,
+           "lp": -0.1851,
+           "hit": false,
+           "sec": 0.62,
+           "cached": true,
+           "seeded": false
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     },
+     {
+      "view": "shift",
+      "box": [
+       1574,
+       2638,
+       1929,
+       2911
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 55.0,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "h": 273,
+           "w": 355,
+           "ntok": 17,
+           "lp": -0.2233,
+           "hit": false,
+           "sec": 0.51,
+           "cached": true,
+           "seeded": false
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     }
+    ],
+    "applied": 2
+   }
+  },
+  {
+   "order": 6,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    135.2,
+    2867.7,
+    384.1,
+    2950.2
+   ],
+   "conf": 0.558,
+   "text": "५०० स्वीटी",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 59.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 82,
+        "w": 249,
+        "ntok": 5,
+        "lp": -0.2213,
+        "hit": false,
+        "sec": 0.31,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 7,
+   "label": "Footer",
+   "type": "PageFooter",
+   "bbox_xyxy": [
+    119.0,
+    2648.1,
+    1911.8,
+    2950.2
+   ],
+   "conf": 0.6,
+   "text": "",
+   "harness": {
+    "mode": "harvest_dates",
+    "read": "भीमती देवी\nरीमाकुमारी स्वीटी कुमारी\n400 स्वीटी\nCM\nवनोदनी\n15/9/2026",
+    "dates": [
+     "15/9/2026"
+    ],
+    "pieces": [
+     {
+      "h": 302,
+      "w": 1793,
+      "ntok": 34,
+      "lp": -0.3579,
+      "hit": false,
+      "sec": 1.24,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  }
+ ]
+}

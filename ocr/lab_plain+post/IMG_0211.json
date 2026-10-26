@@ -1,0 +1,244 @@
+{
+ "text": "① आज दिनांक 8/9/2026 समय 11 बजे देवी\nस्थान के पास विद्या OMG का बैठक\nकिया गया। इस बैठक में सभी दीदी\nउपस्थित हुई सभी दीदी ने बढ़ते कदम\nबढते कदम प्रार्थना की ओट अपना\nअपना परिचय किया ओट सभी दीदी\nने बचत भी जमा की।\n\n२. आज की कार्य वाही अध्यक्ष २ वीटी\nकुमारी को रवि सहमति से बनाया गया\nपूर्व कार्य वाही की पढ कर सुनाया\nगया ।\nलेन-देन की चर्चा की गई ।\nबैठें बपासी पर चर्चा करते हुये बताया गया\nकी दीदी । से १० तारीख तक बैठें में\nराशी जमा करना बहुत जरूरी है, इस\nलिए जो दीदी जाण ली है । वह समय\nसे जरूर बपास करे ।\n\n3. आज की बैठक में खून की कमी रेगनिमिया\nविमारी पर बताया गया, पीपी हम महिला को\nखून की काली उत्पाद तर छोटी है, इसलिए\nअपने खाना-पान पर उत्पाद ध्यान दें।\nऔर खून की जाँच भी जरूर करवाये।\n\n<table>\n<thead>\n<tr>\n<th>प्रारंभिक वयत्त - 900</th>\n<th>सहस्योकोलाज 19000</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>आज का वयत्त - 140280</td>\n<td>चार्ट खर्च - 100</td>\n</tr>\n<tr>\n<td>मु०वपासी - 7000</td>\n<td></td>\n</tr>\n<tr>\n<td>ब्याज प्रवासी - 460</td>\n<td>अंतिम वयत्त - 8400 8540</td>\n</tr>\n<tr>\n<td>बैंक - 19000</td>\n<td></td>\n</tr>\n<tr>\n<td>कम वयत्त - 27540</td>\n<td>कम योग 27500</td>\n</tr>\n</tbody>\n</table>\n\nश्रीमती देवी\n\nविद्या जीविका स्वयं सहायता सम्भो\nआम्ही संसार कुमारी र-पी टी - हमारी\nअध्यक्ष सचिव सोपानचन्द\n\nCM\nनवीतोदी\n8/9/2026",
+ "sec": 0.0,
+ "image": "page",
+ "prep": {},
+ "compute_sec": 13.7,
+ "config": {
+  "harness": false,
+  "script": null,
+  "script_map_fixed": false,
+  "token_budget": false,
+  "guard": false,
+  "degeneracy_check": false,
+  "zoom": null,
+  "strip_max_aspect": null,
+  "header_band": false,
+  "split_verify": false,
+  "table_text": false,
+  "table_text_gated": false,
+  "table_dup_aksharas": false,
+  "latex_ban": false,
+  "script_ban": false,
+  "digit_ban": false,
+  "script_reread_gate": false,
+  "vote": null,
+  "dedupe": false,
+  "latex_plain": false,
+  "harvest_dates": false,
+  "harvest_year_window": false,
+  "flags": false,
+  "flags_cell_counts": false
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    148.0,
+    284.4,
+    1862.5,
+    819.9
+   ],
+   "conf": 0.819,
+   "text": "① आज दिनांक 8/9/2026 समय 11 बजे देवी\nस्थान के पास विद्या OMG का बैठक\nकिया गया। इस बैठक में सभी दीदी\nउपस्थित हुई सभी दीदी ने बढ़ते कदम\nबढते कदम प्रार्थना की ओट अपना\nअपना परिचय किया ओट सभी दीदी\nने बचत भी जमा की।",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 536,
+      "w": 1714,
+      "ntok": 74,
+      "lp": -0.1352,
+      "hit": false,
+      "sec": 2.48,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 1,
+   "label": "List",
+   "type": "Text",
+   "bbox_xyxy": [
+    135.5,
+    866.4,
+    1895.0,
+    1641.0
+   ],
+   "conf": 0.73,
+   "text": "२. आज की कार्य वाही अध्यक्ष २ वीटी\nकुमारी को रवि सहमति से बनाया गया\nपूर्व कार्य वाही की पढ कर सुनाया\nगया ।\nलेन-देन की चर्चा की गई ।\nबैठें बपासी पर चर्चा करते हुये बताया गया\nकी दीदी । से १० तारीख तक बैठें में\nराशी जमा करना बहुत जरूरी है, इस\nलिए जो दीदी जाण ली है । वह समय\nसे जरूर बपास करे ।",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 775,
+      "w": 1759,
+      "ntok": 96,
+      "lp": -0.1589,
+      "hit": false,
+      "sec": 3.25,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 2,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    137.9,
+    1680.3,
+    1893.6,
+    2102.1
+   ],
+   "conf": 0.78,
+   "text": "3. आज की बैठक में खून की कमी रेगनिमिया\nविमारी पर बताया गया, पीपी हम महिला को\nखून की काली उत्पाद तर छोटी है, इसलिए\nअपने खाना-पान पर उत्पाद ध्यान दें।\nऔर खून की जाँच भी जरूर करवाये।",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 422,
+      "w": 1756,
+      "ntok": 56,
+      "lp": -0.2756,
+      "hit": false,
+      "sec": 1.82,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    181.6,
+    2150.7,
+    1869.8,
+    2645.7
+   ],
+   "conf": 0.908,
+   "text": "<table>\n<thead>\n<tr>\n<th>प्रारंभिक वयत्त - 900</th>\n<th>सहस्योकोलाज 19000</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>आज का वयत्त - 140280</td>\n<td>चार्ट खर्च - 100</td>\n</tr>\n<tr>\n<td>मु०वपासी - 7000</td>\n<td></td>\n</tr>\n<tr>\n<td>ब्याज प्रवासी - 460</td>\n<td>अंतिम वयत्त - 8400 8540</td>\n</tr>\n<tr>\n<td>बैंक - 19000</td>\n<td></td>\n</tr>\n<tr>\n<td>कम वयत्त - 27540</td>\n<td>कम योग 27500</td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 495,
+      "w": 1688,
+      "ntok": 176,
+      "lp": -0.1233,
+      "hit": false,
+      "sec": 4.7,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 4,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    206.3,
+    2700.0,
+    526.9,
+    2794.2
+   ],
+   "conf": 0.538,
+   "text": "श्रीमती देवी",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 94,
+      "w": 321,
+      "ntok": 5,
+      "lp": -0.0184,
+      "hit": false,
+      "sec": 0.25,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 5,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    698.2,
+    2641.8,
+    1456.6,
+    2839.5
+   ],
+   "conf": 0.7,
+   "text": "विद्या जीविका स्वयं सहायता सम्भो\nआम्ही संसार कुमारी र-पी टी - हमारी\nअध्यक्ष सचिव सोपानचन्द",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 198,
+      "w": 759,
+      "ntok": 28,
+      "lp": -0.7023,
+      "hit": false,
+      "sec": 0.8,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 6,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    1638.2,
+    2598.0,
+    1901.9,
+    2864.1
+   ],
+   "conf": 0.78,
+   "text": "CM\nनवीतोदी\n8/9/2026",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 266,
+      "w": 264,
+      "ntok": 15,
+      "lp": -0.0805,
+      "hit": false,
+      "sec": 0.43,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 7,
+   "label": "Footer",
+   "type": "PageFooter",
+   "bbox_xyxy": [
+    207.5,
+    2601.3,
+    1903.0,
+    2868.6
+   ],
+   "conf": 0.567,
+   "text": ""
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+{"image": "page", "width": 2250, "height": 3000, "blocks": [{"order": 0, "label": "List", "type": "Text", "bbox_xyxy": [623.9, 318.0, 2083.0, 1591.2], "conf": 0.602}, {"order": 1, "label": "Table", "type": "Table", "bbox_xyxy": [349.4, 1716.6, 2062.6, 2757.9], "conf": 0.94}]}

@@ -1,0 +1,777 @@
+{
+ "text": "48 Ans of Ans\n\n(1) आज दिनांक 28/8/2026 समय 11 बजे देवीस्थान\nदेव के पास विद्या SITN का बैठक किया गया\nइस बैठक में सभी दिपी उपस्थित हुई\nसभी ने प्रभावी परिचय किया और\nअपना अपना बचत जमा की।\n\n(२) आज को कार्य वादी अध्यक्ष दिया कुमटी\nको सर्व सहमति से बनाया गया।\nपूर्व कार्य वादी की चर्चा किया गया।\nलेन-देन की चर्चा किया गया।\nजोपिपी समूह से प्राण ली है। वह समय\nके अनुसार वापस जरूर करे।\n\n3. प्रसवोत्तर एवं रजोनिवृत्ति अवसाद पर यमी\nअवसाद केवल समन्य उदासी नहीं है बल्कि\nएक निरंतर बनी रहने वाली स्थिति है, जो\nव्यक्ति के सोचने महसूस करने और दैनिक\nजीवन के कार्य करने के तरीके को नाकारात्मक\nरूप से प्रभावित करता है। इसमें लंबे समय तक\nउदासी निश्शा और गतिविधियों में रखय या\nअनन्द का अभाव रहता है। जिससे जीवन को\nगुणवत्ता प्रभावित होती है। आमतौर पर महिलाओं\nमें अवसाद प्रसवोत्तर एवं रजोनिवृत्ति के समय देखने\nके मिलता है।\n\n<table>\n<tbody>\n<tr>\n<td>प्रारंभिक वियत - 900</td>\n<td>वोजया - 170</td>\n</tr>\n<tr>\n<td>आज का वियत - 140</td>\n<td></td>\n</tr>\n<tr>\n<td>मु० वपासी -<br/>व्याज वपासी -<br/>कुल वियत - 70</td>\n<td>अतिय वियत - 900</td>\n</tr>\n<tr>\n<td>कुल वियत - 1070</td>\n<td>कुल योग - 1070</td>\n</tr>\n</tbody>\n</table>\n\nनिवा जोयेका स्वयं सहायता सम्बुद्ध\nग्राम-हरबधपुर, इसलामपुर (नालन्दा)\n\n620 cm के पास सीमा कुमारी स्वीटी कुमारी\n\nC.M.\nबनेदादी\n28/8/226",
+ "sec": 0.1,
+ "image": "page",
+ "prep": {
+  "harvested_dates": {
+   "header": [],
+   "footer": []
+  },
+  "flags": {
+   "zoom_rejected": [
+    [
+     1,
+     "lower confidence than the card read"
+    ]
+   ]
+  }
+ },
+ "compute_sec": 22.1,
+ "config": {
+  "harness": true,
+  "script": "deva",
+  "script_map_fixed": true,
+  "token_budget": true,
+  "guard": true,
+  "degeneracy_check": true,
+  "zoom": {
+   "min_line": 32,
+   "max_zoom": 2.0,
+   "min_change": 1.2,
+   "floor": true,
+   "verify_margin": 0.1,
+   "verify_len": null,
+   "latex_ok": true
+  },
+  "strip_max_aspect": 8.0,
+  "header_band": true,
+  "split_verify": true,
+  "table_text": true,
+  "table_text_gated": true,
+  "table_dup_aksharas": true,
+  "latex_ban": true,
+  "script_ban": true,
+  "digit_ban": true,
+  "script_reread_gate": true,
+  "vote": {
+   "max_lp": -0.3,
+   "pad": 24,
+   "shift": 8,
+   "max_blocks": 4
+  },
+  "dedupe": true,
+  "latex_plain": true,
+  "harvest_dates": true,
+  "harvest_year_window": false,
+  "flags": true,
+  "flags_cell_counts": true
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Header",
+   "type": "PageHeader",
+   "bbox_xyxy": [
+    576.2,
+    43.5,
+    1618.6,
+    154.5
+   ],
+   "conf": 0.76,
+   "text": "",
+   "harness": {
+    "mode": "harvest_dates",
+    "read": "i) $8 \\text{ inches of coffee}$\nii) $265$",
+    "dates": [],
+    "pieces": [
+     {
+      "repair": "latex",
+      "reread": {
+       "h": 110,
+       "w": 1043,
+       "ntok": 21,
+       "lp": -0.8646,
+       "hit": false,
+       "sec": 0.58,
+       "cached": true,
+       "seeded": false,
+       "ban": "latex"
+      },
+      "first_read": {
+       "h": 110,
+       "w": 1043,
+       "ntok": 20,
+       "lp": -0.9209,
+       "hit": false,
+       "sec": 0.57,
+       "cached": true,
+       "seeded": false
+      },
+      "accepted": false,
+      "why": "re-read hit the cap or diverged"
+     }
+    ]
+   }
+  },
+  {
+   "order": 1,
+   "label": "Title",
+   "type": "Title",
+   "bbox_xyxy": [
+    576.2,
+    42.0,
+    1006.9,
+    132.0
+   ],
+   "conf": 0.514,
+   "text": "48 Ans of Ans",
+   "harness": {
+    "mode": "vote",
+    "lp": -1.0115,
+    "original": {
+     "mode": "segments",
+     "parts": [
+      {
+       "line_px": null,
+       "card_scale": 1.0,
+       "scale": 1.0,
+       "mode": "as model card",
+       "pieces": [
+        {
+         "repair": "latex",
+         "reread": {
+          "h": 90,
+          "w": 431,
+          "ntok": 12,
+          "lp": -1.0206,
+          "hit": false,
+          "sec": 0.37,
+          "cached": true,
+          "seeded": false,
+          "ban": "latex"
+         },
+         "first_read": {
+          "h": 90,
+          "w": 431,
+          "ntok": 11,
+          "lp": -1.0115,
+          "hit": false,
+          "sec": 0.36,
+          "cached": true,
+          "seeded": false
+         },
+         "accepted": false,
+         "why": "re-read hit the cap or diverged"
+        }
+       ],
+       "role": "block"
+      }
+     ]
+    },
+    "views": [
+     {
+      "view": "pad",
+      "box": [
+       552,
+       18,
+       1031,
+       156
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 10.0,
+         "card_scale": 1.0,
+         "scale": 2.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "h": 138,
+           "w": 479,
+           "ntok": 18,
+           "lp": -0.5508,
+           "hit": false,
+           "sec": 0.6,
+           "cached": true,
+           "seeded": false
+          }
+         ],
+         "zoom_rejected": "lower confidence than the card read",
+         "zoom_lp": -0.7709,
+         "card_lp": -0.5508,
+         "role": "block"
+        }
+       ]
+      }
+     },
+     {
+      "view": "shift",
+      "box": [
+       572,
+       38,
+       1027,
+       152
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": null,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "h": 114,
+           "w": 455,
+           "ntok": 14,
+           "lp": -0.5875,
+           "hit": false,
+           "sec": 0.43,
+           "cached": true,
+           "seeded": false
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     }
+    ],
+    "applied": 0,
+    "why": "a view hit the cap, diverged (> 0.4) or has another line count"
+   }
+  },
+  {
+   "order": 2,
+   "label": "List",
+   "type": "Text",
+   "bbox_xyxy": [
+    0.7,
+    236.1,
+    1718.5,
+    598.8
+   ],
+   "conf": 0.84,
+   "text": "(1) आज दिनांक 28/8/2026 समय 11 बजे देवीस्थान\nदेव के पास विद्या SITN का बैठक किया गया\nइस बैठक में सभी दिपी उपस्थित हुई\nसभी ने प्रभावी परिचय किया और\nअपना अपना बचत जमा की।",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 39.0,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 363,
+        "w": 1717,
+        "ntok": 57,
+        "lp": -0.1974,
+        "hit": false,
+        "sec": 1.76,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "List",
+   "type": "Text",
+   "bbox_xyxy": [
+    6.8,
+    632.7,
+    1698.1,
+    1086.0
+   ],
+   "conf": 0.844,
+   "text": "(२) आज को कार्य वादी अध्यक्ष दिया कुमटी\nको सर्व सहमति से बनाया गया।\nपूर्व कार्य वादी की चर्चा किया गया।\nलेन-देन की चर्चा किया गया।\nजोपिपी समूह से प्राण ली है। वह समय\nके अनुसार वापस जरूर करे।",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 36.5,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 453,
+        "w": 1691,
+        "ntok": 60,
+        "lp": -0.2552,
+        "hit": false,
+        "sec": 1.94,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 4,
+   "label": "List",
+   "type": "Text",
+   "bbox_xyxy": [
+    49.3,
+    1119.6,
+    1781.8,
+    1957.8
+   ],
+   "conf": 0.854,
+   "text": "3. प्रसवोत्तर एवं रजोनिवृत्ति अवसाद पर यमी\nअवसाद केवल समन्य उदासी नहीं है बल्कि\nएक निरंतर बनी रहने वाली स्थिति है, जो\nव्यक्ति के सोचने महसूस करने और दैनिक\nजीवन के कार्य करने के तरीके को नाकारात्मक\nरूप से प्रभावित करता है। इसमें लंबे समय तक\nउदासी निश्शा और गतिविधियों में रखय या\nअनन्द का अभाव रहता है। जिससे जीवन को\nगुणवत्ता प्रभावित होती है। आमतौर पर महिलाओं\nमें अवसाद प्रसवोत्तर एवं रजोनिवृत्ति के समय देखने\nके मिलता है।",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": 38.5,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "as model card",
+      "pieces": [
+       {
+        "h": 838,
+        "w": 1733,
+        "ntok": 122,
+        "lp": -0.0938,
+        "hit": false,
+        "sec": 3.84,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 5,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    189.2,
+    1999.5,
+    1681.4,
+    2496.0
+   ],
+   "conf": 0.811,
+   "text": "<table>\n<tbody>\n<tr>\n<td>प्रारंभिक वियत - 900</td>\n<td>वोजया - 170</td>\n</tr>\n<tr>\n<td>आज का वियत - 140</td>\n<td></td>\n</tr>\n<tr>\n<td>मु० वपासी -<br/>व्याज वपासी -<br/>कुल वियत - 70</td>\n<td>अतिय वियत - 900</td>\n</tr>\n<tr>\n<td>कुल वियत - 1070</td>\n<td>कुल योग - 1070</td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "segments",
+    "parts": [
+     {
+      "line_px": null,
+      "card_scale": 1.0,
+      "scale": 1.0,
+      "mode": "lab: forced scale",
+      "pieces": [
+       {
+        "h": 496,
+        "w": 1492,
+        "ntok": 128,
+        "lp": -0.1083,
+        "hit": false,
+        "sec": 3.44,
+        "cached": true,
+        "seeded": false
+       }
+      ],
+      "role": "block"
+     }
+    ]
+   }
+  },
+  {
+   "order": 6,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    575.3,
+    2482.2,
+    1058.9,
+    2593.2
+   ],
+   "conf": 0.747,
+   "text": "निवा जोयेका स्वयं सहायता सम्बुद्ध\nग्राम-हरबधपुर, इसलामपुर (नालन्दा)",
+   "harness": {
+    "mode": "vote",
+    "lp": -0.5145,
+    "original": {
+     "mode": "segments",
+     "parts": [
+      {
+       "line_px": 38.0,
+       "card_scale": 1.0,
+       "scale": 1.0,
+       "mode": "as model card",
+       "pieces": [
+        {
+         "h": 111,
+         "w": 484,
+         "ntok": 27,
+         "lp": -0.5145,
+         "hit": false,
+         "sec": 0.77,
+         "cached": true,
+         "seeded": false
+        }
+       ],
+       "role": "block"
+      }
+     ]
+    },
+    "views": [
+     {
+      "view": "pad",
+      "box": [
+       551,
+       2458,
+       1083,
+       2617
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 36.0,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "h": 159,
+           "w": 532,
+           "ntok": 26,
+           "lp": -0.4867,
+           "hit": false,
+           "sec": 0.79,
+           "cached": true,
+           "seeded": false
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     },
+     {
+      "view": "shift",
+      "box": [
+       571,
+       2478,
+       1079,
+       2613
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 38.0,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "h": 135,
+           "w": 508,
+           "ntok": 28,
+           "lp": -0.5491,
+           "hit": false,
+           "sec": 0.72,
+           "cached": true,
+           "seeded": false
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     }
+    ],
+    "applied": 0
+   }
+  },
+  {
+   "order": 7,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    107.3,
+    2601.9,
+    1413.2,
+    2825.4
+   ],
+   "conf": 0.656,
+   "text": "620 cm के पास सीमा कुमारी स्वीटी कुमारी",
+   "harness": {
+    "mode": "vote",
+    "lp": -0.3356,
+    "original": {
+     "mode": "segments",
+     "parts": [
+      {
+       "line_px": 40.0,
+       "card_scale": 1.0,
+       "scale": 1.0,
+       "mode": "as model card",
+       "pieces": [
+        {
+         "h": 223,
+         "w": 1306,
+         "ntok": 12,
+         "lp": -0.3356,
+         "hit": false,
+         "sec": 0.51,
+         "cached": true,
+         "seeded": false
+        }
+       ],
+       "role": "block"
+      }
+     ]
+    },
+    "views": [
+     {
+      "view": "pad",
+      "box": [
+       83,
+       2578,
+       1437,
+       2849
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 39.5,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "repair": "latex",
+           "reread": {
+            "h": 271,
+            "w": 1354,
+            "ntok": 20,
+            "lp": -0.5281,
+            "hit": false,
+            "sec": 0.68,
+            "cached": true,
+            "seeded": false,
+            "ban": "latex"
+           },
+           "first_read": {
+            "h": 271,
+            "w": 1354,
+            "ntok": 25,
+            "lp": -0.4076,
+            "hit": false,
+            "sec": 0.82,
+            "cached": true,
+            "seeded": false
+           },
+           "accepted": true
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     },
+     {
+      "view": "shift",
+      "box": [
+       103,
+       2598,
+       1433,
+       2845
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 43.0,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "repair": "latex",
+           "reread": {
+            "h": 247,
+            "w": 1330,
+            "ntok": 21,
+            "lp": -0.4405,
+            "hit": false,
+            "sec": 0.7,
+            "cached": true,
+            "seeded": false,
+            "ban": "latex"
+           },
+           "first_read": {
+            "h": 247,
+            "w": 1330,
+            "ntok": 26,
+            "lp": -0.3446,
+            "hit": false,
+            "sec": 0.82,
+            "cached": true,
+            "seeded": false
+           },
+           "accepted": true
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     }
+    ],
+    "applied": 0,
+    "why": "a view hit the cap, diverged (> 0.4) or has another line count"
+   }
+  },
+  {
+   "order": 8,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    1560.2,
+    2468.7,
+    1823.4,
+    2754.6
+   ],
+   "conf": 0.821,
+   "text": "C.M.\nबनेदादी\n28/8/226",
+   "harness": {
+    "mode": "vote",
+    "lp": -0.6079,
+    "original": {
+     "mode": "segments",
+     "parts": [
+      {
+       "line_px": 78.0,
+       "card_scale": 1.0,
+       "scale": 1.0,
+       "mode": "as model card",
+       "pieces": [
+        {
+         "h": 286,
+         "w": 263,
+         "ntok": 19,
+         "lp": -0.6079,
+         "hit": false,
+         "sec": 0.52,
+         "cached": true,
+         "seeded": false
+        }
+       ],
+       "role": "block"
+      }
+     ]
+    },
+    "views": [
+     {
+      "view": "pad",
+      "box": [
+       1536,
+       2445,
+       1847,
+       2779
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 78.0,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "h": 334,
+           "w": 311,
+           "ntok": 15,
+           "lp": -0.7538,
+           "hit": false,
+           "sec": 0.52,
+           "cached": true,
+           "seeded": false
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     },
+     {
+      "view": "shift",
+      "box": [
+       1556,
+       2465,
+       1843,
+       2775
+      ],
+      "info": {
+       "mode": "segments",
+       "parts": [
+        {
+         "line_px": 78.0,
+         "card_scale": 1.0,
+         "scale": 1.0,
+         "mode": "as model card",
+         "pieces": [
+          {
+           "h": 310,
+           "w": 287,
+           "ntok": 13,
+           "lp": -0.5811,
+           "hit": false,
+           "sec": 0.41,
+           "cached": true,
+           "seeded": false
+          }
+         ],
+         "role": "block"
+        }
+       ]
+      }
+     }
+    ],
+    "applied": 0,
+    "why": "a view hit the cap, diverged (> 0.4) or has another line count"
+   }
+  },
+  {
+   "order": 9,
+   "label": "Footer",
+   "type": "PageFooter",
+   "bbox_xyxy": [
+    101.7,
+    2479.5,
+    1822.5,
+    2829.6
+   ],
+   "conf": 0.54,
+   "text": "",
+   "harness": {
+    "mode": "harvest_dates",
+    "read": "620 CM के पास\nरीमा कुमारी\nस्वीटी कुमारी\n12/8/226",
+    "dates": [],
+    "pieces": [
+     {
+      "h": 350,
+      "w": 1720,
+      "ntok": 24,
+      "lp": -0.4866,
+      "hit": false,
+      "sec": 0.95,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  }
+ ]
+}

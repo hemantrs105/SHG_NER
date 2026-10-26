@@ -1,0 +1,175 @@
+{
+ "text": "बौद्धिक संख्य - 162 का विशेष बौद्धिक\n\nदिनांक - 25/9/2026 स्थान - एकता जीविका महिला\nप्रार्थना - इतनी शक्ति देन दाता विकास स्वावलम्बी\nपरिचय - सभी दीदी अपना परिचय सहकारी समिति लि०, मेल्मी\nदी के वाणिज्य\n\n<table>\n<thead>\n<tr>\n<th>क्रमांक</th>\n<th>BAD सदस्य<br/>का नाम</th>\n<th>गाव<br/>का नाम</th>\n<th>पद</th>\n<th>हस्ताक्षर</th>\n<th>विरेग कुमार<br/>V.R.P</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>पीणा देवी</td>\n<td>काधियावा</td>\n<td>अध्यक्ष</td>\n<td>पीणा देवी</td>\n<td>सुनैना देवी<br/>V.R.P</td>\n</tr>\n<tr>\n<td>2</td>\n<td>विमला देवी</td>\n<td>विष्णुपुर</td>\n<td>सचिव</td>\n<td>विमला देवी</td>\n<td>कोपलप्र०<br/>V.R.P</td>\n</tr>\n<tr>\n<td>3</td>\n<td>सोनि देवी</td>\n<td>दमोदपुर</td>\n<td>कोषाध्यक्ष</td>\n<td></td>\n<td>देवराजप्र०<br/>VRP</td>\n</tr>\n<tr>\n<td>4</td>\n<td>कंचन देवी</td>\n<td>खडखडि</td>\n<td>उपध्यक्ष</td>\n<td>कंचनदेवी</td>\n<td></td>\n</tr>\n<tr>\n<td>5</td>\n<td>पिंकी देवी</td>\n<td>चौरासी</td>\n<td>उपसचिव</td>\n<td>पिंकी देवी</td>\n<td>लालजी<br/>VRP अ.शो०<br/>प्र०</td>\n</tr>\n<tr>\n<td>6</td>\n<td>सुनिता कुमारी</td>\n<td>मेम</td>\n<td>सदस्य</td>\n<td>सुनिता कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>7</td>\n<td>सुनैना देवी</td>\n<td>मेम</td>\n<td>सदस्य</td>\n<td>सुनैना देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>8</td>\n<td>सारिभ्रम देवी</td>\n<td>बदल विगद्य</td>\n<td>सदस्य</td>\n<td></td>\n<td>Bikura Munna<br/>NRP</td>\n</tr>\n<tr>\n<td>9</td>\n<td>सुतपना देवी</td>\n<td>खलुपा</td>\n<td>सदस्य</td>\n<td>सुतपना देवी</td>\n<td>सीमा देवी<br/>ENRF<br/>ईस्वा देवी</td>\n</tr>\n<tr>\n<td>10</td>\n<td>मिनी देवी</td>\n<td>बल्धा</td>\n<td>सदस्य</td>\n<td>मिनी देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>11</td>\n<td>बंसती देवी</td>\n<td>बाजितपुर</td>\n<td>सदस्य</td>\n<td>बंसती देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>12</td>\n<td>पिंकी देवी</td>\n<td>खडपुव</td>\n<td>सदस्य</td>\n<td>पिंकी देवी</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n\nसन्दु कुमा\nMBK\n\nएजेंडा :- (1) $V_0$ सामान्य ऋण पर चर्चा :-\n2. सामुदायिक निवेश निधी (ECF) Fund\nप्राप्ति पर चर्चा :-\n3. बैठक खर्च",
+ "sec": 0.0,
+ "image": "page",
+ "prep": {},
+ "compute_sec": 19.4,
+ "config": {
+  "harness": false,
+  "script": null,
+  "script_map_fixed": false,
+  "token_budget": false,
+  "guard": false,
+  "degeneracy_check": false,
+  "zoom": null,
+  "strip_max_aspect": null,
+  "header_band": false,
+  "split_verify": false,
+  "table_text": false,
+  "table_text_gated": false,
+  "table_dup_aksharas": false,
+  "latex_ban": false,
+  "script_ban": false,
+  "digit_ban": false,
+  "script_reread_gate": false,
+  "vote": null,
+  "dedupe": false,
+  "latex_plain": false,
+  "harvest_dates": false,
+  "harvest_year_window": false,
+  "flags": false,
+  "flags_cell_counts": false
+ },
+ "blocks": [
+  {
+   "order": 0,
+   "label": "Title",
+   "type": "Title",
+   "bbox_xyxy": [
+    939.1,
+    312.3,
+    1774.3,
+    405.0
+   ],
+   "conf": 0.862,
+   "text": "बौद्धिक संख्य - 162 का विशेष बौद्धिक",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 93,
+      "w": 835,
+      "ntok": 16,
+      "lp": -0.2977,
+      "hit": false,
+      "sec": 0.47,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 1,
+   "label": "Paragraph",
+   "type": "Text",
+   "bbox_xyxy": [
+    563.4,
+    448.2,
+    1980.5,
+    729.6
+   ],
+   "conf": 0.795,
+   "text": "दिनांक - 25/9/2026 स्थान - एकता जीविका महिला\nप्रार्थना - इतनी शक्ति देन दाता विकास स्वावलम्बी\nपरिचय - सभी दीदी अपना परिचय सहकारी समिति लि०, मेल्मी\nदी के वाणिज्य",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 282,
+      "w": 1417,
+      "ntok": 55,
+      "lp": -0.1672,
+      "hit": false,
+      "sec": 1.61,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 2,
+   "label": "Table",
+   "type": "Table",
+   "bbox_xyxy": [
+    487.1,
+    798.3,
+    2065.7,
+    2244.3
+   ],
+   "conf": 0.968,
+   "text": "<table>\n<thead>\n<tr>\n<th>क्रमांक</th>\n<th>BAD सदस्य<br/>का नाम</th>\n<th>गाव<br/>का नाम</th>\n<th>पद</th>\n<th>हस्ताक्षर</th>\n<th>विरेग कुमार<br/>V.R.P</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>पीणा देवी</td>\n<td>काधियावा</td>\n<td>अध्यक्ष</td>\n<td>पीणा देवी</td>\n<td>सुनैना देवी<br/>V.R.P</td>\n</tr>\n<tr>\n<td>2</td>\n<td>विमला देवी</td>\n<td>विष्णुपुर</td>\n<td>सचिव</td>\n<td>विमला देवी</td>\n<td>कोपलप्र०<br/>V.R.P</td>\n</tr>\n<tr>\n<td>3</td>\n<td>सोनि देवी</td>\n<td>दमोदपुर</td>\n<td>कोषाध्यक्ष</td>\n<td></td>\n<td>देवराजप्र०<br/>VRP</td>\n</tr>\n<tr>\n<td>4</td>\n<td>कंचन देवी</td>\n<td>खडखडि</td>\n<td>उपध्यक्ष</td>\n<td>कंचनदेवी</td>\n<td></td>\n</tr>\n<tr>\n<td>5</td>\n<td>पिंकी देवी</td>\n<td>चौरासी</td>\n<td>उपसचिव</td>\n<td>पिंकी देवी</td>\n<td>लालजी<br/>VRP अ.शो०<br/>प्र०</td>\n</tr>\n<tr>\n<td>6</td>\n<td>सुनिता कुमारी</td>\n<td>मेम</td>\n<td>सदस्य</td>\n<td>सुनिता कुमारी</td>\n<td></td>\n</tr>\n<tr>\n<td>7</td>\n<td>सुनैना देवी</td>\n<td>मेम</td>\n<td>सदस्य</td>\n<td>सुनैना देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>8</td>\n<td>सारिभ्रम देवी</td>\n<td>बदल विगद्य</td>\n<td>सदस्य</td>\n<td></td>\n<td>Bikura Munna<br/>NRP</td>\n</tr>\n<tr>\n<td>9</td>\n<td>सुतपना देवी</td>\n<td>खलुपा</td>\n<td>सदस्य</td>\n<td>सुतपना देवी</td>\n<td>सीमा देवी<br/>ENRF<br/>ईस्वा देवी</td>\n</tr>\n<tr>\n<td>10</td>\n<td>मिनी देवी</td>\n<td>बल्धा</td>\n<td>सदस्य</td>\n<td>मिनी देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>11</td>\n<td>बंसती देवी</td>\n<td>बाजितपुर</td>\n<td>सदस्य</td>\n<td>बंसती देवी</td>\n<td></td>\n</tr>\n<tr>\n<td>12</td>\n<td>पिंकी देवी</td>\n<td>खडपुव</td>\n<td>सदस्य</td>\n<td>पिंकी देवी</td>\n<td></td>\n</tr>\n</tbody>\n</table>",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 1446,
+      "w": 1579,
+      "ntok": 556,
+      "lp": -0.1133,
+      "hit": false,
+      "sec": 15.57,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 3,
+   "label": "Section-title",
+   "type": "SectionHeader",
+   "bbox_xyxy": [
+    663.5,
+    2259.9,
+    962.8,
+    2417.1
+   ],
+   "conf": 0.741,
+   "text": "सन्दु कुमा\nMBK",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 157,
+      "w": 299,
+      "ntok": 8,
+      "lp": -0.5767,
+      "hit": false,
+      "sec": 0.29,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  },
+  {
+   "order": 4,
+   "label": "List",
+   "type": "Text",
+   "bbox_xyxy": [
+    507.6,
+    2515.8,
+    1899.0,
+    2841.3
+   ],
+   "conf": 0.914,
+   "text": "एजेंडा :- (1) $V_0$ सामान्य ऋण पर चर्चा :-\n2. सामुदायिक निवेश निधी (ECF) Fund\nप्राप्ति पर चर्चा :-\n3. बैठक खर्च",
+   "harness": {
+    "mode": "whole",
+    "pieces": [
+     {
+      "h": 325,
+      "w": 1391,
+      "ntok": 40,
+      "lp": -0.2224,
+      "hit": false,
+      "sec": 1.47,
+      "cached": true,
+      "seeded": false
+     }
+    ]
+   }
+  }
+ ]
+}
